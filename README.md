@@ -28,7 +28,7 @@ Most stars gained per day over the last 7 days, excluding related lists.
 | [Clean Your TV](https://github.com/Gathin23/cleanyourtv) | [Hardware and Firmware](#hardware-and-firmware) | 49.7k | ~3,107 |
 | [PhotoCraft](https://github.com/storytold/photocraft) | [Apps](#apps) | 76k | ~2,304 |
 | [REA](https://github.com/morluto/rea) | [Tools](#tools) | 420.6k | ~2,082 |
-| [Craft Anything](https://github.com/storytold/craft-anything) | [Tools](#tools) | 2.2k | ~1,099 |
+| [Craft Anything](https://github.com/storytold/craft-anything) | [Tools](#tools) | 2.2k | ~1,100 |
 | [totk-pc-recomp](https://github.com/valentderah/totk-pc-recomp) | [Games](#games) | 3.5k | ~874 |
 | [Aerial TV](https://github.com/pengchujin/aerial-tv) | [Hardware and Firmware](#hardware-and-firmware) | 8.9k | ~685 |
 | [WordCraft](https://github.com/storytold/wordcraft) | [Apps](#apps) | 17k | ~654 |
