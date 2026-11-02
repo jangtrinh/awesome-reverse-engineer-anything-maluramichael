@@ -347,7 +347,7 @@
     },
     "horizon-rust/horizon": {
       "archived": false,
-      "commits": 15357,
+      "commits": 15370,
       "created": "2026-10-03",
       "forks": 743,
       "pushed": "2026-11-02",
@@ -383,7 +383,7 @@
       "created": "2026-10-21",
       "forks": 355,
       "pushed": "2026-11-02",
-      "stars": 4408
+      "stars": 4409
     },
     "libimobiledevice/libimobiledevice": {
       "archived": false,
@@ -445,9 +445,9 @@
       "archived": false,
       "commits": 6338,
       "created": "2026-04-14",
-      "forks": 105025,
+      "forks": 105026,
       "pushed": "2026-11-02",
-      "stars": 420633
+      "stars": 420641
     },
     "mrexodia/ida-pro-mcp": {
       "archived": false,
@@ -503,7 +503,7 @@
       "created": "2012-07-03",
       "forks": 3400,
       "pushed": "2026-11-02",
-      "stars": 25246
+      "stars": 25247
     },
     "reacher-z/Awesome-REA": {
       "archived": false,
@@ -607,7 +607,7 @@
       "created": "2022-03-31",
       "forks": 6034,
       "pushed": "2026-10-31",
-      "stars": 38274
+      "stars": 38275
     },
     "storytold/cadcraft": {
       "archived": false,
@@ -621,9 +621,9 @@
       "archived": false,
       "commits": 131,
       "created": "2026-10-31",
-      "forks": 344,
+      "forks": 345,
       "pushed": "2026-11-02",
-      "stars": 2192
+      "stars": 2195
     },
     "storytold/craft-launcher": {
       "archived": false,
@@ -687,7 +687,7 @@
       "created": "2026-09-30",
       "forks": 5874,
       "pushed": "2026-11-02",
-      "stars": 15283
+      "stars": 15284
     },
     "storytold/pdfcraft": {
       "archived": false,
@@ -735,7 +735,7 @@
       "created": "2026-10-07",
       "forks": 4677,
       "pushed": "2026-11-02",
-      "stars": 16995
+      "stars": 16996
     },
     "tangency-labs/solidcraft": {
       "archived": false,
@@ -743,7 +743,7 @@
       "created": "2026-10-07",
       "forks": 1702,
       "pushed": "2026-11-02",
-      "stars": 13025
+      "stars": 13026
     },
     "tulir/whatsmeow": {
       "archived": false,
