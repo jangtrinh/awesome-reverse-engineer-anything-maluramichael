@@ -1,0 +1,9 @@
+{
+  "added": "2026-11-02",
+  "category": "hardware",
+  "description": "Turns off Apple Intelligence, analytics and ads on macOS, removes the downloaded models and can undo every change.",
+  "group": "Devices and Firmware",
+  "name": "RemoveMacAI",
+  "target": "macOS",
+  "url": "https://github.com/omlahore/RemoveMacAI"
+}

@@ -1,0 +1,9 @@
+{
+  "added": "2026-11-02",
+  "category": "hardware",
+  "description": "Root exploit chain and host tooling for Samsung QN90B and QN90F TVs, with firmware update key recovery, to control the TV locally.",
+  "group": "Smart TVs",
+  "name": "samsung-tv-root",
+  "target": "Samsung Tizen TVs",
+  "url": "https://github.com/chris-ritsen/samsung-tv-root"
+}

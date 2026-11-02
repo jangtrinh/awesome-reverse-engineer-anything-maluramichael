@@ -1,0 +1,8 @@
+{
+  "added": "2026-11-02",
+  "category": "tools",
+  "description": "Native x64dbg plugin written in Zig that exposes breakpoints, stepping, memory and registers over MCP so AI assistants can drive the debugger.",
+  "group": "AI Agents and MCP",
+  "name": "x64dbg-mcp-server",
+  "url": "https://github.com/duty1g/x64dbg-mcp-server"
+}

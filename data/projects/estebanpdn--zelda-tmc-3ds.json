@@ -1,0 +1,9 @@
+{
+  "added": "2026-11-02",
+  "category": "games",
+  "description": "Native Nintendo 3DS port built on the Project Picori decompilation, using your own GBA ROM.",
+  "group": "Source Ports and Engine Rebuilds",
+  "name": "zelda-tmc-3ds",
+  "target": "The Legend of Zelda: The Minish Cap",
+  "url": "https://github.com/EstebanPdN/zelda-tmc-3ds"
+}

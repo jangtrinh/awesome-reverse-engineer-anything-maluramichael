@@ -1,0 +1,9 @@
+{
+  "added": "2026-11-02",
+  "category": "games",
+  "description": "Static recompilation of a PSP game into native builds for Windows, Linux, macOS and Android, using your own copy of the game.",
+  "group": "Static Recompilations",
+  "name": "Yakumo",
+  "target": "Monster Hunter Portable 3rd HD Ver.",
+  "url": "https://github.com/TeamGDB/Yakumo"
+}

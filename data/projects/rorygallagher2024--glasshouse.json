@@ -1,0 +1,9 @@
+{
+  "added": "2026-11-02",
+  "category": "hardware",
+  "description": "Dashboard, ad and telemetry blocker, debloater and Home Assistant bridge that runs on rooted LG webOS TVs.",
+  "group": "Smart TVs",
+  "name": "Glasshouse",
+  "target": "LG webOS TVs",
+  "url": "https://github.com/rorygallagher2024/glasshouse"
+}

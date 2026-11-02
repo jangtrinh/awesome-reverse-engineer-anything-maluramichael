@@ -1,0 +1,9 @@
+{
+  "added": "2026-11-02",
+  "category": "games",
+  "description": "Recompiles the Xbox 360 version of Forza Horizon into a native build for Windows, Linux, macOS and Android, built from your own disc.",
+  "group": "Static Recompilations",
+  "name": "pinyon-shift",
+  "target": "Forza Horizon",
+  "url": "https://github.com/arcanite24/pinyon-shift"
+}

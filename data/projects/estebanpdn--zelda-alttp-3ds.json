@@ -1,0 +1,9 @@
+{
+  "added": "2026-11-02",
+  "category": "games",
+  "description": "Nintendo 3DS dual-screen port of the reverse engineered zelda3 engine, with asset extraction from your own ROM on the device.",
+  "group": "Source Ports and Engine Rebuilds",
+  "name": "zelda-alttp-3ds",
+  "target": "The Legend of Zelda: A Link to the Past",
+  "url": "https://github.com/EstebanPdN/zelda-alttp-3ds"
+}

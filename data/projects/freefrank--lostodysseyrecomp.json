@@ -1,0 +1,9 @@
+{
+  "added": "2026-11-02",
+  "category": "games",
+  "description": "Native port of the Xbox 360 game made by static recompilation, for Windows, Linux, macOS and Android, using your own discs.",
+  "group": "Static Recompilations",
+  "name": "LostOdysseyRecomp",
+  "target": "Lost Odyssey",
+  "url": "https://github.com/freefrank/LostOdysseyRecomp"
+}
