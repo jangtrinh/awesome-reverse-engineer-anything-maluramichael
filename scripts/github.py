@@ -47,15 +47,41 @@ REPO_FIELDS = (
     "defaultBranchRef { target { ... on Commit { history { totalCount } } } }"
 )
 
+# Everything the weekly search scores a candidate on. Three README spellings cover nearly every repository,
+# the other three catch an English translation next to a README in another language.
+CANDIDATE_FIELDS = (
+    "nameWithOwner stargazerCount forkCount createdAt isFork "
+    "owner { ... on User { createdAt } ... on Organization { createdAt } } "
+    "licenseInfo { spdxId } repositoryTopics(first: 30) { nodes { topic { name } } } "
+    "languages(first: 10) { nodes { name } } issues { totalCount } "
+    'readme1: object(expression: "HEAD:README.md") { ... on Blob { text } } '
+    'readme2: object(expression: "HEAD:readme.md") { ... on Blob { text } } '
+    'readme3: object(expression: "HEAD:README") { ... on Blob { text } } '
+    'readme_en1: object(expression: "HEAD:README.en.md") { ... on Blob { text } } '
+    'readme_en2: object(expression: "HEAD:README_EN.md") { ... on Blob { text } } '
+    'readme_en3: object(expression: "HEAD:README_en.md") { ... on Blob { text } } '
+    "defaultBranchRef { target { ... on Commit { history(first: 100) { totalCount nodes { committedDate } } } } }"
+)
 
-def fetch_repositories(repos: list[str], batch_size: int = 40) -> dict[str, dict | None]:
+
+def contributor_count(repo: str, cap: int = 3) -> int | None:
+    """Number of contributors, counted up to cap. None when GitHub does not tell, e.g. for a huge history."""
+    try:
+        people = request(f"{API}/repos/{repo}/contributors?per_page={cap}")
+    except (urllib.error.HTTPError, json.JSONDecodeError):
+        return None
+    return len(people) if isinstance(people, list) else None
+
+
+def fetch_repositories(repos: list[str], batch_size: int = 40,
+                       repo_fields: str = REPO_FIELDS) -> dict[str, dict | None]:
     """Metadata per owner/repo. A repository that no longer exists maps to None."""
     result: dict[str, dict | None] = {}
     for start in range(0, len(repos), batch_size):
         batch = repos[start:start + batch_size]
         fields = " ".join(
             'r{}: repository(owner: {}, name: {}) {{ {} }}'.format(
-                index, json.dumps(repo.split("/")[0]), json.dumps(repo.split("/")[1]), REPO_FIELDS)
+                index, json.dumps(repo.split("/")[0]), json.dumps(repo.split("/")[1]), repo_fields)
             for index, repo in enumerate(batch)
         )
         payload = request(f"{API}/graphql", {"query": f"query {{ {fields} }}"})

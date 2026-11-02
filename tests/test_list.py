@@ -1,5 +1,6 @@
 import sys
 import unittest
+from datetime import datetime, timezone
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "scripts"))
@@ -8,6 +9,7 @@ import add_from_issue
 import build_readme
 import common
 import discover
+import github
 import refresh
 import validate
 
@@ -115,6 +117,9 @@ class Readme(unittest.TestCase):
         self.assertIn("### AI Agents and MCP", first)
         self.assertIn("- [Tools](#tools)", first)
         self.assertNotIn("## Apps", first)
+        self.assertIn("- [Star History](#star-history)", first)
+        self.assertIn("api.star-history.com/chart?repos=maluramichael/awesome-reverse-engineer-anything&type=date", first)
+        self.assertNotIn("dll-proxy-generator", first)
 
     def test_growth_counts_per_month_and_cumulates(self):
         projects = [{**VALID, "added": "2026-11-02"}, {**VALID, "added": "2026-11-20"}, {**VALID, "added": "2026-12-01"}]
@@ -168,7 +173,7 @@ class Discover(unittest.TestCase):
         stats = {"acme/example": {"stars": 3, "pushed": "2020-01-01", "created": "2019-01-01", "missing": True}}
         lines = discover.gone_lines([VALID], stats)
         self.assertEqual(len(lines), 1)
-        self.assertIn("the repository is gone", discover.report([], {}, "2026-11-02", lines))
+        self.assertIn("the repository is gone", discover.report([], "2026-11-02", lines))
 
     def test_queries_cover_terms_and_topics(self):
         queries = discover.queries("2026-07-01")
@@ -176,10 +181,94 @@ class Discover(unittest.TestCase):
         self.assertTrue(any(q.startswith("topic:reverse-engineering created:>2026-07-01") for q in queries))
         self.assertTrue(any(q.startswith("debloat created:>") for q in queries))
 
+    def test_language(self):
+        english = "This tool rebuilds the protocol of the device and you can run it on your own machine. " * 5
+        german = "Das Werkzeug ist ein Nachbau des Protokolls und es läuft auch auf dem eigenen Rechner. " * 5
+        chinese = "关掉国产安卓手机系统里的广告热搜资讯推荐和营销推送不需要root可还原支持一键执行" * 5
+        spanish = "Esta herramienta reconstruye el protocolo del dispositivo y funciona en tu propia máquina. " * 5
+        self.assertEqual(discover.language(english), "en/de")
+        self.assertEqual(discover.language(german), "en/de")
+        self.assertEqual(discover.language(chinese + " Android TV"), "other")
+        self.assertEqual(discover.language(spanish), "other")
+        self.assertEqual(discover.language(english + "中文说明：安卓电视去广告"), "en/de")
+        self.assertEqual(discover.language(None), "none")
+
+    def test_code_blocks_do_not_count_as_english(self):
+        readme = "关掉国产安卓手机系统里的广告热搜资讯推荐和营销推送" * 3 + "\n```\nthe and of to is for with this\n```\n" * 20
+        self.assertEqual(discover.language(readme), "other")
+
+    def test_score_good_and_bad(self):
+        now = datetime(2026, 11, 2, tzinfo=timezone.utc)
+        english = "This tool rebuilds the protocol of the device and you can run it on your own machine. " * 5
+        commits = [{"committedDate": f"2026-10-{day:02d}T10:00:00Z"} for day in range(1, 21)]
+        good = {"stargazerCount": 1000, "forkCount": 80, "createdAt": "2026-08-01T00:00:00Z", "isFork": False,
+                "owner": {"createdAt": "2015-01-01T00:00:00Z"}, "licenseInfo": {"spdxId": "MIT"},
+                "repositoryTopics": {"nodes": [{"topic": {"name": "decompilation"}}]},
+                "languages": {"nodes": [{"name": "C++"}, {"name": "Markdown"}]}, "issues": {"totalCount": 12},
+                "readme1": None, "readme2": {"text": english},
+                "defaultBranchRef": {"target": {"history": {"totalCount": 400, "nodes": commits}}}}
+        points, signals = discover.score(good, 3, now)
+        self.assertEqual(points, 8)
+        self.assertEqual(signals, ["+en/de", "+license", "+topics", "+old owner", "+settled repo", "+20 days",
+                                   "+contributors", "+issues"])
+
+        bad = {**good, "stargazerCount": 5000, "forkCount": 10, "createdAt": "2026-10-28T00:00:00Z",
+               "owner": {"createdAt": "2026-10-01T00:00:00Z"}, "licenseInfo": None,
+               "repositoryTopics": {"nodes": []}, "languages": {"nodes": [{"name": "Markdown"}]},
+               "issues": {"totalCount": 0}, "readme2": {"text": "关掉国产安卓手机系统里的广告" * 10},
+               "defaultBranchRef": {"target": {"history": {"totalCount": 4, "nodes": [commits[0]] * 4}}}}
+        points, signals = discover.score(bad, 1, now)
+        self.assertEqual(signals, ["-language", "-no code", "-new owner", "-young repo", "-fast stars",
+                                   "-few forks", "-few commits", "-one day"])
+        self.assertEqual(points, -10)
+        self.assertEqual(discover.score(None, None, now), (0, ["no data"]))
+
+    def test_english_translation_counts(self):
+        now = datetime(2026, 11, 2, tzinfo=timezone.utc)
+        english = "This tool rebuilds the protocol of the device and you can run it on your own machine. " * 5
+        meta = {"readme1": {"text": "关掉国产安卓手机系统里的广告" * 10}, "readme_en1": {"text": english}}
+        self.assertEqual(discover.score(meta, None, now)[1][0], "+en readme")
+        self.assertEqual(discover.score({**meta, "readme_en1": None}, None, now)[1][0], "-language")
+
+    def test_busy_day_in_a_long_history_is_not_one_day(self):
+        now = datetime(2026, 11, 2, tzinfo=timezone.utc)
+        nodes = [{"committedDate": "2026-10-20T10:00:00Z"}] * 100
+        long = {"defaultBranchRef": {"target": {"history": {"totalCount": 1144, "nodes": nodes}}}}
+        short = {"defaultBranchRef": {"target": {"history": {"totalCount": 5, "nodes": nodes[:5]}}}}
+        self.assertNotIn("-one day", discover.score(long, None, now)[1])
+        self.assertIn("-one day", discover.score(short, None, now)[1])
+
+    def test_report_shows_score_and_signals(self):
+        item = {**self.ITEM, "description": "Text"}
+        text = discover.report([{"item": item, "commits": 42, "score": 3, "signals": ["+en/de", "-few forks"]}],
+                               "2026-11-02")
+        self.assertIn("| 3 | [a/b](https://github.com/a/b) | 500 | 2026-10-01 | 42 | +en/de -few forks | Text |", text)
+
     def test_clean_strips_markdown_and_mentions(self):
         cleaned = discover.clean("[click](http://x) @someone | <b>#1</b> `code`")
         for char in "[]()@|<>#`":
             self.assertNotIn(char, cleaned)
+
+
+class GitHubClient(unittest.TestCase):
+    def test_every_batch_gets_a_flat_query(self):
+        queries = []
+
+        def fake_request(url, data=None):
+            queries.append(data["query"])
+            return {"data": {"r0": {"nameWithOwner": "x"}, "r1": {"nameWithOwner": "y"}}}
+
+        original = github.request
+        github.request = fake_request
+        try:
+            github.fetch_repositories(["a/b", "c/d", "e/f"], batch_size=2, repo_fields="stargazerCount")
+        finally:
+            github.request = original
+        self.assertEqual(len(queries), 2)
+        for query in queries:
+            self.assertEqual(query.count("repository("), query.count(": repository("))
+            self.assertNotIn("r0: repository(owner: \"a\", name: \"b\") { r0", query)
+        self.assertEqual(queries[1].count("repository("), 1)
 
 
 class RealData(unittest.TestCase):
