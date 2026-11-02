@@ -1,3 +1,4 @@
+# Weekly check of every link in the README. Broken ones go to one issue.
 name: Links
 on:
   schedule:

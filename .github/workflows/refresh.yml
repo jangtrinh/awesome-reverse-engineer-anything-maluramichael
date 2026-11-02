@@ -18,6 +18,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          # Not the commit that triggered this run: an older one would conflict with the last refresh.
+          ref: master
       - uses: astral-sh/setup-uv@68559e99cc807c1eb7e9238fd43a15bba460eec2 # v10.3.3
       - run: uv run --no-project --python 3.12 python scripts/refresh.py
         env:
@@ -33,5 +36,9 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git commit -m "Refresh stats $(date -u +%Y-%m-%d)"
-          git pull --rebase origin master
+          if ! git pull --rebase origin master; then
+            git rebase --abort
+            echo "::warning::master moved during the refresh, the next run catches up"
+            exit 0
+          fi
           git push origin HEAD:master

@@ -1,3 +1,4 @@
+# Weekly search for projects worth reviewing. Results go to one issue, nothing is added automatically.
 name: Discover
 on:
   schedule:
