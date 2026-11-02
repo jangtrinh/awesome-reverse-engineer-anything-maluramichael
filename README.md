@@ -26,7 +26,7 @@ Most stars gained per day over the last 7 days, excluding related lists.
 | --- | --- | ---: | ---: |
 | [PhotoCraft](https://github.com/storytold/photocraft) | [Apps](#apps) | 76k | ~2,304 |
 | [REA](https://github.com/morluto/rea) | [Tools](#tools) | 420.6k | ~2,082 |
-| [Craft Anything](https://github.com/storytold/craft-anything) | [Tools](#tools) | 2.2k | ~1,090 |
+| [Craft Anything](https://github.com/storytold/craft-anything) | [Tools](#tools) | 2.2k | ~1,091 |
 | [totk-pc-recomp](https://github.com/valentderah/totk-pc-recomp) | [Games](#games) | 3.5k | ~874 |
 | [WordCraft](https://github.com/storytold/wordcraft) | [Apps](#apps) | 17k | ~654 |
 | [PdfCraft](https://github.com/storytold/pdfcraft) | [Apps](#apps) | 19.1k | ~580 |
