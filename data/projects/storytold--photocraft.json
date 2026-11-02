@@ -1,0 +1,9 @@
+{
+  "added": "2026-11-02",
+  "category": "apps",
+  "description": "Image editor in pure Rust with layers, masks, type and real PSD files.",
+  "group": "Crafting Apps",
+  "name": "PhotoCraft",
+  "target": "Adobe Photoshop",
+  "url": "https://github.com/storytold/photocraft"
+}

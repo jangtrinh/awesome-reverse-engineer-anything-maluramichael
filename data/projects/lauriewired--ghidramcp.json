@@ -1,0 +1,8 @@
+{
+  "added": "2026-11-02",
+  "category": "tools",
+  "description": "MCP server for Ghidra.",
+  "group": "AI Agents and MCP",
+  "name": "GhidraMCP",
+  "url": "https://github.com/LaurieWired/GhidraMCP"
+}

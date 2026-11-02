@@ -1,0 +1,8 @@
+{
+  "added": "2026-11-02",
+  "category": "emulators",
+  "description": "Emulator that plays both consoles on PC with improvements.",
+  "name": "Dolphin",
+  "target": "GameCube, Wii",
+  "url": "https://github.com/dolphin-emu/dolphin"
+}

@@ -1,0 +1,8 @@
+{
+  "added": "2026-11-02",
+  "category": "emulators",
+  "description": "Emulator research project.",
+  "name": "Xenia Canary",
+  "target": "Xbox 360",
+  "url": "https://github.com/xenia-canary/xenia-canary"
+}

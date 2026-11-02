@@ -1,0 +1,9 @@
+{
+  "added": "2026-11-02",
+  "category": "apps",
+  "description": "Native IDE with a Rust core that keeps the IDEA keymap and tool windows, with a debugger, Git, terminal and database client.",
+  "group": "Clean-Room Rebuilds",
+  "name": "OpenIDEA",
+  "target": "IntelliJ IDEA",
+  "url": "https://github.com/l0ng-ai/openidea"
+}

@@ -1,0 +1,9 @@
+{
+  "added": "2026-11-02",
+  "category": "apps",
+  "description": "Free Windows-compatible operating system.",
+  "group": "Compatibility Layers",
+  "name": "ReactOS",
+  "target": "Windows",
+  "url": "https://github.com/reactos/reactos"
+}

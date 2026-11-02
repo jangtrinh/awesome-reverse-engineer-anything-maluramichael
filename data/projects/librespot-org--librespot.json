@@ -1,0 +1,8 @@
+{
+  "added": "2026-11-02",
+  "category": "protocols",
+  "description": "Open source client library.",
+  "name": "librespot",
+  "target": "Spotify",
+  "url": "https://github.com/librespot-org/librespot"
+}

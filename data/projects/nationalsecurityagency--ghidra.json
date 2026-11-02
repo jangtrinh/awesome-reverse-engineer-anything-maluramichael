@@ -1,0 +1,8 @@
+{
+  "added": "2026-11-02",
+  "category": "tools",
+  "description": "Software reverse engineering framework.",
+  "group": "Decompilers and Disassemblers",
+  "name": "Ghidra",
+  "url": "https://github.com/NationalSecurityAgency/ghidra"
+}

@@ -1,0 +1,8 @@
+{
+  "added": "2026-11-02",
+  "category": "apps",
+  "description": "Clean-room interface design and prototyping tool in pure Rust.",
+  "group": "Crafting Apps",
+  "name": "FigCraft",
+  "url": "https://github.com/storytold/figcraft"
+}

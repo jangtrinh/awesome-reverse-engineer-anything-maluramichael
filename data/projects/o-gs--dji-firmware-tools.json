@@ -1,0 +1,8 @@
+{
+  "added": "2026-11-02",
+  "category": "hardware",
+  "description": "Tools for handling firmware of DJI products, with a focus on quadcopters.",
+  "name": "dji-firmware-tools",
+  "target": "DJI firmware",
+  "url": "https://github.com/o-gs/dji-firmware-tools"
+}

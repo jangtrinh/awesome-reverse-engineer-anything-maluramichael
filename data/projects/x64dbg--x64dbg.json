@@ -1,0 +1,8 @@
+{
+  "added": "2026-11-02",
+  "category": "tools",
+  "description": "User mode debugger for Windows.",
+  "group": "Debuggers and Dynamic Analysis",
+  "name": "x64dbg",
+  "url": "https://github.com/x64dbg/x64dbg"
+}

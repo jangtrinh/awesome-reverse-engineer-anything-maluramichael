@@ -1,0 +1,9 @@
+{
+  "added": "2026-11-02",
+  "category": "games",
+  "description": "Unofficial PC port of the Xbox 360 version through static recompilation.",
+  "group": "Static Recompilations",
+  "name": "Unleashed Recompiled",
+  "target": "Sonic Unleashed",
+  "url": "https://github.com/hedge-dev/UnleashedRecomp"
+}

@@ -1,0 +1,9 @@
+{
+  "added": "2026-11-02",
+  "category": "games",
+  "description": "Native port for Linux, Windows and Android built from the PrimeDecomp decompilation. No game assets included.",
+  "group": "Source Ports and Engine Rebuilds",
+  "name": "MetroidPrimePort",
+  "target": "Metroid Prime",
+  "url": "https://github.com/Odrannnn/MetroidPrimePort"
+}

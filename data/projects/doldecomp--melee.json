@@ -1,0 +1,9 @@
+{
+  "added": "2026-11-02",
+  "category": "games",
+  "description": "Decompilation of the GameCube game.",
+  "group": "Decompilations",
+  "name": "melee",
+  "target": "Super Smash Bros. Melee",
+  "url": "https://github.com/doldecomp/melee"
+}

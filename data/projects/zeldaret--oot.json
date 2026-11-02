@@ -1,0 +1,9 @@
+{
+  "added": "2026-11-02",
+  "category": "games",
+  "description": "Decompilation of the N64 game.",
+  "group": "Decompilations",
+  "name": "oot",
+  "target": "The Legend of Zelda: Ocarina of Time",
+  "url": "https://github.com/zeldaret/oot"
+}

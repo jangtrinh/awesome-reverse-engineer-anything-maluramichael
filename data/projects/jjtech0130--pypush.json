@@ -1,0 +1,8 @@
+{
+  "added": "2026-11-02",
+  "category": "protocols",
+  "description": "Python client for Apple's push service and iMessage.",
+  "name": "pypush",
+  "target": "APNs, iMessage",
+  "url": "https://github.com/JJTech0130/pypush"
+}

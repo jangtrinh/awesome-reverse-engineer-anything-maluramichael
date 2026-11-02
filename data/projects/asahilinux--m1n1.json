@@ -1,0 +1,8 @@
+{
+  "added": "2026-11-02",
+  "category": "hardware",
+  "description": "Bootloader and experimentation playground.",
+  "name": "m1n1",
+  "target": "Apple Silicon",
+  "url": "https://github.com/AsahiLinux/m1n1"
+}

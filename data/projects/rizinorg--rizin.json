@@ -1,0 +1,8 @@
+{
+  "added": "2026-11-02",
+  "category": "tools",
+  "description": "UNIX-like reverse engineering framework and command-line toolset.",
+  "group": "Decompilers and Disassemblers",
+  "name": "Rizin",
+  "url": "https://github.com/rizinorg/rizin"
+}

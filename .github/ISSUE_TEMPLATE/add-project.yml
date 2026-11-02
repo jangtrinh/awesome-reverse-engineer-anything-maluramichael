@@ -1,0 +1,51 @@
+name: Add a project
+description: Suggest a project with at least 500 stars and a commit in the last year. A bot checks it and opens the pull request.
+title: "Add project"
+labels: ["add-project"]
+body:
+  - type: input
+    id: url
+    attributes:
+      label: Project URL
+      placeholder: https://github.com/owner/repo
+    validations:
+      required: true
+  - type: input
+    id: name
+    attributes:
+      label: Project name
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Apps
+        - Games
+        - Emulators
+        - Protocols, APIs and Formats
+        - Hardware and Firmware
+        - Tools
+    validations:
+      required: true
+  - type: input
+    id: target
+    attributes:
+      label: What does it rebuild?
+      description: The closed product, protocol or device. Leave empty for tools.
+      placeholder: Microsoft Word
+  - type: input
+    id: description
+    attributes:
+      label: Description
+      description: One plain sentence. Start with a capital letter, end with a period, under 170 characters.
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: It has public source code and ships no ROMs, game data, leaked source or license bypass.
+          required: true

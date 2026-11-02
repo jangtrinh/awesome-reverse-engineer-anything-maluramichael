@@ -1,0 +1,8 @@
+{
+  "added": "2026-11-02",
+  "category": "emulators",
+  "description": "Emulator and debugger.",
+  "name": "RPCS3",
+  "target": "PlayStation 3",
+  "url": "https://github.com/RPCS3/rpcs3"
+}

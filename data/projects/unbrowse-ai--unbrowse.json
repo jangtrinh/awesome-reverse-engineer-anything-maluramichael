@@ -1,0 +1,8 @@
+{
+  "added": "2026-11-02",
+  "category": "tools",
+  "description": "Finds the APIs behind a website so agents can call them directly.",
+  "group": "AI Agents and MCP",
+  "name": "Unbrowse",
+  "url": "https://github.com/unbrowse-ai/unbrowse"
+}

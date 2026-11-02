@@ -1,0 +1,8 @@
+{
+  "added": "2026-11-02",
+  "category": "tools",
+  "description": "DEX to Java decompiler.",
+  "group": "Decompilers and Disassemblers",
+  "name": "jadx",
+  "url": "https://github.com/skylot/jadx"
+}

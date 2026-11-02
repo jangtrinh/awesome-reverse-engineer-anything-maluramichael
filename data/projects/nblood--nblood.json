@@ -1,0 +1,9 @@
+{
+  "added": "2026-11-02",
+  "category": "games",
+  "description": "Reverse engineered ports of Build engine games.",
+  "group": "Source Ports and Engine Rebuilds",
+  "name": "NBlood",
+  "target": "Blood, Redneck Rampage, Powerslave",
+  "url": "https://github.com/NBlood/NBlood"
+}

@@ -1,0 +1,9 @@
+{
+  "added": "2026-11-02",
+  "category": "apps",
+  "description": "Clean-room word processor in pure Rust that reads and writes .docx files.",
+  "group": "Crafting Apps",
+  "name": "WordCraft",
+  "target": "Microsoft Word",
+  "url": "https://github.com/storytold/wordcraft"
+}

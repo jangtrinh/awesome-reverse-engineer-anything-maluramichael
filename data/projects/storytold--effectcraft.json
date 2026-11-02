@@ -1,0 +1,8 @@
+{
+  "added": "2026-11-02",
+  "category": "apps",
+  "description": "Motion graphics and compositing tool in pure Rust.",
+  "group": "Crafting Apps",
+  "name": "EffectCraft",
+  "url": "https://github.com/storytold/effectcraft"
+}

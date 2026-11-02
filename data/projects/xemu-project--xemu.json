@@ -1,0 +1,8 @@
+{
+  "added": "2026-11-02",
+  "category": "emulators",
+  "description": "Emulator for Windows, macOS and Linux.",
+  "name": "xemu",
+  "target": "Original Xbox",
+  "url": "https://github.com/xemu-project/xemu"
+}

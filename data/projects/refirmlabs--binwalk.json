@@ -1,0 +1,8 @@
+{
+  "added": "2026-11-02",
+  "category": "tools",
+  "description": "Firmware analysis tool.",
+  "group": "Binary and Firmware Inspection",
+  "name": "binwalk",
+  "url": "https://github.com/ReFirmLabs/binwalk"
+}

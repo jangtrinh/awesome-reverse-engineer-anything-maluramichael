@@ -1,0 +1,8 @@
+{
+  "added": "2026-11-02",
+  "category": "tools",
+  "description": "Unofficial revival of the .NET debugger and assembly editor.",
+  "group": "Decompilers and Disassemblers",
+  "name": "dnSpyEx",
+  "url": "https://github.com/dnSpyEx/dnSpy"
+}

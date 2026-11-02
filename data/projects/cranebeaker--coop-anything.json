@@ -1,0 +1,8 @@
+{
+  "added": "2026-11-02",
+  "category": "tools",
+  "description": "MCP server and playbook for adding co-op to single-player games with an AI agent.",
+  "group": "AI Agents and MCP",
+  "name": "Co-op Anything",
+  "url": "https://github.com/cranebeaker/coop-anything"
+}

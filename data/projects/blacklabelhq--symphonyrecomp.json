@@ -1,0 +1,9 @@
+{
+  "added": "2026-11-02",
+  "category": "games",
+  "description": "Static recompilation of the PlayStation classic.",
+  "group": "Static Recompilations",
+  "name": "SymphonyRecomp",
+  "target": "Castlevania: Symphony of the Night",
+  "url": "https://github.com/BlackLabelHQ/SymphonyRecomp"
+}

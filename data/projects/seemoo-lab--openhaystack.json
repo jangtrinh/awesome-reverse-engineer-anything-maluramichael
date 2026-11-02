@@ -1,0 +1,8 @@
+{
+  "added": "2026-11-02",
+  "category": "protocols",
+  "description": "Framework for tracking your own Bluetooth devices through the Find My network.",
+  "name": "OpenHaystack",
+  "target": "Apple Find My",
+  "url": "https://github.com/seemoo-lab/openhaystack"
+}

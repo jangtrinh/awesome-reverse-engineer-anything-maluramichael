@@ -1,0 +1,9 @@
+{
+  "added": "2026-11-02",
+  "category": "games",
+  "description": "Static recompilation of the Switch game to native macOS, Windows and Linux.",
+  "group": "Static Recompilations",
+  "name": "LASRecomp",
+  "target": "The Legend of Zelda: Link's Awakening",
+  "url": "https://github.com/peiikai/LASRecomp"
+}

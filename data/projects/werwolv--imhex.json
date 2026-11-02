@@ -1,0 +1,8 @@
+{
+  "added": "2026-11-02",
+  "category": "tools",
+  "description": "Hex editor for reverse engineers.",
+  "group": "Binary and Firmware Inspection",
+  "name": "ImHex",
+  "url": "https://github.com/WerWolv/ImHex"
+}

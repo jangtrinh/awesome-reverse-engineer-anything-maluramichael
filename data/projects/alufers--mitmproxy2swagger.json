@@ -1,0 +1,8 @@
+{
+  "added": "2026-11-02",
+  "category": "tools",
+  "description": "Reverse engineers REST APIs from captured traffic.",
+  "group": "Network and API Capture",
+  "name": "mitmproxy2swagger",
+  "url": "https://github.com/alufers/mitmproxy2swagger"
+}

@@ -1,0 +1,9 @@
+{
+  "added": "2026-11-02",
+  "category": "games",
+  "description": "Native recompilation for Windows, Linux and macOS.",
+  "group": "Static Recompilations",
+  "name": "skate3recomp",
+  "target": "Skate 3",
+  "url": "https://github.com/mchughalex/skate3recomp"
+}

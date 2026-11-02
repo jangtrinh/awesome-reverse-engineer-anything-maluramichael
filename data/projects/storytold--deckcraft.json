@@ -1,0 +1,9 @@
+{
+  "added": "2026-11-02",
+  "category": "apps",
+  "description": "Clean-room presentation app in pure Rust.",
+  "group": "Crafting Apps",
+  "name": "DeckCraft",
+  "target": "Microsoft PowerPoint",
+  "url": "https://github.com/storytold/deckcraft"
+}

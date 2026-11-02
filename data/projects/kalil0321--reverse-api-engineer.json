@@ -1,0 +1,8 @@
+{
+  "added": "2026-11-02",
+  "category": "tools",
+  "description": "Turns any website into a typed API client, with Claude Code, Codex, Cursor or OpenCode.",
+  "group": "AI Agents and MCP",
+  "name": "reverse-api-engineer",
+  "url": "https://github.com/kalil0321/reverse-api-engineer"
+}

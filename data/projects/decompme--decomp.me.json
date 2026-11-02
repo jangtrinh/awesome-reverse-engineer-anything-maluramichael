@@ -1,0 +1,8 @@
+{
+  "added": "2026-11-02",
+  "category": "tools",
+  "description": "Collaborative decompilation and reverse engineering website.",
+  "group": "Recompilers and Decomp Toolchains",
+  "name": "decomp.me",
+  "url": "https://github.com/decompme/decomp.me"
+}

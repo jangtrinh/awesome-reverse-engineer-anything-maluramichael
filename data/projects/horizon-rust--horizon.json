@@ -1,0 +1,9 @@
+{
+  "added": "2026-11-02",
+  "category": "games",
+  "description": "Rewrite from scratch in Rust, checked against vanilla with differential test harnesses.",
+  "group": "Source Ports and Engine Rebuilds",
+  "name": "Horizon",
+  "target": "Minecraft: Java Edition",
+  "url": "https://github.com/horizon-rust/horizon"
+}

@@ -1,0 +1,9 @@
+{
+  "added": "2026-11-02",
+  "category": "games",
+  "description": "Static recompilation for Windows, Linux and macOS.",
+  "group": "Static Recompilations",
+  "name": "Zelda64Recomp",
+  "target": "The Legend of Zelda: Majora's Mask",
+  "url": "https://github.com/Zelda64Recomp/Zelda64Recomp"
+}

@@ -1,0 +1,8 @@
+{
+  "added": "2026-11-02",
+  "category": "tools",
+  "description": "Keeps AI reverse engineering honest: the model proposes, deterministic tools check every claim.",
+  "group": "AI Agents and MCP",
+  "name": "reverify",
+  "url": "https://github.com/2akouwu/reverify"
+}

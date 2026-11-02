@@ -1,0 +1,9 @@
+{
+  "added": "2026-11-02",
+  "category": "games",
+  "description": "PC port built from the decompilation.",
+  "group": "Source Ports and Engine Rebuilds",
+  "name": "Ship of Harkinian",
+  "target": "The Legend of Zelda: Ocarina of Time",
+  "url": "https://github.com/HarbourMasters/Shipwright"
+}

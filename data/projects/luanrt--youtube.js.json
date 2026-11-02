@@ -1,0 +1,8 @@
+{
+  "added": "2026-11-02",
+  "category": "protocols",
+  "description": "JavaScript client for YouTube's internal API.",
+  "name": "YouTube.js",
+  "target": "YouTube InnerTube API",
+  "url": "https://github.com/LuanRT/YouTube.js"
+}

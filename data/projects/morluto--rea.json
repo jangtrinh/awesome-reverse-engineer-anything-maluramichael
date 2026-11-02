@@ -1,0 +1,8 @@
+{
+  "added": "2026-11-02",
+  "category": "tools",
+  "description": "Reverse Engineer Anything: one MCP that lets agents analyze app behavior down to native binaries.",
+  "group": "AI Agents and MCP",
+  "name": "REA",
+  "url": "https://github.com/morluto/rea"
+}

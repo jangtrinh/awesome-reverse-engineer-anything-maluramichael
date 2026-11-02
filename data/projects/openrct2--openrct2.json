@@ -1,0 +1,9 @@
+{
+  "added": "2026-11-02",
+  "category": "games",
+  "description": "Open source reimplementation of the game.",
+  "group": "Source Ports and Engine Rebuilds",
+  "name": "OpenRCT2",
+  "target": "RollerCoaster Tycoon 2",
+  "url": "https://github.com/OpenRCT2/OpenRCT2"
+}

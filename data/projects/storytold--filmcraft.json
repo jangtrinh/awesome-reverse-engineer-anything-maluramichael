@@ -1,0 +1,8 @@
+{
+  "added": "2026-11-02",
+  "category": "apps",
+  "description": "Nonlinear video editor in pure Rust with color and sound.",
+  "group": "Crafting Apps",
+  "name": "FilmCraft",
+  "url": "https://github.com/storytold/filmcraft"
+}

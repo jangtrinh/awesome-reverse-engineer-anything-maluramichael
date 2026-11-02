@@ -1,0 +1,8 @@
+{
+  "added": "2026-11-02",
+  "category": "protocols",
+  "description": "Cross-platform library to communicate with iOS devices.",
+  "name": "libimobiledevice",
+  "target": "iOS device protocols",
+  "url": "https://github.com/libimobiledevice/libimobiledevice"
+}

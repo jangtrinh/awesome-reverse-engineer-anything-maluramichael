@@ -1,0 +1,9 @@
+{
+  "added": "2026-11-02",
+  "category": "games",
+  "description": "Open-world RPG engine that plays Morrowind.",
+  "group": "Source Ports and Engine Rebuilds",
+  "name": "OpenMW",
+  "target": "The Elder Scrolls III: Morrowind",
+  "url": "https://github.com/OpenMW/openmw"
+}

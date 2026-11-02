@@ -1,0 +1,9 @@
+{
+  "added": "2026-11-02",
+  "category": "apps",
+  "description": "Darwin and macOS emulation layer for Linux.",
+  "group": "Compatibility Layers",
+  "name": "Darling",
+  "target": "macOS",
+  "url": "https://github.com/darlinghq/darling"
+}

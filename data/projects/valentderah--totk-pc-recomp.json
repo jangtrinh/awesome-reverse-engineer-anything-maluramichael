@@ -1,0 +1,9 @@
+{
+  "added": "2026-11-02",
+  "category": "games",
+  "description": "Static recompilation to native Windows with a Vulkan renderer. Game files not included.",
+  "group": "Static Recompilations",
+  "name": "totk-pc-recomp",
+  "target": "The Legend of Zelda: Tears of the Kingdom",
+  "url": "https://github.com/valentderah/totk-pc-recomp"
+}

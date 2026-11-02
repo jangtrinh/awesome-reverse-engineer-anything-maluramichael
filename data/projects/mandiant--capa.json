@@ -1,0 +1,8 @@
+{
+  "added": "2026-11-02",
+  "category": "tools",
+  "description": "Identifies capabilities in executable files.",
+  "group": "Debuggers and Dynamic Analysis",
+  "name": "capa",
+  "url": "https://github.com/mandiant/capa"
+}

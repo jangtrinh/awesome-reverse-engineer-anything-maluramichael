@@ -1,0 +1,9 @@
+{
+  "added": "2026-11-02",
+  "category": "apps",
+  "description": "Clean-room computer-aided design and drafting app in pure Rust.",
+  "group": "Crafting Apps",
+  "name": "CADCraft",
+  "target": "AutoCAD",
+  "url": "https://github.com/storytold/cadcraft"
+}

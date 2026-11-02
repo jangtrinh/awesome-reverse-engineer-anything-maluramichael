@@ -1,0 +1,8 @@
+{
+  "added": "2026-11-02",
+  "category": "apps",
+  "description": "Parametric 3D CAD in pure Rust by Tangency Labs, a community Crafting App.",
+  "group": "Crafting Apps",
+  "name": "SolidCraft",
+  "url": "https://github.com/tangency-labs/solidcraft"
+}

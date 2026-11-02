@@ -1,0 +1,8 @@
+{
+  "added": "2026-11-02",
+  "category": "tools",
+  "description": "Dynamic instrumentation toolkit.",
+  "group": "Debuggers and Dynamic Analysis",
+  "name": "Frida",
+  "url": "https://github.com/frida/frida"
+}

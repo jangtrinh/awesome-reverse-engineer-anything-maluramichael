@@ -1,0 +1,8 @@
+{
+  "added": "2026-11-02",
+  "category": "tools",
+  "description": "Agent platform and MCP server for Ghidra, Frida, x64dbg and Rizin.",
+  "group": "AI Agents and MCP",
+  "name": "Open ReverseLab",
+  "url": "https://github.com/LING71671/open-reverselab"
+}

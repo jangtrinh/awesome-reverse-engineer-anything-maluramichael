@@ -1,0 +1,8 @@
+{
+  "added": "2026-11-02",
+  "category": "emulators",
+  "description": "Multi-system emulator focused on accuracy and preservation.",
+  "name": "ares",
+  "target": "Many consoles",
+  "url": "https://github.com/ares-emulator/ares"
+}

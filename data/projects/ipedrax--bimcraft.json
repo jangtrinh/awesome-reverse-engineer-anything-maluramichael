@@ -1,0 +1,9 @@
+{
+  "added": "2026-11-02",
+  "category": "apps",
+  "description": "Clean-room building information modeling in pure Rust, built to be driven by agents.",
+  "group": "Clean-Room Rebuilds",
+  "name": "BIMCraft",
+  "target": "Autodesk Revit",
+  "url": "https://github.com/IPedrax/BIMCraft"
+}

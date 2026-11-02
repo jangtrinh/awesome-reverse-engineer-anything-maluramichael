@@ -1,0 +1,8 @@
+{
+  "added": "2026-11-02",
+  "category": "tools",
+  "description": "Fast, lightweight Android decompiler for agents and mobile researchers.",
+  "group": "Decompilers and Disassemblers",
+  "name": "ASC",
+  "url": "https://github.com/MG1937/ASC"
+}

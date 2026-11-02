@@ -1,0 +1,8 @@
+{
+  "added": "2026-11-02",
+  "category": "emulators",
+  "description": "Emulator.",
+  "name": "PCSX2",
+  "target": "PlayStation 2",
+  "url": "https://github.com/PCSX2/pcsx2"
+}

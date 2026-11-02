@@ -1,0 +1,8 @@
+{
+  "added": "2026-11-02",
+  "category": "tools",
+  "description": "Reverse engineers Android APK files.",
+  "group": "Decompilers and Disassemblers",
+  "name": "Apktool",
+  "url": "https://github.com/iBotPeaches/Apktool"
+}

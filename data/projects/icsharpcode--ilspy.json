@@ -1,0 +1,8 @@
+{
+  "added": "2026-11-02",
+  "category": "tools",
+  "description": "Decompiler for .NET with PDB generation and ReadyToRun support.",
+  "group": "Decompilers and Disassemblers",
+  "name": "ILSpy",
+  "url": "https://github.com/icsharpcode/ILSpy"
+}

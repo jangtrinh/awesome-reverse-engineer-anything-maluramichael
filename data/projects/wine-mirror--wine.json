@@ -1,0 +1,9 @@
+{
+  "added": "2026-11-02",
+  "category": "apps",
+  "description": "Runs Windows applications on Linux and macOS. GitHub mirror of the official repository.",
+  "group": "Compatibility Layers",
+  "name": "Wine",
+  "target": "Windows API",
+  "url": "https://github.com/wine-mirror/wine"
+}

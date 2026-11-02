@@ -1,0 +1,8 @@
+{
+  "added": "2026-11-02",
+  "category": "hardware",
+  "description": "ESP32 HomeKit lock with Home Key support.",
+  "name": "HomeKey-ESP32",
+  "target": "Apple Home Key",
+  "url": "https://github.com/rednblkx/HomeKey-ESP32"
+}

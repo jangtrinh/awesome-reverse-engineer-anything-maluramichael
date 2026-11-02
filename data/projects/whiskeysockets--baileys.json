@@ -1,0 +1,8 @@
+{
+  "added": "2026-11-02",
+  "category": "protocols",
+  "description": "Socket-based TypeScript and JavaScript API.",
+  "name": "Baileys",
+  "target": "WhatsApp Web",
+  "url": "https://github.com/WhiskeySockets/Baileys"
+}

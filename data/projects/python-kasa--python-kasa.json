@@ -1,0 +1,8 @@
+{
+  "added": "2026-11-02",
+  "category": "hardware",
+  "description": "Python API for TP-Link smart home products.",
+  "name": "python-kasa",
+  "target": "TP-Link smart home",
+  "url": "https://github.com/python-kasa/python-kasa"
+}

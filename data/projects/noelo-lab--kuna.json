@@ -1,0 +1,8 @@
+{
+  "added": "2026-11-02",
+  "category": "tools",
+  "description": "Agent-first decompiler in Rust, originally ported from Ghidra.",
+  "group": "Decompilers and Disassemblers",
+  "name": "Kuna",
+  "url": "https://github.com/Noelo-Lab/kuna"
+}

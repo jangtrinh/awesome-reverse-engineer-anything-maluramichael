@@ -1,0 +1,8 @@
+{
+  "added": "2026-11-02",
+  "category": "protocols",
+  "description": "File and print services for Windows clients. GitHub mirror of the official repository.",
+  "name": "Samba",
+  "target": "SMB",
+  "url": "https://github.com/samba-team/samba"
+}

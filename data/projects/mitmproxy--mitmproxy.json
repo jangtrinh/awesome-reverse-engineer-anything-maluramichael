@@ -1,0 +1,8 @@
+{
+  "added": "2026-11-02",
+  "category": "tools",
+  "description": "Interactive TLS-capable intercepting HTTP proxy.",
+  "group": "Network and API Capture",
+  "name": "mitmproxy",
+  "url": "https://github.com/mitmproxy/mitmproxy"
+}

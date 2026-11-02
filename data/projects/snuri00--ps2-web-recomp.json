@@ -1,0 +1,8 @@
+{
+  "added": "2026-11-02",
+  "category": "tools",
+  "description": "Static recompilation of PS2 games to WebAssembly with a native runtime.",
+  "group": "Recompilers and Decomp Toolchains",
+  "name": "ps2-web-recomp",
+  "url": "https://github.com/snuri00/ps2-web-recomp"
+}

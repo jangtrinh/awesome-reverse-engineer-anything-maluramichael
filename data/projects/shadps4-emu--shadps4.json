@@ -1,0 +1,8 @@
+{
+  "added": "2026-11-02",
+  "category": "emulators",
+  "description": "Emulator for Windows, Linux, macOS and FreeBSD.",
+  "name": "shadPS4",
+  "target": "PlayStation 4",
+  "url": "https://github.com/shadps4-emu/shadPS4"
+}

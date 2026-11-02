@@ -1,0 +1,9 @@
+{
+  "added": "2026-11-02",
+  "category": "games",
+  "description": "Work-in-progress static recompilation of the Switch version for Windows and Linux. Bring your own dump.",
+  "group": "Static Recompilations",
+  "name": "SavageWindRecomp",
+  "target": "The Legend of Zelda: Breath of the Wild",
+  "url": "https://github.com/Revivedx/SavageWindRecomp"
+}

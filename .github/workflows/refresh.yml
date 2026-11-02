@@ -1,0 +1,37 @@
+name: Refresh
+on:
+  schedule:
+    - cron: "23 4 * * *"
+  workflow_dispatch:
+  push:
+    branches: [master]
+    paths:
+      - "data/projects/**"
+      - "scripts/**"
+permissions:
+  contents: write
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: astral-sh/setup-uv@68559e99cc807c1eb7e9238fd43a15bba460eec2 # v10.3.3
+      - run: uv run --no-project --python 3.12 python scripts/refresh.py
+        env:
+          GH_TOKEN: ${{ github.token }}
+      - run: uv run --no-project --python 3.12 python scripts/build_readme.py
+      - name: Commit changes
+        run: |
+          git add README.md data/stats.json data/history.json
+          if git diff --cached --quiet; then
+            echo "Nothing changed"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Refresh stats $(date -u +%Y-%m-%d)"
+          git pull --rebase origin master
+          git push origin HEAD:master

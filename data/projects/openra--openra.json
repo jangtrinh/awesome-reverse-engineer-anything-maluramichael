@@ -1,0 +1,9 @@
+{
+  "added": "2026-11-02",
+  "category": "games",
+  "description": "Real-time strategy engine in C# for early Westwood games.",
+  "group": "Source Ports and Engine Rebuilds",
+  "name": "OpenRA",
+  "target": "Command & Conquer: Red Alert",
+  "url": "https://github.com/OpenRA/OpenRA"
+}

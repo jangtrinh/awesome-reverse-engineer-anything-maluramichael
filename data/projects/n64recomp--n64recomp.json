@@ -1,0 +1,8 @@
+{
+  "added": "2026-11-02",
+  "category": "tools",
+  "description": "Statically recompiles N64 games into native executables.",
+  "group": "Recompilers and Decomp Toolchains",
+  "name": "N64Recomp",
+  "url": "https://github.com/N64Recomp/N64Recomp"
+}

@@ -1,0 +1,8 @@
+{
+  "added": "2026-11-02",
+  "category": "protocols",
+  "description": "Asynchronous Python library.",
+  "name": "ShazamIO",
+  "target": "Shazam API",
+  "url": "https://github.com/shazamio/ShazamIO"
+}

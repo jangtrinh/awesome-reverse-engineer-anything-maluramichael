@@ -1,0 +1,8 @@
+{
+  "added": "2026-11-02",
+  "category": "tools",
+  "description": "Bridges IDA Pro with language models through MCP.",
+  "group": "AI Agents and MCP",
+  "name": "ida-pro-mcp",
+  "url": "https://github.com/mrexodia/ida-pro-mcp"
+}
