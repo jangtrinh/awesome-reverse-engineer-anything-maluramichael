@@ -1,0 +1,7 @@
+{
+  "added": "2026-11-02",
+  "category": "tools",
+  "description": "Hex editor for reverse engineers.",
+  "name": "REHex",
+  "url": "https://github.com/solemnwarning/rehex"
+}
