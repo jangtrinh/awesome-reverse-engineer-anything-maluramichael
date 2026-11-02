@@ -31,7 +31,7 @@
       "created": "2026-09-24",
       "forks": 888,
       "pushed": "2026-11-02",
-      "stars": 17321
+      "stars": 17323
     },
     "Gathin23/cleanyourtv": {
       "archived": false,
@@ -39,7 +39,7 @@
       "created": "2026-10-17",
       "forks": 6255,
       "pushed": "2026-11-02",
-      "stars": 49705
+      "stars": 49706
     },
     "HarbourMasters/Shipwright": {
       "archived": false,
@@ -103,7 +103,7 @@
       "created": "2026-06-09",
       "forks": 375,
       "pushed": "2026-10-30",
-      "stars": 2634
+      "stars": 2635
     },
     "N64Recomp/N64Recomp": {
       "archived": false,
@@ -127,7 +127,7 @@
       "created": "2019-03-01",
       "forks": 10959,
       "pushed": "2026-11-02",
-      "stars": 96976
+      "stars": 96977
     },
     "Noelo-Lab/kuna": {
       "archived": false,
@@ -139,7 +139,7 @@
     },
     "Odrannnn/MetroidPrimePort": {
       "archived": false,
-      "commits": 5190,
+      "commits": 5191,
       "created": "2026-09-19",
       "forks": 35,
       "pushed": "2026-11-02",
@@ -199,7 +199,7 @@
       "created": "2026-10-16",
       "forks": 162,
       "pushed": "2026-11-01",
-      "stars": 2792
+      "stars": 2793
     },
     "SubmitGame/awesome-decomp-games": {
       "archived": false,
@@ -231,7 +231,7 @@
       "created": "2022-01-12",
       "forks": 3476,
       "pushed": "2026-11-01",
-      "stars": 11513
+      "stars": 11514
     },
     "YosysHQ/icestorm": {
       "archived": false,
@@ -363,7 +363,7 @@
     },
     "horizon-rust/horizon": {
       "archived": false,
-      "commits": 15382,
+      "commits": 15384,
       "created": "2026-10-03",
       "forks": 743,
       "pushed": "2026-11-02",
@@ -383,7 +383,7 @@
       "created": "2012-03-19",
       "forks": 4201,
       "pushed": "2026-11-02",
-      "stars": 26916
+      "stars": 26917
     },
     "icsharpcode/ILSpy": {
       "archived": false,
@@ -407,7 +407,7 @@
       "created": "2026-10-21",
       "forks": 355,
       "pushed": "2026-11-02",
-      "stars": 4411
+      "stars": 4414
     },
     "libimobiledevice/libimobiledevice": {
       "archived": false,
@@ -439,7 +439,7 @@
       "created": "2026-10-22",
       "forks": 61,
       "pushed": "2026-11-02",
-      "stars": 1161
+      "stars": 1162
     },
     "mandiant/capa": {
       "archived": false,
@@ -485,9 +485,9 @@
       "archived": false,
       "commits": 6338,
       "created": "2026-04-14",
-      "forks": 105026,
+      "forks": 105027,
       "pushed": "2026-11-02",
-      "stars": 420645
+      "stars": 420650
     },
     "mrexodia/ida-pro-mcp": {
       "archived": false,
@@ -527,7 +527,7 @@
       "created": "2026-10-20",
       "forks": 758,
       "pushed": "2026-11-02",
-      "stars": 8906
+      "stars": 8907
     },
     "pret/pokeemerald": {
       "archived": false,
@@ -581,7 +581,7 @@
       "archived": false,
       "commits": 328,
       "created": "2026-09-30",
-      "forks": 1043,
+      "forks": 1044,
       "pushed": "2026-11-02",
       "stars": 9326
     },
@@ -687,15 +687,15 @@
       "created": "2026-10-07",
       "forks": 3190,
       "pushed": "2026-11-02",
-      "stars": 7434
+      "stars": 7435
     },
     "storytold/craft-anything": {
       "archived": false,
       "commits": 131,
       "created": "2026-10-31",
-      "forks": 346,
+      "forks": 347,
       "pushed": "2026-11-02",
-      "stars": 2199
+      "stars": 2201
     },
     "storytold/craft-launcher": {
       "archived": false,
@@ -727,7 +727,7 @@
       "created": "2026-10-01",
       "forks": 4430,
       "pushed": "2026-11-02",
-      "stars": 8317
+      "stars": 8318
     },
     "storytold/figcraft": {
       "archived": false,
@@ -759,7 +759,7 @@
       "created": "2026-09-30",
       "forks": 5874,
       "pushed": "2026-11-02",
-      "stars": 15284
+      "stars": 15285
     },
     "storytold/pdfcraft": {
       "archived": false,
@@ -767,7 +767,7 @@
       "created": "2026-09-30",
       "forks": 7194,
       "pushed": "2026-11-02",
-      "stars": 19143
+      "stars": 19144
     },
     "storytold/photocraft": {
       "archived": false,
@@ -775,7 +775,7 @@
       "created": "2026-09-30",
       "forks": 13470,
       "pushed": "2026-11-02",
-      "stars": 76027
+      "stars": 76028
     },
     "storytold/soundcraft": {
       "archived": false,
@@ -783,7 +783,7 @@
       "created": "2026-10-07",
       "forks": 2460,
       "pushed": "2026-11-02",
-      "stars": 3997
+      "stars": 3998
     },
     "storytold/texturecraft": {
       "archived": false,
@@ -791,7 +791,7 @@
       "created": "2026-10-14",
       "forks": 41,
       "pushed": "2026-11-02",
-      "stars": 179
+      "stars": 180
     },
     "storytold/vectorcraft": {
       "archived": false,
@@ -799,7 +799,7 @@
       "created": "2026-09-30",
       "forks": 5425,
       "pushed": "2026-11-02",
-      "stars": 11207
+      "stars": 11208
     },
     "storytold/wordcraft": {
       "archived": false,
@@ -815,7 +815,7 @@
       "created": "2026-10-07",
       "forks": 1703,
       "pushed": "2026-11-02",
-      "stars": 13026
+      "stars": 13027
     },
     "tulir/whatsmeow": {
       "archived": false,
@@ -831,7 +831,7 @@
       "created": "2026-10-21",
       "forks": 120,
       "pushed": "2026-10-31",
-      "stars": 1401
+      "stars": 1402
     },
     "unbrowse-ai/unbrowse": {
       "archived": false,

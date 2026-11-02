@@ -67,7 +67,7 @@ Desktop software and operating systems rebuilt without the original source code.
 | [DeckCraft](https://github.com/storytold/deckcraft) | Microsoft PowerPoint | Clean-room presentation app in pure Rust. | 4.5k | 2026-11-02 |
 | [FigCraft](https://github.com/storytold/figcraft) |  | Clean-room interface design and prototyping tool in pure Rust. | 4.1k | 2026-11-02 |
 | [SoundCraft](https://github.com/storytold/soundcraft) | Avid Pro Tools | Clean-room audio recording and editing app in pure Rust. | 4k | 2026-11-02 |
-| [TextureCraft](https://github.com/storytold/texturecraft) |  | 3D texture painting workflow in pure Rust. | 179 | 2026-11-02 |
+| [TextureCraft](https://github.com/storytold/texturecraft) |  | 3D texture painting workflow in pure Rust. | 180 | 2026-11-02 |
 
 ### Clean-Room Rebuilds
 
