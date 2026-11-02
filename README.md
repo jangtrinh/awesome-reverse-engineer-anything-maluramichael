@@ -26,16 +26,16 @@ Most stars gained per day over the last 7 days, excluding related lists.
 
 | Project | Category | Stars | Stars per day |
 | --- | --- | ---: | ---: |
-| [Clean Your TV](https://github.com/Gathin23/cleanyourtv) | [Hardware and Firmware](#hardware-and-firmware) | 50.3k | ~3,145 |
+| [Clean Your TV](https://github.com/Gathin23/cleanyourtv) | [Hardware and Firmware](#hardware-and-firmware) | 50.3k | ~3,146 |
 | [PhotoCraft](https://github.com/storytold/photocraft) | [Apps](#apps) | 76.2k | ~2,309 |
-| [REA](https://github.com/morluto/rea) | [Tools](#tools) | 422.5k | ~2,092 |
-| [Craft Anything](https://github.com/storytold/craft-anything) | [Tools](#tools) | 3.7k | ~1,863 |
-| [totk-pc-recomp](https://github.com/valentderah/totk-pc-recomp) | [Games](#games) | 3.9k | ~983 |
+| [REA](https://github.com/morluto/rea) | [Tools](#tools) | 422.6k | ~2,092 |
+| [Craft Anything](https://github.com/storytold/craft-anything) | [Tools](#tools) | 3.8k | ~1,882 |
+| [totk-pc-recomp](https://github.com/valentderah/totk-pc-recomp) | [Games](#games) | 3.9k | ~984 |
 | [Aerial TV](https://github.com/pengchujin/aerial-tv) | [Hardware and Firmware](#hardware-and-firmware) | 9k | ~692 |
-| [WordCraft](https://github.com/storytold/wordcraft) | [Apps](#apps) | 17k | ~656 |
+| [WordCraft](https://github.com/storytold/wordcraft) | [Apps](#apps) | 17.1k | ~656 |
 | [PdfCraft](https://github.com/storytold/pdfcraft) | [Apps](#apps) | 19.2k | ~583 |
 | [nxnative](https://github.com/seedds/nxnative) | [Games](#games) | 11.4k | ~569 |
-| [FilmCraft](https://github.com/storytold/filmcraft) | [Apps](#apps) | 17.3k | ~524 |
+| [FilmCraft](https://github.com/storytold/filmcraft) | [Apps](#apps) | 17.3k | ~525 |
 | [SolidCraft](https://github.com/tangency-labs/solidcraft) | [Apps](#apps) | 13.2k | ~506 |
 | [LightCraft](https://github.com/storytold/lightcraft) | [Apps](#apps) | 15.3k | ~464 |
 | [DroidDeck](https://github.com/Droid-Deck/DroidDeck) | [Emulators](#emulators) | 17.4k | ~447 |
@@ -56,7 +56,7 @@ Desktop software and operating systems rebuilt without the original source code.
 | [ArtCraft](https://github.com/storytold/artcraft) |  | AI image and video studio for artists, and the home of the Crafting Apps. | 38.4k | 2026-10-31 | 7 |
 | [PdfCraft](https://github.com/storytold/pdfcraft) |  | PDF reader and editor in pure Rust. | 19.2k | 2026-11-02 | 4 |
 | [FilmCraft](https://github.com/storytold/filmcraft) |  | Nonlinear video editor in pure Rust with color and sound. | 17.3k | 2026-11-02 | 4 |
-| [WordCraft](https://github.com/storytold/wordcraft) | Microsoft Word | Clean-room word processor in pure Rust that reads and writes .docx files. | 17k | 2026-11-02 | 3 |
+| [WordCraft](https://github.com/storytold/wordcraft) | Microsoft Word | Clean-room word processor in pure Rust that reads and writes .docx files. | 17.1k | 2026-11-02 | 3 |
 | [LightCraft](https://github.com/storytold/lightcraft) |  | Non-destructive photo library and raw developer in pure Rust. | 15.3k | 2026-11-02 | 4 |
 | [SolidCraft](https://github.com/tangency-labs/solidcraft) |  | Parametric 3D CAD in pure Rust by Tangency Labs, a community Crafting App. | 13.2k | 2026-11-02 | 1 |
 | [VectorCraft](https://github.com/storytold/vectorcraft) |  | Vector illustration tool in pure Rust. | 11.2k | 2026-11-02 | 4 |
@@ -68,14 +68,14 @@ Desktop software and operating systems rebuilt without the original source code.
 | [DeckCraft](https://github.com/storytold/deckcraft) | Microsoft PowerPoint | Clean-room presentation app in pure Rust. | 4.5k | 2026-11-02 | 4 |
 | [FigCraft](https://github.com/storytold/figcraft) |  | Clean-room interface design and prototyping tool in pure Rust. | 4.1k | 2026-11-02 | 4 |
 | [SoundCraft](https://github.com/storytold/soundcraft) | Avid Pro Tools | Clean-room audio recording and editing app in pure Rust. | 4k | 2026-11-02 | 4 |
-| [TextureCraft](https://github.com/storytold/texturecraft) |  | 3D texture painting workflow in pure Rust. | 232 | 2026-11-02 | 4 |
+| [TextureCraft](https://github.com/storytold/texturecraft) |  | 3D texture painting workflow in pure Rust. | 233 | 2026-11-02 | 4 |
 
 ### Clean-Room Rebuilds
 
 | Project | Rebuilds | What it is | Stars | Last commit | Health |
 | --- | --- | --- | ---: | --- | ---: |
 | [OpenIDEA](https://github.com/l0ng-ai/openidea) | IntelliJ IDEA | Native IDE with a Rust core that keeps the IDEA keymap and tool windows, with a debugger, Git, terminal and database client. | 4.9k | 2026-11-02 | 3 |
-| [BIMCraft](https://github.com/IPedrax/BIMCraft) | Autodesk Revit | Clean-room building information modeling in pure Rust, built to be driven by agents. | 873 | 2026-10-29 | 4 |
+| [BIMCraft](https://github.com/IPedrax/BIMCraft) | Autodesk Revit | Clean-room building information modeling in pure Rust, built to be driven by agents. | 874 | 2026-10-29 | 4 |
 
 ### Compatibility Layers
 
@@ -108,6 +108,9 @@ Commercial games turned back into source code or native ports. None of these sho
 | [LASRecomp](https://github.com/peiikai/LASRecomp) | The Legend of Zelda: Link's Awakening | Static recompilation of the Switch game to native macOS, Windows and Linux. | 2.1k | 2026-11-02 | 2 |
 | [skate3recomp](https://github.com/mchughalex/skate3recomp) | Skate 3 | Native recompilation for Windows, Linux and macOS. | 1.8k | 2026-07-24 | 4 |
 | [SymphonyRecomp](https://github.com/BlackLabelHQ/SymphonyRecomp) | Castlevania: Symphony of the Night | Static recompilation of the PlayStation classic. | 1k | 2026-11-01 | 5 |
+| [pinyon-shift](https://github.com/arcanite24/pinyon-shift) | Forza Horizon | Recompiles the Xbox 360 version of Forza Horizon into a native build for Windows, Linux, macOS and Android, built from your own disc. | 985 | 2026-11-02 | 7 |
+| [LostOdysseyRecomp](https://github.com/freefrank/LostOdysseyRecomp) | Lost Odyssey | Native port of the Xbox 360 game made by static recompilation, for Windows, Linux, macOS and Android, using your own discs. | 906 | 2026-10-31 | 6 |
+| [Yakumo](https://github.com/TeamGDB/Yakumo) | Monster Hunter Portable 3rd HD Ver. | Static recompilation of a PSP game into native builds for Windows, Linux, macOS and Android, using your own copy of the game. | 565 | 2026-11-01 | 7 |
 
 ### Source Ports and Engine Rebuilds
 
@@ -121,6 +124,8 @@ Commercial games turned back into source code or native ports. None of these sho
 | [Horizon](https://github.com/horizon-rust/horizon) | Minecraft: Java Edition | Rewrite from scratch in Rust, checked against vanilla with differential test harnesses. | 6k | 2026-11-02 | 4 |
 | [Ship of Harkinian](https://github.com/HarbourMasters/Shipwright) | The Legend of Zelda: Ocarina of Time | PC port built from the decompilation. | 5.8k | 2026-11-01 | 6 |
 | [NBlood](https://github.com/NBlood/NBlood) | Blood, Redneck Rampage, Powerslave | Reverse engineered ports of Build engine games. | 820 | 2026-10-02 | 6 |
+| [zelda-tmc-3ds](https://github.com/EstebanPdN/zelda-tmc-3ds) | The Legend of Zelda: The Minish Cap | Native Nintendo 3DS port built on the Project Picori decompilation, using your own GBA ROM. | 796 | 2026-10-25 | 6 |
+| [zelda-alttp-3ds](https://github.com/EstebanPdN/zelda-alttp-3ds) | The Legend of Zelda: A Link to the Past | Nintendo 3DS dual-screen port of the reverse engineered zelda3 engine, with asset extraction from your own ROM on the device. | 773 | 2026-11-02 | 7 |
 | [MetroidPrimePort](https://github.com/Odrannnn/MetroidPrimePort) | Metroid Prime | Native port for Linux, Windows and Android built from the PrimeDecomp decompilation. No game assets included. | 629 | 2026-11-02 | 6 |
 
 ## Emulators
@@ -168,8 +173,10 @@ Devices, chips and cloud-locked gadgets opened up for local use.
 | [Aerial TV](https://github.com/pengchujin/aerial-tv) | Xiaomi, TCL home screens | Ad-free tvOS-style launcher for Xiaomi, TCL and other China-market TVs. | 9k | 2026-11-02 | 3 |
 | [Free My TV](https://github.com/simbasjungles/free-my-tv) | Google TV, webOS, Tizen | Fast, ad-free home screen for Google TV, LG webOS and Samsung Tizen, with one button to undo. | 5.8k | 2026-10-31 | 3 |
 | [dumbtv](https://github.com/humblemuzzu/dumbtv) | Fire TV | Takes ads, tracking and clutter out of a Fire TV over ADB without root, and every step can be undone. | 1.9k | 2026-10-27 | 5 |
+| [Glasshouse](https://github.com/rorygallagher2024/glasshouse) | LG webOS TVs | Dashboard, ad and telemetry blocker, debloater and Home Assistant bridge that runs on rooted LG webOS TVs. | 1.8k | 2026-11-02 | 7 |
 | [Clean Your TV App](https://github.com/udhaykumarbala/cleanyourtv-app) | Android TV | Community phone app that runs Clean Your TV without a laptop or coding agent. | 1.5k | 2026-10-31 | 4 |
 | [Tellyscope](https://github.com/man15h/tellyscope) | Android TV | Debloats an Android TV, installs apps and transfers files from your phone, without root. | 1.2k | 2026-11-02 | 4 |
+| [samsung-tv-root](https://github.com/chris-ritsen/samsung-tv-root) | Samsung Tizen TVs | Root exploit chain and host tooling for Samsung QN90B and QN90F TVs, with firmware update key recovery, to control the TV locally. | 503 | 2026-10-23 | 6 |
 
 ### Devices and Firmware
 
@@ -177,6 +184,7 @@ Devices, chips and cloud-locked gadgets opened up for local use.
 | --- | --- | --- | ---: | --- | ---: |
 | [Valetudo](https://github.com/Hypfer/Valetudo) | Robot vacuum clouds | Cloud replacement for vacuum robots that enables local-only operation. | 9.9k | 2026-11-01 | 7 |
 | [rtl_433](https://github.com/merbanan/rtl_433) | ISM band devices | Decodes radio transmissions from devices on the ISM bands. | 7.9k | 2026-10-27 | 7 |
+| [RemoveMacAI](https://github.com/omlahore/RemoveMacAI) | macOS | Turns off Apple Intelligence, analytics and ads on macOS, removes the downloaded models and can undo every change. | 5.8k | 2026-11-02 | 7 |
 | [m1n1](https://github.com/AsahiLinux/m1n1) | Apple Silicon | Bootloader and experimentation playground. | 4.3k | 2026-11-02 | 7 |
 | [opendbc](https://github.com/commaai/opendbc) | Car CAN buses | Python API for your car. | 3.5k | 2026-11-02 | 8 |
 | [dji-firmware-tools](https://github.com/o-gs/dji-firmware-tools) | DJI firmware | Tools for handling firmware of DJI products, with a focus on quadcopters. | 2.3k | 2026-10-25 | 8 |
@@ -195,17 +203,18 @@ What people use to take things apart.
 
 | Project | What it is | Stars | Last commit | Health |
 | --- | --- | ---: | --- | ---: |
-| [REA](https://github.com/morluto/rea) | Reverse Engineer Anything: one MCP that lets agents analyze app behavior down to native binaries. | 422.5k | 2026-11-02 | 5 |
+| [REA](https://github.com/morluto/rea) | Reverse Engineer Anything: one MCP that lets agents analyze app behavior down to native binaries. | 422.6k | 2026-11-02 | 5 |
 | [ida-pro-mcp](https://github.com/mrexodia/ida-pro-mcp) | Bridges IDA Pro with language models through MCP. | 13.3k | 2026-09-26 | 8 |
 | [GhidraMCP](https://github.com/LaurieWired/GhidraMCP) | MCP server for Ghidra. | 11.7k | 2026-10-10 | 7 |
 | [Universal Modder](https://github.com/rehan-remade/universal-modder) | Skills and tools that let Claude Code mod almost any PC game you own. | 9.3k | 2026-11-02 | 7 |
-| [Craft Anything](https://github.com/storytold/craft-anything) | Crafting App that shows how any software works, then rebuilds it in clean-room or deep mode. | 3.7k | 2026-11-02 | 3 |
+| [Craft Anything](https://github.com/storytold/craft-anything) | Crafting App that shows how any software works, then rebuilds it in clean-room or deep mode. | 3.8k | 2026-11-02 | 3 |
+| [x64dbg-mcp-server](https://github.com/duty1g/x64dbg-mcp-server) | Native x64dbg plugin written in Zig that exposes breakpoints, stepping, memory and registers over MCP so AI assistants can drive the debugger. | 2.7k | 2026-10-12 | 6 |
 | [reverse-api-engineer](https://github.com/kalil0321/reverse-api-engineer) | Turns any website into a typed API client, with Claude Code, Codex, Cursor or OpenCode. | 2.5k | 2026-10-29 | 8 |
 | [Co-op Anything](https://github.com/cranebeaker/coop-anything) | MCP server and playbook for adding co-op to single-player games with an AI agent. | 1.8k | 2026-11-02 | 2 |
 | [Open ReverseLab](https://github.com/LING71671/open-reverselab) | Agent platform and MCP server for Ghidra, Frida, x64dbg and Rizin. | 1.3k | 2026-10-21 | 7 |
 | [reverify](https://github.com/2akouwu/reverify) | Keeps AI reverse engineering honest: the model proposes, deterministic tools check every claim. | 1.3k | 2026-11-01 | 6 |
 | [Eleven](https://github.com/Zfinix/eleven) | Agent-first reverse engineering for macOS, Windows and Linux. | 959 | 2026-10-31 | 6 |
-| [Unbrowse](https://github.com/unbrowse-ai/unbrowse) | Finds the APIs behind a website so agents can call them directly. | 851 | 2026-10-30 | 6 |
+| [Unbrowse](https://github.com/unbrowse-ai/unbrowse) | Finds the APIs behind a website so agents can call them directly. | 856 | 2026-10-30 | 6 |
 
 ### Decompilers and Disassemblers
 
@@ -274,7 +283,7 @@ Projects never leave the list, so it only gets bigger.
 
 | Month | New | Total | |
 | --- | ---: | ---: | --- |
-| 2026-11 | 112 | 112 | ██████████████████████████████ |
+| 2026-11 | 121 | 121 | ██████████████████████████████ |
 
 ## Star History
 
@@ -292,6 +301,6 @@ New entries are welcome. [Open an issue](https://github.com/maluramichael/awesom
 
 ## Footnotes
 
-112 projects. Stars last fetched on 2026-11-02. This file is generated from [`data/projects`](data/projects), please do not edit it by hand.
+121 projects. Stars last fetched on 2026-11-02. This file is generated from [`data/projects`](data/projects), please do not edit it by hand.
 
 Health adds up facts GitHub reports, such as license, commits spread over many days, several contributors, open issues and whether the project is archived or quiet. It says nothing about quality. The rules are in [`scripts/scoring.py`](scripts/scoring.py).

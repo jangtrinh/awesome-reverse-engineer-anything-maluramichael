@@ -12,16 +12,22 @@
     "2026-11-02": 4286
   },
   "BlackLabelHQ/SymphonyRecomp": {
-    "2026-11-02": 1046
+    "2026-11-02": 1047
   },
   "Droid-Deck/DroidDeck": {
-    "2026-11-02": 17419
+    "2026-11-02": 17420
+  },
+  "EstebanPdN/zelda-alttp-3ds": {
+    "2026-11-02": 773
+  },
+  "EstebanPdN/zelda-tmc-3ds": {
+    "2026-11-02": 796
   },
   "FH1-ReImagined/ForzaHorizon1-ReImagined": {
     "2026-11-02": 384
   },
   "Gathin23/cleanyourtv": {
-    "2026-11-02": 50322
+    "2026-11-02": 50335
   },
   "HarbourMasters/Shipwright": {
     "2026-11-02": 5828
@@ -30,7 +36,7 @@
     "2026-11-02": 9896
   },
   "IPedrax/BIMCraft": {
-    "2026-11-02": 873
+    "2026-11-02": 874
   },
   "JJTech0130/pypush": {
     "2026-11-02": 3790
@@ -57,7 +63,7 @@
     "2026-11-02": 820
   },
   "NationalSecurityAgency/ghidra": {
-    "2026-11-02": 97146
+    "2026-11-02": 97149
   },
   "Noelo-Lab/kuna": {
     "2026-11-02": 787
@@ -66,28 +72,31 @@
     "2026-11-02": 629
   },
   "OpenMW/openmw": {
-    "2026-11-02": 6705
+    "2026-11-02": 6707
   },
   "OpenRA/OpenRA": {
     "2026-11-02": 17717
   },
   "OpenRCT2/OpenRCT2": {
-    "2026-11-02": 16534
+    "2026-11-02": 16535
   },
   "PCSX2/pcsx2": {
-    "2026-11-02": 15972
+    "2026-11-02": 15973
   },
   "RPCS3/rpcs3": {
     "2026-11-02": 20305
   },
   "ReFirmLabs/binwalk": {
-    "2026-11-02": 14587
+    "2026-11-02": 14588
   },
   "Revivedx/SavageWindRecomp": {
-    "2026-11-02": 2872
+    "2026-11-02": 2874
   },
   "SubmitGame/awesome-decomp-games": {
     "2026-11-02": 2818
+  },
+  "TeamGDB/Yakumo": {
+    "2026-11-02": 565
   },
   "Th0rgal/open_oura": {
     "2026-11-02": 667
@@ -117,10 +126,13 @@
     "2026-11-02": 2492
   },
   "alexgaoth/awesome-reverse-engineered": {
-    "2026-11-02": 1138
+    "2026-11-02": 1139
   },
   "alufers/mitmproxy2swagger": {
     "2026-11-02": 9687
+  },
+  "arcanite24/pinyon-shift": {
+    "2026-11-02": 985
   },
   "ares-emulator/ares": {
     "2026-11-02": 1854
@@ -131,6 +143,9 @@
   "broroeror/gamesir-linux-tools": {
     "2026-11-02": 82
   },
+  "chris-ritsen/samsung-tv-root": {
+    "2026-11-02": 503
+  },
   "chyinan/OpenJOC": {
     "2026-11-02": 274
   },
@@ -138,7 +153,7 @@
     "2026-11-02": 3534
   },
   "cranebeaker/coop-anything": {
-    "2026-11-02": 1818
+    "2026-11-02": 1819
   },
   "daijro/honeydew": {
     "2026-11-02": 82
@@ -158,6 +173,9 @@
   "dolphin-emu/dolphin": {
     "2026-11-02": 15758
   },
+  "duty1g/x64dbg-mcp-server": {
+    "2026-11-02": 2749
+  },
   "ejfkdev/ddc": {
     "2026-11-02": 427
   },
@@ -166,6 +184,9 @@
   },
   "ethteck/splat": {
     "2026-11-02": 376
+  },
+  "freefrank/LostOdysseyRecomp": {
+    "2026-11-02": 906
   },
   "frida/frida": {
     "2026-11-02": 22617
@@ -180,10 +201,10 @@
     "2026-11-02": 6662
   },
   "horizon-rust/horizon": {
-    "2026-11-02": 5980
+    "2026-11-02": 5983
   },
   "humblemuzzu/dumbtv": {
-    "2026-11-02": 1885
+    "2026-11-02": 1886
   },
   "iBotPeaches/Apktool": {
     "2026-11-02": 26936
@@ -192,10 +213,10 @@
     "2026-11-02": 26921
   },
   "kalil0321/reverse-api-engineer": {
-    "2026-11-02": 2460
+    "2026-11-02": 2462
   },
   "l0ng-ai/openidea": {
-    "2026-11-02": 4900
+    "2026-11-02": 4908
   },
   "libimobiledevice/libimobiledevice": {
     "2026-11-02": 8312
@@ -225,13 +246,13 @@
     "2026-11-02": 80
   },
   "mitmproxy/mitmproxy": {
-    "2026-11-02": 46572
+    "2026-11-02": 46571
   },
   "morluto/awesome-reverse-engineering": {
-    "2026-11-02": 1561
+    "2026-11-02": 1562
   },
   "morluto/rea": {
-    "2026-11-02": 422548
+    "2026-11-02": 422583
   },
   "mrexodia/ida-pro-mcp": {
     "2026-11-02": 13303
@@ -244,6 +265,9 @@
   },
   "o-gs/dji-firmware-tools": {
     "2026-11-02": 2280
+  },
+  "omlahore/RemoveMacAI": {
+    "2026-11-02": 5755
   },
   "patjak/facetimehd": {
     "2026-11-02": 1516
@@ -267,13 +291,13 @@
     "2026-11-02": 837
   },
   "reactos/reactos": {
-    "2026-11-02": 18423
+    "2026-11-02": 18424
   },
   "rednblkx/HomeKey-ESP32": {
     "2026-11-02": 1116
   },
   "rehan-remade/universal-modder": {
-    "2026-11-02": 9345
+    "2026-11-02": 9347
   },
   "replicraft/remade": {
     "2026-11-02": 223
@@ -281,11 +305,14 @@
   "rizinorg/rizin": {
     "2026-11-02": 4099
   },
+  "rorygallagher2024/glasshouse": {
+    "2026-11-02": 1804
+  },
   "samba-team/samba": {
     "2026-11-02": 1147
   },
   "seedds/nxnative": {
-    "2026-11-02": 11384
+    "2026-11-02": 11388
   },
   "seemoo-lab/opendrop": {
     "2026-11-02": 9934
@@ -294,7 +321,7 @@
     "2026-11-02": 13904
   },
   "shadps4-emu/shadPS4": {
-    "2026-11-02": 34029
+    "2026-11-02": 34030
   },
   "shazamio/ShazamIO": {
     "2026-11-02": 999
@@ -303,10 +330,10 @@
     "2026-11-02": 13103
   },
   "simbasjungles/free-my-tv": {
-    "2026-11-02": 5752
+    "2026-11-02": 5754
   },
   "skylot/jadx": {
-    "2026-11-02": 51490
+    "2026-11-02": 51491
   },
   "snuri00/ps2-web-recomp": {
     "2026-11-02": 1375
@@ -315,82 +342,82 @@
     "2026-11-02": 2485
   },
   "storytold/artcraft": {
-    "2026-11-02": 38356
+    "2026-11-02": 38358
   },
   "storytold/cadcraft": {
-    "2026-11-02": 7478
+    "2026-11-02": 7480
   },
   "storytold/craft-anything": {
-    "2026-11-02": 3726
+    "2026-11-02": 3765
   },
   "storytold/craft-launcher": {
-    "2026-11-02": 4785
+    "2026-11-02": 4787
   },
   "storytold/deckcraft": {
-    "2026-11-02": 4531
+    "2026-11-02": 4532
   },
   "storytold/designcraft": {
-    "2026-11-02": 5033
+    "2026-11-02": 5035
   },
   "storytold/effectcraft": {
-    "2026-11-02": 8343
+    "2026-11-02": 8347
   },
   "storytold/figcraft": {
-    "2026-11-02": 4126
+    "2026-11-02": 4127
   },
   "storytold/filmcraft": {
-    "2026-11-02": 17307
+    "2026-11-02": 17310
   },
   "storytold/gridcraft": {
-    "2026-11-02": 7028
+    "2026-11-02": 7030
   },
   "storytold/indd-utils": {
     "2026-11-02": 58
   },
   "storytold/lightcraft": {
-    "2026-11-02": 15322
+    "2026-11-02": 15328
   },
   "storytold/materialcraft": {
     "2026-11-02": 15
   },
   "storytold/pdfcraft": {
-    "2026-11-02": 19228
+    "2026-11-02": 19233
   },
   "storytold/photocraft": {
-    "2026-11-02": 76186
+    "2026-11-02": 76190
   },
   "storytold/soundcraft": {
-    "2026-11-02": 4018
+    "2026-11-02": 4019
   },
   "storytold/texturecraft": {
-    "2026-11-02": 232
+    "2026-11-02": 233
   },
   "storytold/vectorcraft": {
-    "2026-11-02": 11233
+    "2026-11-02": 11236
   },
   "storytold/wordcraft": {
-    "2026-11-02": 17047
+    "2026-11-02": 17054
   },
   "surfrpt1/procraft": {
     "2026-11-02": 84
   },
   "tangency-labs/solidcraft": {
-    "2026-11-02": 13150
+    "2026-11-02": 13152
   },
   "thebriangao/totem": {
     "2026-11-02": 139
   },
   "tulir/whatsmeow": {
-    "2026-11-02": 7737
+    "2026-11-02": 7738
   },
   "udhaykumarbala/cleanyourtv-app": {
-    "2026-11-02": 1456
+    "2026-11-02": 1457
   },
   "unbrowse-ai/unbrowse": {
-    "2026-11-02": 851
+    "2026-11-02": 856
   },
   "valentderah/totk-pc-recomp": {
-    "2026-11-02": 3933
+    "2026-11-02": 3936
   },
   "wine-mirror/wine": {
     "2026-11-02": 4277
