@@ -11,10 +11,10 @@
     },
     "AsahiLinux/m1n1": {
       "archived": false,
-      "commits": 2801,
+      "commits": 2802,
       "created": "2021-01-14",
       "forks": 371,
-      "pushed": "2026-11-01",
+      "pushed": "2026-11-02",
       "stars": 4286
     },
     "BlackLabelHQ/SymphonyRecomp": {
@@ -23,23 +23,23 @@
       "created": "2026-07-03",
       "forks": 45,
       "pushed": "2026-11-01",
-      "stars": 1039
+      "stars": 1040
     },
     "Droid-Deck/DroidDeck": {
       "archived": false,
       "commits": 1841,
       "created": "2026-09-24",
-      "forks": 888,
+      "forks": 890,
       "pushed": "2026-11-02",
-      "stars": 17323
+      "stars": 17334
     },
     "Gathin23/cleanyourtv": {
       "archived": false,
       "commits": 4897,
       "created": "2026-10-17",
-      "forks": 6255,
+      "forks": 6266,
       "pushed": "2026-11-02",
-      "stars": 49706
+      "stars": 49776
     },
     "HarbourMasters/Shipwright": {
       "archived": false,
@@ -55,7 +55,7 @@
       "created": "2018-07-12",
       "forks": 524,
       "pushed": "2026-11-01",
-      "stars": 9887
+      "stars": 9888
     },
     "IPedrax/BIMCraft": {
       "archived": false,
@@ -63,7 +63,7 @@
       "created": "2026-10-15",
       "forks": 138,
       "pushed": "2026-10-29",
-      "stars": 850
+      "stars": 852
     },
     "JJTech0130/pypush": {
       "archived": false,
@@ -87,7 +87,7 @@
       "created": "2025-03-23",
       "forks": 1253,
       "pushed": "2026-10-10",
-      "stars": 11703
+      "stars": 11705
     },
     "LuanRT/YouTube.js": {
       "archived": false,
@@ -101,9 +101,9 @@
       "archived": false,
       "commits": 119,
       "created": "2026-06-09",
-      "forks": 375,
+      "forks": 376,
       "pushed": "2026-10-30",
-      "stars": 2635
+      "stars": 2636
     },
     "N64Recomp/N64Recomp": {
       "archived": false,
@@ -125,25 +125,25 @@
       "archived": false,
       "commits": 18969,
       "created": "2019-03-01",
-      "forks": 10959,
+      "forks": 10962,
       "pushed": "2026-11-02",
-      "stars": 96977
+      "stars": 96996
     },
     "Noelo-Lab/kuna": {
       "archived": false,
-      "commits": 2770,
+      "commits": 2772,
       "created": "2026-06-07",
       "forks": 69,
       "pushed": "2026-11-02",
-      "stars": 780
+      "stars": 781
     },
     "Odrannnn/MetroidPrimePort": {
       "archived": false,
-      "commits": 5191,
+      "commits": 5196,
       "created": "2026-09-19",
       "forks": 35,
       "pushed": "2026-11-02",
-      "stars": 621
+      "stars": 622
     },
     "OpenMW/openmw": {
       "archived": false,
@@ -159,7 +159,7 @@
       "created": "2010-10-04",
       "forks": 3107,
       "pushed": "2026-10-28",
-      "stars": 17713
+      "stars": 17714
     },
     "OpenRCT2/OpenRCT2": {
       "archived": false,
@@ -175,15 +175,15 @@
       "created": "2013-12-22",
       "forks": 2395,
       "pushed": "2026-11-02",
-      "stars": 15969
+      "stars": 15970
     },
     "RPCS3/rpcs3": {
       "archived": false,
-      "commits": 20554,
+      "commits": 20555,
       "created": "2012-11-03",
-      "forks": 2566,
+      "forks": 2567,
       "pushed": "2026-11-02",
-      "stars": 20298
+      "stars": 20299
     },
     "ReFirmLabs/binwalk": {
       "archived": false,
@@ -191,7 +191,7 @@
       "created": "2013-11-15",
       "forks": 1864,
       "pushed": "2026-08-11",
-      "stars": 14580
+      "stars": 14581
     },
     "Revivedx/SavageWindRecomp": {
       "archived": false,
@@ -199,15 +199,15 @@
       "created": "2026-10-16",
       "forks": 162,
       "pushed": "2026-11-01",
-      "stars": 2793
+      "stars": 2798
     },
     "SubmitGame/awesome-decomp-games": {
       "archived": false,
-      "commits": 50,
+      "commits": 51,
       "created": "2026-10-09",
       "forks": 141,
-      "pushed": "2026-11-01",
-      "stars": 2802
+      "pushed": "2026-11-02",
+      "stars": 2803
     },
     "Th0rgal/open_oura": {
       "archived": false,
@@ -223,7 +223,7 @@
       "created": "2020-11-10",
       "forks": 2594,
       "pushed": "2026-10-09",
-      "stars": 55708
+      "stars": 55710
     },
     "WhiskeySockets/Baileys": {
       "archived": false,
@@ -261,9 +261,9 @@
       "archived": false,
       "commits": 59,
       "created": "2026-10-11",
-      "forks": 205,
+      "forks": 207,
       "pushed": "2026-11-01",
-      "stars": 1120
+      "stars": 1121
     },
     "alufers/mitmproxy2swagger": {
       "archived": false,
@@ -295,7 +295,7 @@
       "created": "2026-10-16",
       "forks": 247,
       "pushed": "2026-11-02",
-      "stars": 1797
+      "stars": 1800
     },
     "darlinghq/darling": {
       "archived": false,
@@ -311,7 +311,7 @@
       "created": "2021-06-29",
       "forks": 167,
       "pushed": "2026-11-01",
-      "stars": 653
+      "stars": 654
     },
     "dnSpyEx/dnSpy": {
       "archived": false,
@@ -319,7 +319,7 @@
       "created": "2021-05-27",
       "forks": 771,
       "pushed": "2026-11-01",
-      "stars": 11393
+      "stars": 11395
     },
     "doldecomp/melee": {
       "archived": false,
@@ -335,7 +335,7 @@
       "created": "2013-07-22",
       "forks": 3375,
       "pushed": "2026-11-02",
-      "stars": 15753
+      "stars": 15754
     },
     "frida/frida": {
       "archived": false,
@@ -343,7 +343,7 @@
       "created": "2013-04-12",
       "forks": 2296,
       "pushed": "2026-11-01",
-      "stars": 22604
+      "stars": 22605
     },
     "hack-different/apple-knowledge": {
       "archived": false,
@@ -363,11 +363,11 @@
     },
     "horizon-rust/horizon": {
       "archived": false,
-      "commits": 15384,
+      "commits": 15625,
       "created": "2026-10-03",
-      "forks": 743,
+      "forks": 755,
       "pushed": "2026-11-02",
-      "stars": 5801
+      "stars": 5820
     },
     "humblemuzzu/dumbtv": {
       "archived": false,
@@ -375,7 +375,7 @@
       "created": "2026-10-18",
       "forks": 190,
       "pushed": "2026-10-27",
-      "stars": 1862
+      "stars": 1865
     },
     "iBotPeaches/Apktool": {
       "archived": false,
@@ -383,7 +383,7 @@
       "created": "2012-03-19",
       "forks": 4201,
       "pushed": "2026-11-02",
-      "stars": 26917
+      "stars": 26921
     },
     "icsharpcode/ILSpy": {
       "archived": false,
@@ -391,7 +391,7 @@
       "created": "2011-02-04",
       "forks": 3797,
       "pushed": "2026-11-01",
-      "stars": 26912
+      "stars": 26915
     },
     "kalil0321/reverse-api-engineer": {
       "archived": false,
@@ -399,15 +399,15 @@
       "created": "2025-12-23",
       "forks": 260,
       "pushed": "2026-10-29",
-      "stars": 2426
+      "stars": 2429
     },
     "l0ng-ai/openidea": {
       "archived": false,
       "commits": 526,
       "created": "2026-10-21",
-      "forks": 355,
+      "forks": 361,
       "pushed": "2026-11-02",
-      "stars": 4414
+      "stars": 4486
     },
     "libimobiledevice/libimobiledevice": {
       "archived": false,
@@ -429,9 +429,9 @@
       "archived": false,
       "commits": 1351,
       "created": "2026-10-17",
-      "forks": 1003,
+      "forks": 1004,
       "pushed": "2026-11-02",
-      "stars": 6836
+      "stars": 6840
     },
     "man15h/tellyscope": {
       "archived": false,
@@ -439,7 +439,7 @@
       "created": "2026-10-22",
       "forks": 61,
       "pushed": "2026-11-02",
-      "stars": 1162
+      "stars": 1176
     },
     "mandiant/capa": {
       "archived": false,
@@ -453,7 +453,7 @@
       "archived": false,
       "commits": 227,
       "created": "2026-06-04",
-      "forks": 81,
+      "forks": 82,
       "pushed": "2026-07-24",
       "stars": 1777
     },
@@ -471,7 +471,7 @@
       "created": "2010-02-16",
       "forks": 4916,
       "pushed": "2026-11-01",
-      "stars": 46559
+      "stars": 46560
     },
     "morluto/awesome-reverse-engineering": {
       "archived": false,
@@ -479,15 +479,15 @@
       "created": "2026-10-09",
       "forks": 345,
       "pushed": "2026-10-30",
-      "stars": 1522
+      "stars": 1523
     },
     "morluto/rea": {
       "archived": false,
       "commits": 6338,
       "created": "2026-04-14",
-      "forks": 105027,
+      "forks": 105059,
       "pushed": "2026-11-02",
-      "stars": 420650
+      "stars": 420859
     },
     "mrexodia/ida-pro-mcp": {
       "archived": false,
@@ -495,7 +495,7 @@
       "created": "2025-03-25",
       "forks": 1613,
       "pushed": "2026-09-26",
-      "stars": 13291
+      "stars": 13292
     },
     "o-gs/dji-firmware-tools": {
       "archived": false,
@@ -519,21 +519,21 @@
       "created": "2026-10-08",
       "forks": 260,
       "pushed": "2026-11-02",
-      "stars": 2067
+      "stars": 2068
     },
     "pengchujin/aerial-tv": {
       "archived": false,
-      "commits": 618,
+      "commits": 621,
       "created": "2026-10-20",
-      "forks": 758,
+      "forks": 759,
       "pushed": "2026-11-02",
-      "stars": 8907
+      "stars": 8921
     },
     "pret/pokeemerald": {
       "archived": false,
       "commits": 8129,
       "created": "2015-10-05",
-      "forks": 4930,
+      "forks": 4931,
       "pushed": "2026-10-01",
       "stars": 3662
     },
@@ -551,23 +551,23 @@
       "created": "2012-07-03",
       "forks": 3400,
       "pushed": "2026-11-02",
-      "stars": 25247
+      "stars": 25248
     },
     "reacher-z/Awesome-REA": {
       "archived": false,
-      "commits": 980,
+      "commits": 993,
       "created": "2026-10-16",
       "forks": 228,
       "pushed": "2026-11-02",
-      "stars": 805
+      "stars": 807
     },
     "reactos/reactos": {
       "archived": false,
-      "commits": 89949,
+      "commits": 89950,
       "created": "2017-10-03",
       "forks": 2326,
       "pushed": "2026-11-02",
-      "stars": 18420
+      "stars": 18419
     },
     "rednblkx/HomeKey-ESP32": {
       "archived": false,
@@ -583,15 +583,15 @@
       "created": "2026-09-30",
       "forks": 1044,
       "pushed": "2026-11-02",
-      "stars": 9326
+      "stars": 9328
     },
     "rizinorg/rizin": {
       "archived": false,
       "commits": 30925,
       "created": "2020-09-30",
       "forks": 680,
-      "pushed": "2026-11-01",
-      "stars": 4096
+      "pushed": "2026-11-02",
+      "stars": 4097
     },
     "samba-team/samba": {
       "archived": false,
@@ -603,11 +603,11 @@
     },
     "seedds/nxnative": {
       "archived": false,
-      "commits": 872,
+      "commits": 873,
       "created": "2026-10-13",
-      "forks": 1819,
+      "forks": 1820,
       "pushed": "2026-11-02",
-      "stars": 11172
+      "stars": 11194
     },
     "seemoo-lab/opendrop": {
       "archived": false,
@@ -645,9 +645,9 @@
       "archived": false,
       "commits": 1566,
       "created": "2026-09-24",
-      "forks": 1676,
+      "forks": 1678,
       "pushed": "2026-10-28",
-      "stars": 13079
+      "stars": 13084
     },
     "simbasjungles/free-my-tv": {
       "archived": false,
@@ -655,15 +655,15 @@
       "created": "2026-10-19",
       "forks": 983,
       "pushed": "2026-10-31",
-      "stars": 5709
+      "stars": 5711
     },
     "skylot/jadx": {
       "archived": false,
       "commits": 2751,
       "created": "2013-03-18",
-      "forks": 5863,
+      "forks": 5864,
       "pushed": "2026-10-30",
-      "stars": 51472
+      "stars": 51474
     },
     "snuri00/ps2-web-recomp": {
       "archived": false,
@@ -671,53 +671,61 @@
       "created": "2026-10-08",
       "forks": 122,
       "pushed": "2026-10-29",
-      "stars": 1370
+      "stars": 1371
+    },
+    "solemnwarning/rehex": {
+      "archived": false,
+      "commits": 1893,
+      "created": "2017-12-21",
+      "forks": 134,
+      "pushed": "2026-11-01",
+      "stars": 2483
     },
     "storytold/artcraft": {
       "archived": false,
       "commits": 31,
       "created": "2022-03-31",
-      "forks": 6034,
+      "forks": 6036,
       "pushed": "2026-10-31",
-      "stars": 38276
+      "stars": 38287
     },
     "storytold/cadcraft": {
       "archived": false,
       "commits": 1039,
       "created": "2026-10-07",
-      "forks": 3190,
+      "forks": 3192,
       "pushed": "2026-11-02",
-      "stars": 7435
+      "stars": 7438
     },
     "storytold/craft-anything": {
       "archived": false,
       "commits": 131,
       "created": "2026-10-31",
-      "forks": 347,
+      "forks": 369,
       "pushed": "2026-11-02",
-      "stars": 2201
+      "stars": 2327
     },
     "storytold/craft-launcher": {
       "archived": false,
       "commits": 379,
       "created": "2026-10-09",
-      "forks": 1383,
-      "pushed": "2026-11-01",
-      "stars": 4749
+      "forks": 1385,
+      "pushed": "2026-11-02",
+      "stars": 4751
     },
     "storytold/deckcraft": {
       "archived": false,
       "commits": 1835,
       "created": "2026-10-07",
-      "forks": 2605,
+      "forks": 2607,
       "pushed": "2026-11-02",
-      "stars": 4516
+      "stars": 4518
     },
     "storytold/designcraft": {
       "archived": false,
       "commits": 4492,
       "created": "2026-10-01",
-      "forks": 3473,
+      "forks": 3476,
       "pushed": "2026-11-02",
       "stars": 5024
     },
@@ -725,17 +733,17 @@
       "archived": false,
       "commits": 4110,
       "created": "2026-10-01",
-      "forks": 4430,
+      "forks": 4431,
       "pushed": "2026-11-02",
-      "stars": 8318
+      "stars": 8321
     },
     "storytold/figcraft": {
       "archived": false,
       "commits": 2975,
       "created": "2026-10-09",
-      "forks": 1601,
+      "forks": 1602,
       "pushed": "2026-11-02",
-      "stars": 4090
+      "stars": 4094
     },
     "storytold/filmcraft": {
       "archived": false,
@@ -743,7 +751,7 @@
       "created": "2026-09-30",
       "forks": 7134,
       "pushed": "2026-11-02",
-      "stars": 17254
+      "stars": 17257
     },
     "storytold/gridcraft": {
       "archived": false,
@@ -751,15 +759,15 @@
       "created": "2026-10-07",
       "forks": 3251,
       "pushed": "2026-11-02",
-      "stars": 7003
+      "stars": 7005
     },
     "storytold/lightcraft": {
       "archived": false,
       "commits": 4823,
       "created": "2026-09-30",
-      "forks": 5874,
+      "forks": 5877,
       "pushed": "2026-11-02",
-      "stars": 15285
+      "stars": 15289
     },
     "storytold/pdfcraft": {
       "archived": false,
@@ -767,15 +775,15 @@
       "created": "2026-09-30",
       "forks": 7194,
       "pushed": "2026-11-02",
-      "stars": 19144
+      "stars": 19150
     },
     "storytold/photocraft": {
       "archived": false,
       "commits": 8243,
       "created": "2026-09-30",
-      "forks": 13470,
+      "forks": 13472,
       "pushed": "2026-11-02",
-      "stars": 76028
+      "stars": 76046
     },
     "storytold/soundcraft": {
       "archived": false,
@@ -787,11 +795,11 @@
     },
     "storytold/texturecraft": {
       "archived": false,
-      "commits": 327,
+      "commits": 330,
       "created": "2026-10-14",
       "forks": 41,
       "pushed": "2026-11-02",
-      "stars": 180
+      "stars": 187
     },
     "storytold/vectorcraft": {
       "archived": false,
@@ -799,7 +807,7 @@
       "created": "2026-09-30",
       "forks": 5425,
       "pushed": "2026-11-02",
-      "stars": 11208
+      "stars": 11210
     },
     "storytold/wordcraft": {
       "archived": false,
@@ -807,7 +815,7 @@
       "created": "2026-10-07",
       "forks": 4677,
       "pushed": "2026-11-02",
-      "stars": 16996
+      "stars": 16999
     },
     "tangency-labs/solidcraft": {
       "archived": false,
@@ -815,7 +823,7 @@
       "created": "2026-10-07",
       "forks": 1703,
       "pushed": "2026-11-02",
-      "stars": 13027
+      "stars": 13035
     },
     "tulir/whatsmeow": {
       "archived": false,
@@ -823,7 +831,7 @@
       "created": "2021-10-06",
       "forks": 1296,
       "pushed": "2026-10-31",
-      "stars": 7733
+      "stars": 7734
     },
     "udhaykumarbala/cleanyourtv-app": {
       "archived": false,
@@ -831,7 +839,7 @@
       "created": "2026-10-21",
       "forks": 120,
       "pushed": "2026-10-31",
-      "stars": 1402
+      "stars": 1404
     },
     "unbrowse-ai/unbrowse": {
       "archived": false,
@@ -839,15 +847,15 @@
       "created": "2026-01-27",
       "forks": 76,
       "pushed": "2026-10-30",
-      "stars": 842
+      "stars": 843
     },
     "valentderah/totk-pc-recomp": {
       "archived": false,
       "commits": 590,
       "created": "2026-10-29",
-      "forks": 282,
+      "forks": 288,
       "pushed": "2026-11-02",
-      "stars": 3498
+      "stars": 3539
     },
     "wine-mirror/wine": {
       "archived": false,
@@ -861,15 +869,15 @@
       "archived": false,
       "commits": 6399,
       "created": "2015-04-11",
-      "forks": 2913,
+      "forks": 2914,
       "pushed": "2026-10-28",
-      "stars": 50154
+      "stars": 50155
     },
     "xemu-project/xemu": {
       "archived": false,
       "commits": 127963,
       "created": "2020-02-18",
-      "forks": 612,
+      "forks": 613,
       "pushed": "2026-11-02",
       "stars": 4230
     },
@@ -887,7 +895,7 @@
       "created": "2020-03-17",
       "forks": 716,
       "pushed": "2026-10-18",
-      "stars": 5637
+      "stars": 5638
     }
   }
 }
