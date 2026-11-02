@@ -124,8 +124,8 @@ def sort_key(project: dict, stats: dict) -> tuple[int, str]:
 
 def table(projects: list[dict], stats: dict) -> list[str]:
     with_target = any(p.get("target") for p in projects)
-    header = "| Project | " + ("Rebuilds | " if with_target else "") + "What it is | Stars | Last commit |"
-    divider = "| --- | " + ("--- | " if with_target else "") + "--- | ---: | --- |"
+    header = "| Project | " + ("Rebuilds | " if with_target else "") + "What it is | Stars | Last commit | Health |"
+    divider = "| --- | " + ("--- | " if with_target else "") + "--- | ---: | --- | ---: |"
     lines = [header, divider]
     for project in sorted(projects, key=lambda p: sort_key(p, stats)):
         info = stats.get(common.github_repo(project["url"]), {})
@@ -134,7 +134,8 @@ def table(projects: list[dict], stats: dict) -> list[str]:
             description += " Archived."
         stars = format_stars(info["stars"]) if "stars" in info else ""
         target = f"{project.get('target', '')} | " if with_target else ""
-        lines.append(f"| {project_link(project)} | {target}{description} | {stars} | {info.get('pushed', '')} |")
+        health = info.get("health", "")
+        lines.append(f"| {project_link(project)} | {target}{description} | {stars} | {info.get('pushed', '')} | {health} |")
     return lines
 
 
@@ -174,7 +175,10 @@ def render(projects: list[dict], stats_file: dict, history: dict) -> str:
               "prepares the pull request, or read the [contribution guidelines](contributing.md).", "",
               "## Footnotes", "",
               f"{len(projects)} projects. Stars last fetched on {today}. This file is generated from "
-              "[`data/projects`](data/projects), please do not edit it by hand.", ""]
+              "[`data/projects`](data/projects), please do not edit it by hand.", "",
+              "Health adds up facts GitHub reports, such as license, commits spread over many days, several "
+              "contributors, open issues and whether the project is archived or quiet. It says nothing about "
+              "quality. The rules are in [`scripts/scoring.py`](scripts/scoring.py).", ""]
     return "\n".join(lines)
 
 

@@ -5,6 +5,7 @@ from datetime import date, datetime, timedelta, timezone
 
 import common
 import github
+import scoring
 
 HISTORY_DAYS = 90
 
@@ -20,6 +21,17 @@ def update_history(history: dict, stars: dict[str, int], today: str, keep_days: 
         if snapshots:
             updated[repo] = dict(sorted(snapshots.items()))
     return updated
+
+
+def health(repos: list[str], now: datetime) -> dict[str, dict]:
+    """Score and signals per repository, the same facts the weekly search scores candidates on."""
+    meta = github.fetch_repositories(repos, batch_size=10, repo_fields=github.CANDIDATE_FIELDS)
+    result = {}
+    for repo in repos:
+        if meta.get(repo) is not None:
+            points, signals = scoring.score(meta[repo], github.contributor_count(repo), now)
+            result[repo] = {"health": points, "signals": signals}
+    return result
 
 
 def main() -> None:
@@ -46,7 +58,18 @@ def main() -> None:
         }
         stars[repo] = item["stargazerCount"]
 
-    today = datetime.now(timezone.utc).date().isoformat()
+    now = datetime.now(timezone.utc)
+    try:
+        scores = health(sorted(stars), now)
+    except Exception as error:  # Health is extra. A failure here must not stop the star refresh.
+        print(f"::warning::health scores failed, keeping the last ones: {error}")
+        scores = {}
+    for repo in stats:
+        known = scores.get(repo) or {key: previous[repo][key] for key in ("health", "signals")
+                                     if key in previous.get(repo, {})}
+        stats[repo].update(known)
+
+    today = now.date().isoformat()
     common.write_json(common.STATS_FILE, {"fetched": today, "repos": stats})
     common.write_json(common.HISTORY_FILE, update_history(common.load_json(common.HISTORY_FILE, {}), stars, today))
     print(f"Fetched {len(stars)} of {len(repos)} repositories for {today}")

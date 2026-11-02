@@ -47,10 +47,10 @@ REPO_FIELDS = (
     "defaultBranchRef { target { ... on Commit { history { totalCount } } } }"
 )
 
-# Everything the weekly search scores a candidate on. Three README spellings cover nearly every repository,
+# Everything scoring.score looks at. Three README spellings cover nearly every repository,
 # the other three catch an English translation next to a README in another language.
 CANDIDATE_FIELDS = (
-    "nameWithOwner stargazerCount forkCount createdAt isFork "
+    "nameWithOwner stargazerCount forkCount createdAt pushedAt isArchived isFork "
     "owner { ... on User { createdAt } ... on Organization { createdAt } } "
     "licenseInfo { spdxId } repositoryTopics(first: 30) { nodes { topic { name } } } "
     "languages(first: 10) { nodes { name } } issues { totalCount } "

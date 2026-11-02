@@ -11,6 +11,7 @@ import common
 import discover
 import github
 import refresh
+import scoring
 import validate
 
 VALID = {"name": "Example", "url": "https://github.com/acme/example", "category": "apps",
@@ -120,6 +121,13 @@ class Readme(unittest.TestCase):
         self.assertIn("- [Star History](#star-history)", first)
         self.assertIn("api.star-history.com/chart?repos=maluramichael/awesome-reverse-engineer-anything&type=date", first)
         self.assertNotIn("dll-proxy-generator", first)
+        self.assertIn("| Last commit | Health |", first)
+
+    def test_health_column(self):
+        projects = [{**VALID, "category": "emulators"}]
+        stats = {"fetched": "2026-11-02", "repos": {"acme/example": {"stars": 5, "created": "2026-11-01",
+                                                                     "pushed": "2026-11-01", "health": 4}}}
+        self.assertIn("| 5 | 2026-11-01 | 4 |", build_readme.render(projects, stats, {}))
 
     def test_growth_counts_per_month_and_cumulates(self):
         projects = [{**VALID, "added": "2026-11-02"}, {**VALID, "added": "2026-11-20"}, {**VALID, "added": "2026-12-01"}]
@@ -186,16 +194,16 @@ class Discover(unittest.TestCase):
         german = "Das Werkzeug ist ein Nachbau des Protokolls und es läuft auch auf dem eigenen Rechner. " * 5
         chinese = "关掉国产安卓手机系统里的广告热搜资讯推荐和营销推送不需要root可还原支持一键执行" * 5
         spanish = "Esta herramienta reconstruye el protocolo del dispositivo y funciona en tu propia máquina. " * 5
-        self.assertEqual(discover.language(english), "en/de")
-        self.assertEqual(discover.language(german), "en/de")
-        self.assertEqual(discover.language(chinese + " Android TV"), "other")
-        self.assertEqual(discover.language(spanish), "other")
-        self.assertEqual(discover.language(english + "中文说明：安卓电视去广告"), "en/de")
-        self.assertEqual(discover.language(None), "none")
+        self.assertEqual(scoring.language(english), "en/de")
+        self.assertEqual(scoring.language(german), "en/de")
+        self.assertEqual(scoring.language(chinese + " Android TV"), "other")
+        self.assertEqual(scoring.language(spanish), "other")
+        self.assertEqual(scoring.language(english + "中文说明：安卓电视去广告"), "en/de")
+        self.assertEqual(scoring.language(None), "none")
 
     def test_code_blocks_do_not_count_as_english(self):
         readme = "关掉国产安卓手机系统里的广告热搜资讯推荐和营销推送" * 3 + "\n```\nthe and of to is for with this\n```\n" * 20
-        self.assertEqual(discover.language(readme), "other")
+        self.assertEqual(scoring.language(readme), "other")
 
     def test_score_good_and_bad(self):
         now = datetime(2026, 11, 2, tzinfo=timezone.utc)
@@ -207,7 +215,7 @@ class Discover(unittest.TestCase):
                 "languages": {"nodes": [{"name": "C++"}, {"name": "Markdown"}]}, "issues": {"totalCount": 12},
                 "readme1": None, "readme2": {"text": english},
                 "defaultBranchRef": {"target": {"history": {"totalCount": 400, "nodes": commits}}}}
-        points, signals = discover.score(good, 3, now)
+        points, signals = scoring.score(good, 3, now)
         self.assertEqual(points, 8)
         self.assertEqual(signals, ["+en/de", "+license", "+topics", "+old owner", "+settled repo", "+20 days",
                                    "+contributors", "+issues"])
@@ -217,26 +225,34 @@ class Discover(unittest.TestCase):
                "repositoryTopics": {"nodes": []}, "languages": {"nodes": [{"name": "Markdown"}]},
                "issues": {"totalCount": 0}, "readme2": {"text": "关掉国产安卓手机系统里的广告" * 10},
                "defaultBranchRef": {"target": {"history": {"totalCount": 4, "nodes": [commits[0]] * 4}}}}
-        points, signals = discover.score(bad, 1, now)
+        points, signals = scoring.score(bad, 1, now)
         self.assertEqual(signals, ["-language", "-no code", "-new owner", "-young repo", "-fast stars",
                                    "-few forks", "-few commits", "-one day"])
         self.assertEqual(points, -10)
-        self.assertEqual(discover.score(None, None, now), (0, ["no data"]))
+        self.assertEqual(scoring.score(None, None, now), (0, ["no data"]))
 
     def test_english_translation_counts(self):
         now = datetime(2026, 11, 2, tzinfo=timezone.utc)
         english = "This tool rebuilds the protocol of the device and you can run it on your own machine. " * 5
         meta = {"readme1": {"text": "关掉国产安卓手机系统里的广告" * 10}, "readme_en1": {"text": english}}
-        self.assertEqual(discover.score(meta, None, now)[1][0], "+en readme")
-        self.assertEqual(discover.score({**meta, "readme_en1": None}, None, now)[1][0], "-language")
+        self.assertEqual(scoring.score(meta, None, now)[1][0], "+en readme")
+        self.assertEqual(scoring.score({**meta, "readme_en1": None}, None, now)[1][0], "-language")
+
+    def test_archived_and_quiet_projects_lose_points(self):
+        now = datetime(2026, 11, 2, tzinfo=timezone.utc)
+        self.assertIn("-archived", scoring.score({"isArchived": True, "pushedAt": "2020-01-01T00:00:00Z"}, None, now)[1])
+        quiet = scoring.score({"isArchived": False, "pushedAt": "2025-01-01T00:00:00Z"}, None, now)[1]
+        self.assertIn("-inactive", quiet)
+        self.assertNotIn("-archived", quiet)
+        self.assertNotIn("-inactive", scoring.score({"pushedAt": "2026-10-01T00:00:00Z"}, None, now)[1])
 
     def test_busy_day_in_a_long_history_is_not_one_day(self):
         now = datetime(2026, 11, 2, tzinfo=timezone.utc)
         nodes = [{"committedDate": "2026-10-20T10:00:00Z"}] * 100
         long = {"defaultBranchRef": {"target": {"history": {"totalCount": 1144, "nodes": nodes}}}}
         short = {"defaultBranchRef": {"target": {"history": {"totalCount": 5, "nodes": nodes[:5]}}}}
-        self.assertNotIn("-one day", discover.score(long, None, now)[1])
-        self.assertIn("-one day", discover.score(short, None, now)[1])
+        self.assertNotIn("-one day", scoring.score(long, None, now)[1])
+        self.assertIn("-one day", scoring.score(short, None, now)[1])
 
     def test_report_shows_score_and_signals(self):
         item = {**self.ITEM, "description": "Text"}
