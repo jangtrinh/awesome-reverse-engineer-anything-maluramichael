@@ -170,6 +170,12 @@ class Discover(unittest.TestCase):
         self.assertEqual(len(lines), 1)
         self.assertIn("the repository is gone", discover.report([], {}, "2026-11-02", lines))
 
+    def test_queries_cover_terms_and_topics(self):
+        queries = discover.queries("2026-07-01")
+        self.assertEqual(len(queries), len(set(queries)))
+        self.assertTrue(any(q.startswith("topic:reverse-engineering created:>2026-07-01") for q in queries))
+        self.assertTrue(any(q.startswith("debloat created:>") for q in queries))
+
     def test_clean_strips_markdown_and_mentions(self):
         cleaned = discover.clean("[click](http://x) @someone | <b>#1</b> `code`")
         for char in "[]()@|<>#`":

@@ -1,4 +1,4 @@
-"""Search GitHub for projects worth reviewing and write them to a Markdown report.
+"""Search GitHub by keyword and topic for projects worth reviewing and write a Markdown report.
 
 Nothing is added to the list automatically. A person reads the report, which is what
 keeps star-farmed copycats out. Repository descriptions are untrusted, so they are
@@ -8,16 +8,29 @@ from __future__ import annotations
 
 import re
 import sys
+import time
 from datetime import datetime, timedelta, timezone
 
 import common
 import github
 
 MIN_COMMITS = 10
-LIMIT = 60
+LIMIT = 80
 TERMS = ['"reverse engineered"', '"reverse-engineered"', '"clean-room"', "reimplementation", "decompilation",
-         '"static recompilation"', "topic:reverse-engineering", "topic:decompilation",
-         "debloat", '"smart tv"', '"android tv"', "unofficial", '"native port"', "rebuilt", '"not an emulator"']
+         '"static recompilation"', "debloat", '"smart tv"', '"android tv"', "unofficial", '"native port"',
+         "rebuilt", '"not an emulator"']
+# Taken from the topics the listed projects actually use, without generic ones like rust or linux.
+TOPICS = ["reverse-engineering", "android-reverse-engineering", "decompilation", "decompiler", "decompile",
+          "disassembler", "binary-analysis", "ghidra", "frida", "static-recompilation", "recompilation",
+          "reimplementation", "source-port", "native-port", "emulator", "debloat", "android-tv", "google-tv",
+          "fire-tv", "smart-tv"]
+SEARCH_PAUSE_SECONDS = 2.5  # The search API allows 30 requests per minute.
+
+
+
+def queries(created: str) -> list[str]:
+    terms = TERMS + [f"topic:{topic}" for topic in TOPICS]
+    return [f"{term} created:>{created} stars:>={common.MIN_STARS} fork:false" for term in terms]
 
 
 def clean(text: str | None, limit: int = 120) -> str:
@@ -64,8 +77,9 @@ def main() -> int:
     listed = {p["url"].lower() for p in common.load_projects()}
     rejected = {link.lower() for link in common.load_rejected()}
     found = []
-    for term in TERMS:
-        found += github.search_repositories(f"{term} created:>{created} stars:>={common.MIN_STARS} fork:false")
+    for query in queries(created):
+        found += github.search_repositories(query)
+        time.sleep(SEARCH_PAUSE_SECONDS)
     items = select(found, listed, rejected)[:LIMIT]
     meta = github.fetch_repositories([i["full_name"] for i in items])
     commits = {}
