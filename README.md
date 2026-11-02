@@ -18,6 +18,7 @@
 - [Tools](#tools)
 - [Related Lists](#related-lists)
 - [Growth](#growth)
+- [Star History](#star-history)
 
 ## Trending
 
@@ -274,6 +275,16 @@ Projects never leave the list, so it only gets bigger.
 | Month | New | Total | |
 | --- | ---: | ---: | --- |
 | 2026-11 | 112 | 112 | ██████████████████████████████ |
+
+## Star History
+
+<a href="https://www.star-history.com/?repos=maluramichael%2Fawesome-reverse-engineer-anything&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=maluramichael/awesome-reverse-engineer-anything&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=maluramichael/awesome-reverse-engineer-anything&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=maluramichael/awesome-reverse-engineer-anything&type=date&legend=top-left" />
+ </picture>
+</a>
 
 ## Contributing
 

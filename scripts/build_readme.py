@@ -20,6 +20,10 @@ INTRO = (
 
 ISSUE_FORM = "https://github.com/maluramichael/awesome-reverse-engineer-anything/issues/new?template=add-project.yml"
 
+REPO = "maluramichael/awesome-reverse-engineer-anything"
+STAR_CHART = f"https://api.star-history.com/chart?repos={REPO}&type=date&legend=top-left"
+STAR_PAGE = f"https://www.star-history.com/?repos={REPO.replace('/', '%2F')}&type=date&legend=top-left"
+
 TREND_WINDOW = 7
 TREND_LIMIT = 15
 GROWTH_BAR_WIDTH = 30
@@ -100,6 +104,15 @@ def growth_section(projects: list[dict]) -> list[str]:
     return lines + [""]
 
 
+def star_history_section() -> list[str]:
+    """Stars of this list itself, light or dark to match the reader's GitHub theme."""
+    dark = STAR_CHART.replace("&legend", "&theme=dark&legend")
+    return ["## Star History", "", f'<a href="{STAR_PAGE}">', " <picture>",
+            f'   <source media="(prefers-color-scheme: dark)" srcset="{dark}" />',
+            f'   <source media="(prefers-color-scheme: light)" srcset="{STAR_CHART}" />',
+            f'   <img alt="Star History Chart" src="{STAR_CHART}" />', " </picture>", "</a>", ""]
+
+
 def anchor_for(title: str) -> str:
     return "".join(c for c in title.lower().replace(" ", "-") if c.isalnum() or c == "-")
 
@@ -150,11 +163,12 @@ def render(projects: list[dict], stats_file: dict, history: dict) -> str:
     titles = [c["title"] for key, c in common.CATEGORIES.items() if any(p["category"] == key for p in projects)]
     lines = ["# Awesome Reverse Engineer Anything [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)", "",
              LINKS, "", f"> {INTRO}", "", "## Contents", "", "- [Trending](#trending)"]
-    lines += [f"- [{title}](#{anchor_for(title)})" for title in titles] + ["- [Growth](#growth)", ""]
+    lines += [f"- [{title}](#{anchor_for(title)})" for title in titles] + ["- [Growth](#growth)", "- [Star History](#star-history)", ""]
     lines += trending_section(projects, stats, history, today)
     for key in common.CATEGORIES:
         lines += category_section(key, projects, stats)
     lines += growth_section(projects)
+    lines += star_history_section()
     lines += ["## Contributing", "",
               f"New entries are welcome. [Open an issue]({ISSUE_FORM}) and a bot "
               "prepares the pull request, or read the [contribution guidelines](contributing.md).", "",
