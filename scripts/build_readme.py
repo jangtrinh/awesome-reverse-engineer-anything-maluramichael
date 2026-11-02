@@ -15,11 +15,14 @@ INTRO = (
     "Reverse engineering turns a closed program, protocol or device into something you can read, "
     "rebuild and run yourself. These are the open projects that did it and the tools they used, "
     f"with star trends refreshed every day. Only what is hot makes it: at least {common.MIN_STARS} stars "
-    "and a commit in the last year."
+    "and a commit in the last year to get in, and once a project is in, it stays."
 )
+
+ISSUE_FORM = "https://github.com/maluramichael/awesome-reverse-engineer-anything/issues/new?template=add-project.yml"
 
 TREND_WINDOW = 7
 TREND_LIMIT = 15
+GROWTH_BAR_WIDTH = 30
 
 
 def format_stars(count: int) -> str:
@@ -81,6 +84,22 @@ def trending_section(projects: list[dict], stats: dict, history: dict, today: st
     return lines + [""]
 
 
+def growth_section(projects: list[dict]) -> list[str]:
+    """New and total projects per month, from each project's added date."""
+    months: dict[str, int] = {}
+    for project in projects:
+        month = project["added"][:7]
+        months[month] = months.get(month, 0) + 1
+    lines = ["## Growth", "", "Projects never leave the list, so it only gets bigger.", "",
+             "| Month | New | Total | |", "| --- | ---: | ---: | --- |"]
+    total, largest = 0, len(projects) or 1
+    for month in sorted(months):
+        total += months[month]
+        bar = "\u2588" * max(round(total / largest * GROWTH_BAR_WIDTH), 1)
+        lines.append(f"| {month} | {months[month]} | {total} | {bar} |")
+    return lines + [""]
+
+
 def anchor_for(title: str) -> str:
     return "".join(c for c in title.lower().replace(" ", "-") if c.isalnum() or c == "-")
 
@@ -131,12 +150,13 @@ def render(projects: list[dict], stats_file: dict, history: dict) -> str:
     titles = [c["title"] for key, c in common.CATEGORIES.items() if any(p["category"] == key for p in projects)]
     lines = ["# Awesome Reverse Engineer Anything [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)", "",
              LINKS, "", f"> {INTRO}", "", "## Contents", "", "- [Trending](#trending)"]
-    lines += [f"- [{title}](#{anchor_for(title)})" for title in titles] + [""]
+    lines += [f"- [{title}](#{anchor_for(title)})" for title in titles] + ["- [Growth](#growth)", ""]
     lines += trending_section(projects, stats, history, today)
     for key in common.CATEGORIES:
         lines += category_section(key, projects, stats)
+    lines += growth_section(projects)
     lines += ["## Contributing", "",
-              "New entries are welcome. [Open an issue](../../issues/new?template=add-project.yml) and a bot "
+              f"New entries are welcome. [Open an issue]({ISSUE_FORM}) and a bot "
               "prepares the pull request, or read the [contribution guidelines](contributing.md).", "",
               "## Footnotes", "",
               f"{len(projects)} projects. Stars last fetched on {today}. This file is generated from "

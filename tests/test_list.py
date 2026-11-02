@@ -116,6 +116,12 @@ class Readme(unittest.TestCase):
         self.assertIn("- [Tools](#tools)", first)
         self.assertNotIn("## Apps", first)
 
+    def test_growth_counts_per_month_and_cumulates(self):
+        projects = [{**VALID, "added": "2026-11-02"}, {**VALID, "added": "2026-11-20"}, {**VALID, "added": "2026-12-01"}]
+        lines = build_readme.growth_section(projects)
+        self.assertTrue(any(line.startswith("| 2026-11 | 2 | 2 |") for line in lines))
+        self.assertTrue(any(line.startswith("| 2026-12 | 1 | 3 |") for line in lines))
+
     def test_anchor_matches_github(self):
         self.assertEqual(build_readme.anchor_for("Protocols, APIs and Formats"), "protocols-apis-and-formats")
 
@@ -154,11 +160,15 @@ class Discover(unittest.TestCase):
         self.assertEqual(discover.select([{**self.ITEM, "fork": True}], set(), set()), [])
         self.assertEqual(discover.select([{**self.ITEM, "stargazers_count": 499}], set(), set()), [])
 
-    def test_report_flags_projects_below_the_bar(self):
-        stats = {"acme/example": {"stars": 3, "pushed": "2026-11-01", "created": "2026-01-01"}}
-        lines = discover.below_bar_lines([VALID], stats, "2026-11-02")
+    def test_quiet_projects_are_not_flagged(self):
+        stats = {"acme/example": {"stars": 3, "pushed": "2020-01-01", "created": "2019-01-01", "archived": True}}
+        self.assertEqual(discover.gone_lines([VALID], stats), [])
+
+    def test_missing_repositories_are_flagged(self):
+        stats = {"acme/example": {"stars": 3, "pushed": "2020-01-01", "created": "2019-01-01", "missing": True}}
+        lines = discover.gone_lines([VALID], stats)
         self.assertEqual(len(lines), 1)
-        self.assertIn("## On the list but below the bar", discover.report([], {}, "2026-11-02", lines))
+        self.assertIn("the repository is gone", discover.report([], {}, "2026-11-02", lines))
 
     def test_clean_strips_markdown_and_mentions(self):
         cleaned = discover.clean("[click](http://x) @someone | <b>#1</b> `code`")

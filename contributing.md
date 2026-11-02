@@ -2,7 +2,7 @@
 
 ## Add a project
 
-The quickest way is the [Add a project](../../issues/new?template=add-project.yml) form. A bot checks your answers and opens the pull request for you.
+The quickest way is the [Add a project](https://github.com/maluramichael/awesome-reverse-engineer-anything/issues/new?template=add-project.yml) form. A bot checks your answers and opens the pull request for you.
 
 You can also open a pull request yourself. Add one file to [`data/projects`](data/projects), named `owner--repo.json` in lower case:
 
@@ -22,7 +22,9 @@ You can also open a pull request yourself. Add one file to [`data/projects`](dat
 
 ## The bar
 
-This is a list of what is hot right now, not of everything that exists. A project needs **at least 500 stars** and **a commit in the last 365 days**, and it must not be archived. The bot and CI check this. The weekly report flags listed projects that fall below it. The only exception is the Crafting Apps group, which stays complete.
+To get on the list, a project needs **at least 500 stars** and **a commit in the last 365 days**, and it must not be archived. The bot and CI check this. The only exception is the Crafting Apps group, which stays complete.
+
+The bar only applies on the way in. Once a project is listed it stays, even when the hype is over, and an archived one is marked as such. Only a repository that no longer exists is removed by hand, or an entry a rights holder asks to take down.
 
 ## What belongs here
 

@@ -34,8 +34,8 @@ def validate_all() -> list[str]:
 def new_project_errors() -> list[str]:
     """Hold projects that have no stats yet, so new ones, to the bar.
 
-    Projects already on the list are not checked here: one falling below the bar must not
-    fail an unrelated pull request. The weekly discovery report lists those instead.
+    The bar only applies on the way in. Projects already on the list stay, however
+    quiet they get.
     """
     known = common.load_json(common.STATS_FILE, {"repos": {}})["repos"]
     new = {}

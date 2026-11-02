@@ -64,7 +64,8 @@ GITHUB_URL = re.compile(r"^https://github\.com/([A-Za-z0-9-]+)/([A-Za-z0-9_.-]+)
 HTTPS_URL = re.compile(r"^https://[A-Za-z0-9.-]+\.[A-Za-z]{2,}(/[A-Za-z0-9_.~/-]*)?$")
 MAX_DESCRIPTION = 170
 
-# The bar for being on the list. This is a list of what is hot, not of everything that exists.
+# The bar for getting on the list. It only applies on the way in: a project stays once it is listed,
+# so the list keeps growing and the Trending table shows what is hot right now.
 MIN_STARS = 500
 MAX_INACTIVE_DAYS = 365
 # Groups kept complete on purpose, even when a single member is still below the bar.

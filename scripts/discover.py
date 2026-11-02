@@ -35,22 +35,13 @@ def select(items: list[dict], listed: set[str], rejected: set[str]) -> list[dict
     return sorted(unique.values(), key=lambda i: -i["stargazers_count"])
 
 
-def below_bar_lines(projects: list[dict], stats: dict, today: str) -> list[str]:
-    """Listed projects that have fallen below the bar and should be reviewed for removal."""
-    lines = []
-    for project in projects:
-        info = stats.get(common.github_repo(project["url"]))
-        if info is None:
-            continue
-        problem = common.below_bar(project, info["stars"], info["pushed"], info.get("archived", False), today)
-        if info.get("missing"):
-            problem = "the repository could not be resolved"
-        if problem:
-            lines.append(f"- [{project['name']}]({project['url']}): {problem}")
-    return lines
+def gone_lines(projects: list[dict], stats: dict) -> list[str]:
+    """Listed projects whose repository no longer exists. A quiet project is fine, a dead link is not."""
+    return [f"- [{project['name']}]({project['url']})" for project in projects
+            if stats.get(common.github_repo(project["url"]), {}).get("missing")]
 
 
-def report(items: list[dict], commits: dict[str, int], today: str, below: list[str] | None = None) -> str:
+def report(items: list[dict], commits: dict[str, int], today: str, gone: list[str] | None = None) -> str:
     lines = ["Repositories found by the weekly search that are not on the list yet. Add good ones "
              "through the issue form, and put bad ones in `data/rejected.json` so they stop showing up.", "",
              f"Updated {today}.", "",
@@ -61,8 +52,8 @@ def report(items: list[dict], commits: dict[str, int], today: str, below: list[s
         flag = " (few)" if count < MIN_COMMITS else ""
         lines.append(f"| [{name}](https://github.com/{name}) | {item['stargazers_count']} | {item['created_at'][:10]} "
                      f"| {count}{flag} | {clean(item.get('description'))} |")
-    if below:
-        lines += ["", "## On the list but below the bar", ""] + below
+    if gone:
+        lines += ["", "## On the list but the repository is gone", ""] + gone
     return "\n".join(lines) + "\n"
 
 
@@ -83,7 +74,7 @@ def main() -> int:
     with open(sys.argv[1], "w", encoding="utf-8") as handle:
         today = now.date().isoformat()
         stats = common.load_json(common.STATS_FILE, {"repos": {}})["repos"]
-        handle.write(report(items, commits, today, below_bar_lines(common.load_projects(), stats, today)))
+        handle.write(report(items, commits, today, gone_lines(common.load_projects(), stats)))
     print(f"{len(items)} candidates")
     return 0
 

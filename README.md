@@ -5,7 +5,7 @@
 [![Check out my page](https://malura.de/assets/badge/malura.svg)](https://malura.de/go/site?ref=awesome-reverse-engineer-anything)
 <!-- links:end -->
 
-> Reverse engineering turns a closed program, protocol or device into something you can read, rebuild and run yourself. These are the open projects that did it and the tools they used, with star trends refreshed every day. Only what is hot makes it: at least 500 stars and a commit in the last year.
+> Reverse engineering turns a closed program, protocol or device into something you can read, rebuild and run yourself. These are the open projects that did it and the tools they used, with star trends refreshed every day. Only what is hot makes it: at least 500 stars and a commit in the last year to get in, and once a project is in, it stays.
 
 ## Contents
 
@@ -17,6 +17,7 @@
 - [Hardware and Firmware](#hardware-and-firmware)
 - [Tools](#tools)
 - [Related Lists](#related-lists)
+- [Growth](#growth)
 
 ## Trending
 
@@ -243,9 +244,17 @@ Other lists and directories on the same subject.
 | [Awesome Reverse-Engineered](https://github.com/alexgaoth/awesome-reverse-engineered) | Searchable index of more than 17,000 projects built by reverse engineering. | 1.1k | 2026-11-01 |
 | [Awesome REA by reacher-z](https://github.com/reacher-z/Awesome-REA) | Tools, case studies and research papers across six reverse engineering domains. | 805 | 2026-11-02 |
 
+## Growth
+
+Projects never leave the list, so it only gets bigger.
+
+| Month | New | Total | |
+| --- | ---: | ---: | --- |
+| 2026-11 | 101 | 101 | ██████████████████████████████ |
+
 ## Contributing
 
-New entries are welcome. [Open an issue](../../issues/new?template=add-project.yml) and a bot prepares the pull request, or read the [contribution guidelines](contributing.md).
+New entries are welcome. [Open an issue](https://github.com/maluramichael/awesome-reverse-engineer-anything/issues/new?template=add-project.yml) and a bot prepares the pull request, or read the [contribution guidelines](contributing.md).
 
 ## Footnotes
 
