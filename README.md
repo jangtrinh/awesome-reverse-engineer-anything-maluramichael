@@ -26,7 +26,7 @@ Most stars gained per day over the last 7 days, excluding related lists.
 | --- | --- | ---: | ---: |
 | [PhotoCraft](https://github.com/storytold/photocraft) | [Apps](#apps) | 76k | ~2,304 |
 | [REA](https://github.com/morluto/rea) | [Tools](#tools) | 420.6k | ~2,082 |
-| [Craft Anything](https://github.com/storytold/craft-anything) | [Tools](#tools) | 2.2k | ~1,091 |
+| [Craft Anything](https://github.com/storytold/craft-anything) | [Tools](#tools) | 2.2k | ~1,096 |
 | [totk-pc-recomp](https://github.com/valentderah/totk-pc-recomp) | [Games](#games) | 3.5k | ~874 |
 | [WordCraft](https://github.com/storytold/wordcraft) | [Apps](#apps) | 17k | ~654 |
 | [PdfCraft](https://github.com/storytold/pdfcraft) | [Apps](#apps) | 19.1k | ~580 |
@@ -117,7 +117,7 @@ Commercial games turned back into source code or native ports. None of these sho
 | [Ship of Harkinian](https://github.com/HarbourMasters/Shipwright) | The Legend of Zelda: Ocarina of Time | PC port built from the decompilation. | 5.8k | 2026-11-01 |
 | [Horizon](https://github.com/horizon-rust/horizon) | Minecraft: Java Edition | Rewrite from scratch in Rust, checked against vanilla with differential test harnesses. | 5.8k | 2026-11-02 |
 | [NBlood](https://github.com/NBlood/NBlood) | Blood, Redneck Rampage, Powerslave | Reverse engineered ports of Build engine games. | 820 | 2026-10-02 |
-| [MetroidPrimePort](https://github.com/Odrannnn/MetroidPrimePort) | Metroid Prime | Native port for Linux, Windows and Android built from the PrimeDecomp decompilation. No game assets included. | 620 | 2026-11-02 |
+| [MetroidPrimePort](https://github.com/Odrannnn/MetroidPrimePort) | Metroid Prime | Native port for Linux, Windows and Android built from the PrimeDecomp decompilation. No game assets included. | 621 | 2026-11-02 |
 
 ## Emulators
 
@@ -241,7 +241,7 @@ Other lists and directories on the same subject.
 | [Awesome Decomp Games](https://github.com/SubmitGame/awesome-decomp-games) | Rated, auto-refreshed list of decompiled, recompiled and reverse engineered games. | 2.8k | 2026-11-01 |
 | [Awesome Reverse Engineering](https://github.com/morluto/awesome-reverse-engineering) | Curated tools and learning resources, by the creators of REA. | 1.5k | 2026-10-30 |
 | [Awesome Reverse-Engineered](https://github.com/alexgaoth/awesome-reverse-engineered) | Searchable index of more than 17,000 projects built by reverse engineering. | 1.1k | 2026-11-01 |
-| [Awesome REA by reacher-z](https://github.com/reacher-z/Awesome-REA) | Tools, case studies and research papers across six reverse engineering domains. | 804 | 2026-11-02 |
+| [Awesome REA by reacher-z](https://github.com/reacher-z/Awesome-REA) | Tools, case studies and research papers across six reverse engineering domains. | 805 | 2026-11-02 |
 
 ## Contributing
 

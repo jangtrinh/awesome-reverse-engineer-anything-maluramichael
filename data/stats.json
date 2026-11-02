@@ -115,7 +115,7 @@
     },
     "Noelo-Lab/kuna": {
       "archived": false,
-      "commits": 2769,
+      "commits": 2770,
       "created": "2026-06-07",
       "forks": 69,
       "pushed": "2026-11-02",
@@ -127,7 +127,7 @@
       "created": "2026-09-19",
       "forks": 35,
       "pushed": "2026-11-02",
-      "stars": 620
+      "stars": 621
     },
     "OpenMW/openmw": {
       "archived": false,
@@ -183,7 +183,7 @@
       "created": "2026-10-16",
       "forks": 162,
       "pushed": "2026-11-01",
-      "stars": 2790
+      "stars": 2791
     },
     "SubmitGame/awesome-decomp-games": {
       "archived": false,
@@ -347,11 +347,11 @@
     },
     "horizon-rust/horizon": {
       "archived": false,
-      "commits": 15345,
+      "commits": 15357,
       "created": "2026-10-03",
       "forks": 743,
       "pushed": "2026-11-02",
-      "stars": 5799
+      "stars": 5800
     },
     "iBotPeaches/Apktool": {
       "archived": false,
@@ -383,7 +383,7 @@
       "created": "2026-10-21",
       "forks": 355,
       "pushed": "2026-11-02",
-      "stars": 4405
+      "stars": 4408
     },
     "libimobiledevice/libimobiledevice": {
       "archived": false,
@@ -445,9 +445,9 @@
       "archived": false,
       "commits": 6338,
       "created": "2026-04-14",
-      "forks": 105022,
+      "forks": 105025,
       "pushed": "2026-11-02",
-      "stars": 420627
+      "stars": 420633
     },
     "mrexodia/ida-pro-mcp": {
       "archived": false,
@@ -507,11 +507,11 @@
     },
     "reacher-z/Awesome-REA": {
       "archived": false,
-      "commits": 978,
+      "commits": 979,
       "created": "2026-10-16",
       "forks": 228,
       "pushed": "2026-11-02",
-      "stars": 804
+      "stars": 805
     },
     "reactos/reactos": {
       "archived": false,
@@ -621,9 +621,9 @@
       "archived": false,
       "commits": 131,
       "created": "2026-10-31",
-      "forks": 342,
+      "forks": 344,
       "pushed": "2026-11-02",
-      "stars": 2182
+      "stars": 2192
     },
     "storytold/craft-launcher": {
       "archived": false,
@@ -631,7 +631,7 @@
       "created": "2026-10-09",
       "forks": 1383,
       "pushed": "2026-11-01",
-      "stars": 4748
+      "stars": 4749
     },
     "storytold/deckcraft": {
       "archived": false,
@@ -703,7 +703,7 @@
       "created": "2026-09-30",
       "forks": 13470,
       "pushed": "2026-11-02",
-      "stars": 76025
+      "stars": 76026
     },
     "storytold/soundcraft": {
       "archived": false,
@@ -717,7 +717,7 @@
       "archived": false,
       "commits": 327,
       "created": "2026-10-14",
-      "forks": 40,
+      "forks": 41,
       "pushed": "2026-11-02",
       "stars": 178
     },
@@ -741,7 +741,7 @@
       "archived": false,
       "commits": 3747,
       "created": "2026-10-07",
-      "forks": 1701,
+      "forks": 1702,
       "pushed": "2026-11-02",
       "stars": 13025
     },
@@ -767,7 +767,7 @@
       "created": "2026-10-29",
       "forks": 282,
       "pushed": "2026-11-02",
-      "stars": 3494
+      "stars": 3496
     },
     "wine-mirror/wine": {
       "archived": false,
