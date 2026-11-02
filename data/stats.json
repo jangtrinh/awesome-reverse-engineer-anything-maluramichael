@@ -25,6 +25,22 @@
       "pushed": "2026-11-01",
       "stars": 1039
     },
+    "Droid-Deck/DroidDeck": {
+      "archived": false,
+      "commits": 1841,
+      "created": "2026-09-24",
+      "forks": 888,
+      "pushed": "2026-11-02",
+      "stars": 17321
+    },
+    "Gathin23/cleanyourtv": {
+      "archived": false,
+      "commits": 4897,
+      "created": "2026-10-17",
+      "forks": 6255,
+      "pushed": "2026-11-02",
+      "stars": 49705
+    },
     "HarbourMasters/Shipwright": {
       "archived": false,
       "commits": 4342,
@@ -111,7 +127,7 @@
       "created": "2019-03-01",
       "forks": 10959,
       "pushed": "2026-11-02",
-      "stars": 96975
+      "stars": 96976
     },
     "Noelo-Lab/kuna": {
       "archived": false,
@@ -183,7 +199,7 @@
       "created": "2026-10-16",
       "forks": 162,
       "pushed": "2026-11-01",
-      "stars": 2791
+      "stars": 2792
     },
     "SubmitGame/awesome-decomp-games": {
       "archived": false,
@@ -347,11 +363,19 @@
     },
     "horizon-rust/horizon": {
       "archived": false,
-      "commits": 15370,
+      "commits": 15382,
       "created": "2026-10-03",
       "forks": 743,
       "pushed": "2026-11-02",
-      "stars": 5800
+      "stars": 5801
+    },
+    "humblemuzzu/dumbtv": {
+      "archived": false,
+      "commits": 266,
+      "created": "2026-10-18",
+      "forks": 190,
+      "pushed": "2026-10-27",
+      "stars": 1862
     },
     "iBotPeaches/Apktool": {
       "archived": false,
@@ -383,7 +407,7 @@
       "created": "2026-10-21",
       "forks": 355,
       "pushed": "2026-11-02",
-      "stars": 4409
+      "stars": 4411
     },
     "libimobiledevice/libimobiledevice": {
       "archived": false,
@@ -400,6 +424,22 @@
       "forks": 968,
       "pushed": "2026-10-21",
       "stars": 7359
+    },
+    "ly05010419/MacNativeGames": {
+      "archived": false,
+      "commits": 1351,
+      "created": "2026-10-17",
+      "forks": 1003,
+      "pushed": "2026-11-02",
+      "stars": 6836
+    },
+    "man15h/tellyscope": {
+      "archived": false,
+      "commits": 514,
+      "created": "2026-10-22",
+      "forks": 61,
+      "pushed": "2026-11-02",
+      "stars": 1161
     },
     "mandiant/capa": {
       "archived": false,
@@ -447,7 +487,7 @@
       "created": "2026-04-14",
       "forks": 105026,
       "pushed": "2026-11-02",
-      "stars": 420641
+      "stars": 420645
     },
     "mrexodia/ida-pro-mcp": {
       "archived": false,
@@ -481,6 +521,14 @@
       "pushed": "2026-11-02",
       "stars": 2067
     },
+    "pengchujin/aerial-tv": {
+      "archived": false,
+      "commits": 618,
+      "created": "2026-10-20",
+      "forks": 758,
+      "pushed": "2026-11-02",
+      "stars": 8906
+    },
     "pret/pokeemerald": {
       "archived": false,
       "commits": 8129,
@@ -507,7 +555,7 @@
     },
     "reacher-z/Awesome-REA": {
       "archived": false,
-      "commits": 979,
+      "commits": 980,
       "created": "2026-10-16",
       "forks": 228,
       "pushed": "2026-11-02",
@@ -553,6 +601,14 @@
       "pushed": "2026-11-02",
       "stars": 1147
     },
+    "seedds/nxnative": {
+      "archived": false,
+      "commits": 872,
+      "created": "2026-10-13",
+      "forks": 1819,
+      "pushed": "2026-11-02",
+      "stars": 11172
+    },
     "seemoo-lab/opendrop": {
       "archived": false,
       "commits": 65,
@@ -584,6 +640,22 @@
       "forks": 116,
       "pushed": "2026-11-02",
       "stars": 998
+    },
+    "shihabal3amri/DiPlay": {
+      "archived": false,
+      "commits": 1566,
+      "created": "2026-09-24",
+      "forks": 1676,
+      "pushed": "2026-10-28",
+      "stars": 13079
+    },
+    "simbasjungles/free-my-tv": {
+      "archived": false,
+      "commits": 643,
+      "created": "2026-10-19",
+      "forks": 983,
+      "pushed": "2026-10-31",
+      "stars": 5709
     },
     "skylot/jadx": {
       "archived": false,
@@ -621,9 +693,9 @@
       "archived": false,
       "commits": 131,
       "created": "2026-10-31",
-      "forks": 345,
+      "forks": 346,
       "pushed": "2026-11-02",
-      "stars": 2195
+      "stars": 2198
     },
     "storytold/craft-launcher": {
       "archived": false,
@@ -663,7 +735,7 @@
       "created": "2026-10-09",
       "forks": 1601,
       "pushed": "2026-11-02",
-      "stars": 4089
+      "stars": 4090
     },
     "storytold/filmcraft": {
       "archived": false,
@@ -671,7 +743,7 @@
       "created": "2026-09-30",
       "forks": 7134,
       "pushed": "2026-11-02",
-      "stars": 17253
+      "stars": 17254
     },
     "storytold/gridcraft": {
       "archived": false,
@@ -703,7 +775,7 @@
       "created": "2026-09-30",
       "forks": 13470,
       "pushed": "2026-11-02",
-      "stars": 76026
+      "stars": 76027
     },
     "storytold/soundcraft": {
       "archived": false,
@@ -719,7 +791,7 @@
       "created": "2026-10-14",
       "forks": 41,
       "pushed": "2026-11-02",
-      "stars": 178
+      "stars": 179
     },
     "storytold/vectorcraft": {
       "archived": false,
@@ -741,7 +813,7 @@
       "archived": false,
       "commits": 3747,
       "created": "2026-10-07",
-      "forks": 1702,
+      "forks": 1703,
       "pushed": "2026-11-02",
       "stars": 13026
     },
@@ -752,6 +824,14 @@
       "forks": 1296,
       "pushed": "2026-10-31",
       "stars": 7733
+    },
+    "udhaykumarbala/cleanyourtv-app": {
+      "archived": false,
+      "commits": 796,
+      "created": "2026-10-21",
+      "forks": 120,
+      "pushed": "2026-10-31",
+      "stars": 1401
     },
     "unbrowse-ai/unbrowse": {
       "archived": false,
@@ -767,7 +847,7 @@
       "created": "2026-10-29",
       "forks": 282,
       "pushed": "2026-11-02",
-      "stars": 3496
+      "stars": 3498
     },
     "wine-mirror/wine": {
       "archived": false,

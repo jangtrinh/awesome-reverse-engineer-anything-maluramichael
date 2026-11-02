@@ -1,0 +1,9 @@
+{
+  "added": "2026-11-02",
+  "category": "games",
+  "description": "Runs Switch games natively on iPhone, iPad and Mac by rewriting them, with a Horizon HLE host.",
+  "group": "Source Ports and Engine Rebuilds",
+  "name": "nxnative",
+  "target": "Nintendo Switch games",
+  "url": "https://github.com/seedds/nxnative"
+}

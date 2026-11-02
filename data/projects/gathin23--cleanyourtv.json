@@ -1,0 +1,9 @@
+{
+  "added": "2026-11-02",
+  "category": "hardware",
+  "description": "Strips ads and bloat from any Android or Google TV over Wi-Fi and adds an Apple TV-style home screen.",
+  "group": "Smart TVs",
+  "name": "Clean Your TV",
+  "target": "Android TV, Google TV",
+  "url": "https://github.com/Gathin23/cleanyourtv"
+}

@@ -2,6 +2,7 @@
   "added": "2026-11-02",
   "category": "hardware",
   "description": "Decodes radio transmissions from devices on the ISM bands.",
+  "group": "Devices and Firmware",
   "name": "rtl_433",
   "target": "ISM band devices",
   "url": "https://github.com/merbanan/rtl_433"

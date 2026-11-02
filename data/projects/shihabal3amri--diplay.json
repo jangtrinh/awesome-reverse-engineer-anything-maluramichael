@@ -1,0 +1,8 @@
+{
+  "added": "2026-11-02",
+  "category": "protocols",
+  "description": "Independent CarPlay receiver for compatible Android head units.",
+  "name": "DiPlay",
+  "target": "Apple CarPlay",
+  "url": "https://github.com/shihabal3amri/DiPlay"
+}

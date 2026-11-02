@@ -30,6 +30,7 @@ The bar only applies on the way in. Once a project is listed it stays, even when
 
 - A project that exists because someone reverse engineered something closed: an app, a game, a console, a protocol, a file format or a device.
 - A clean-room rebuild of a closed product.
+- A project that takes a device back from its vendor: ads, telemetry, cloud lock-in.
 - A tool people use for this kind of work.
 - Public source code, more than a handful of commits, and a README that explains what it does.
 

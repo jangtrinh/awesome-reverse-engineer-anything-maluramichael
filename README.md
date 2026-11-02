@@ -25,21 +25,21 @@ Most stars gained per day over the last 7 days, excluding related lists.
 
 | Project | Category | Stars | Stars per day |
 | --- | --- | ---: | ---: |
+| [Clean Your TV](https://github.com/Gathin23/cleanyourtv) | [Hardware and Firmware](#hardware-and-firmware) | 49.7k | ~3,107 |
 | [PhotoCraft](https://github.com/storytold/photocraft) | [Apps](#apps) | 76k | ~2,304 |
 | [REA](https://github.com/morluto/rea) | [Tools](#tools) | 420.6k | ~2,082 |
-| [Craft Anything](https://github.com/storytold/craft-anything) | [Tools](#tools) | 2.2k | ~1,098 |
+| [Craft Anything](https://github.com/storytold/craft-anything) | [Tools](#tools) | 2.2k | ~1,099 |
 | [totk-pc-recomp](https://github.com/valentderah/totk-pc-recomp) | [Games](#games) | 3.5k | ~874 |
+| [Aerial TV](https://github.com/pengchujin/aerial-tv) | [Hardware and Firmware](#hardware-and-firmware) | 8.9k | ~685 |
 | [WordCraft](https://github.com/storytold/wordcraft) | [Apps](#apps) | 17k | ~654 |
 | [PdfCraft](https://github.com/storytold/pdfcraft) | [Apps](#apps) | 19.1k | ~580 |
+| [nxnative](https://github.com/seedds/nxnative) | [Games](#games) | 11.2k | ~559 |
 | [FilmCraft](https://github.com/storytold/filmcraft) | [Apps](#apps) | 17.3k | ~523 |
 | [SolidCraft](https://github.com/tangency-labs/solidcraft) | [Apps](#apps) | 13k | ~501 |
 | [LightCraft](https://github.com/storytold/lightcraft) | [Apps](#apps) | 15.3k | ~463 |
-| [OpenIDEA](https://github.com/l0ng-ai/openidea) | [Apps](#apps) | 4.4k | ~367 |
-| [VectorCraft](https://github.com/storytold/vectorcraft) | [Apps](#apps) | 11.2k | ~340 |
-| [CADCraft](https://github.com/storytold/cadcraft) | [Apps](#apps) | 7.4k | ~286 |
-| [Universal Modder](https://github.com/rehan-remade/universal-modder) | [Tools](#tools) | 9.3k | ~283 |
-| [GridCraft](https://github.com/storytold/gridcraft) | [Apps](#apps) | 7k | ~269 |
-| [EffectCraft](https://github.com/storytold/effectcraft) | [Apps](#apps) | 8.3k | ~260 |
+| [DroidDeck](https://github.com/Droid-Deck/DroidDeck) | [Emulators](#emulators) | 17.3k | ~444 |
+| [MacNativeGames](https://github.com/ly05010419/MacNativeGames) | [Games](#games) | 6.8k | ~427 |
+| [Free My TV](https://github.com/simbasjungles/free-my-tv) | [Hardware and Firmware](#hardware-and-firmware) | 5.7k | ~408 |
 
 `~` is the lifetime average, used until a project has daily snapshots.
 
@@ -67,7 +67,7 @@ Desktop software and operating systems rebuilt without the original source code.
 | [DeckCraft](https://github.com/storytold/deckcraft) | Microsoft PowerPoint | Clean-room presentation app in pure Rust. | 4.5k | 2026-11-02 |
 | [FigCraft](https://github.com/storytold/figcraft) |  | Clean-room interface design and prototyping tool in pure Rust. | 4.1k | 2026-11-02 |
 | [SoundCraft](https://github.com/storytold/soundcraft) | Avid Pro Tools | Clean-room audio recording and editing app in pure Rust. | 4k | 2026-11-02 |
-| [TextureCraft](https://github.com/storytold/texturecraft) |  | 3D texture painting workflow in pure Rust. | 178 | 2026-11-02 |
+| [TextureCraft](https://github.com/storytold/texturecraft) |  | 3D texture painting workflow in pure Rust. | 179 | 2026-11-02 |
 
 ### Clean-Room Rebuilds
 
@@ -114,6 +114,8 @@ Commercial games turned back into source code or native ports. None of these sho
 | --- | --- | --- | ---: | --- |
 | [OpenRA](https://github.com/OpenRA/OpenRA) | Command & Conquer: Red Alert | Real-time strategy engine in C# for early Westwood games. | 17.7k | 2026-10-28 |
 | [OpenRCT2](https://github.com/OpenRCT2/OpenRCT2) | RollerCoaster Tycoon 2 | Open source reimplementation of the game. | 16.5k | 2026-11-02 |
+| [nxnative](https://github.com/seedds/nxnative) | Nintendo Switch games | Runs Switch games natively on iPhone, iPad and Mac by rewriting them, with a Horizon HLE host. | 11.2k | 2026-11-02 |
+| [MacNativeGames](https://github.com/ly05010419/MacNativeGames) | The Legend of Zelda: Tears of the Kingdom, Breath of the Wild | Plays your own copies natively on Apple silicon Mac, iPhone and iPad without an emulator. | 6.8k | 2026-11-02 |
 | [OpenMW](https://github.com/OpenMW/openmw) | The Elder Scrolls III: Morrowind | Open-world RPG engine that plays Morrowind. | 6.7k | 2026-11-01 |
 | [Ship of Harkinian](https://github.com/HarbourMasters/Shipwright) | The Legend of Zelda: Ocarina of Time | PC port built from the decompilation. | 5.8k | 2026-11-01 |
 | [Horizon](https://github.com/horizon-rust/horizon) | Minecraft: Java Edition | Rewrite from scratch in Rust, checked against vanilla with differential test harnesses. | 5.8k | 2026-11-02 |
@@ -128,6 +130,7 @@ Consoles reimplemented in software.
 | --- | --- | --- | ---: | --- |
 | [shadPS4](https://github.com/shadps4-emu/shadPS4) | PlayStation 4 | Emulator for Windows, Linux, macOS and FreeBSD. | 34k | 2026-11-02 |
 | [RPCS3](https://github.com/RPCS3/rpcs3) | PlayStation 3 | Emulator and debugger. | 20.3k | 2026-11-02 |
+| [DroidDeck](https://github.com/Droid-Deck/DroidDeck) | SteamOS | Brings the SteamOS experience to Android. | 17.3k | 2026-11-02 |
 | [PCSX2](https://github.com/PCSX2/pcsx2) | PlayStation 2 | Emulator. | 16k | 2026-11-02 |
 | [Dolphin](https://github.com/dolphin-emu/dolphin) | GameCube, Wii | Emulator that plays both consoles on PC with improvements. | 15.8k | 2026-11-02 |
 | [xemu](https://github.com/xemu-project/xemu) | Original Xbox | Emulator for Windows, macOS and Linux. | 4.2k | 2026-11-02 |
@@ -141,6 +144,7 @@ Open clients and libraries for closed protocols, private APIs and undocumented f
 | Project | Rebuilds | What it is | Stars | Last commit |
 | --- | --- | --- | ---: | --- |
 | [OpenHaystack](https://github.com/seemoo-lab/openhaystack) | Apple Find My | Framework for tracking your own Bluetooth devices through the Find My network. | 13.9k | 2026-08-17 |
+| [DiPlay](https://github.com/shihabal3amri/DiPlay) | Apple CarPlay | Independent CarPlay receiver for compatible Android head units. | 13.1k | 2026-10-28 |
 | [Baileys](https://github.com/WhiskeySockets/Baileys) | WhatsApp Web | Socket-based TypeScript and JavaScript API. | 11.5k | 2026-11-01 |
 | [OpenDrop](https://github.com/seemoo-lab/opendrop) | Apple AirDrop | Open AirDrop implementation in Python. | 9.9k | 2026-08-17 |
 | [libimobiledevice](https://github.com/libimobiledevice/libimobiledevice) | iOS device protocols | Cross-platform library to communicate with iOS devices. | 8.3k | 2026-06-10 |
@@ -154,6 +158,19 @@ Open clients and libraries for closed protocols, private APIs and undocumented f
 ## Hardware and Firmware
 
 Devices, chips and cloud-locked gadgets opened up for local use.
+
+### Smart TVs
+
+| Project | Rebuilds | What it is | Stars | Last commit |
+| --- | --- | --- | ---: | --- |
+| [Clean Your TV](https://github.com/Gathin23/cleanyourtv) | Android TV, Google TV | Strips ads and bloat from any Android or Google TV over Wi-Fi and adds an Apple TV-style home screen. | 49.7k | 2026-11-02 |
+| [Aerial TV](https://github.com/pengchujin/aerial-tv) | Xiaomi, TCL home screens | Ad-free tvOS-style launcher for Xiaomi, TCL and other China-market TVs. | 8.9k | 2026-11-02 |
+| [Free My TV](https://github.com/simbasjungles/free-my-tv) | Google TV, webOS, Tizen | Fast, ad-free home screen for Google TV, LG webOS and Samsung Tizen, with one button to undo. | 5.7k | 2026-10-31 |
+| [dumbtv](https://github.com/humblemuzzu/dumbtv) | Fire TV | Takes ads, tracking and clutter out of a Fire TV over ADB without root, and every step can be undone. | 1.9k | 2026-10-27 |
+| [Clean Your TV App](https://github.com/udhaykumarbala/cleanyourtv-app) | Android TV | Community phone app that runs Clean Your TV without a laptop or coding agent. | 1.4k | 2026-10-31 |
+| [Tellyscope](https://github.com/man15h/tellyscope) | Android TV | Debloats an Android TV, installs apps and transfers files from your phone, without root. | 1.2k | 2026-11-02 |
+
+### Devices and Firmware
 
 | Project | Rebuilds | What it is | Stars | Last commit |
 | --- | --- | --- | ---: | --- |
@@ -250,7 +267,7 @@ Projects never leave the list, so it only gets bigger.
 
 | Month | New | Total | |
 | --- | ---: | ---: | --- |
-| 2026-11 | 101 | 101 | ██████████████████████████████ |
+| 2026-11 | 111 | 111 | ██████████████████████████████ |
 
 ## Contributing
 
@@ -258,4 +275,4 @@ New entries are welcome. [Open an issue](https://github.com/maluramichael/awesom
 
 ## Footnotes
 
-101 projects. Stars last fetched on 2026-11-02. This file is generated from [`data/projects`](data/projects), please do not edit it by hand.
+111 projects. Stars last fetched on 2026-11-02. This file is generated from [`data/projects`](data/projects), please do not edit it by hand.

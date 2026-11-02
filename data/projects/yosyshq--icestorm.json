@@ -2,6 +2,7 @@
   "added": "2026-11-02",
   "category": "hardware",
   "description": "Reverse engineered bitstream documentation.",
+  "group": "Devices and Firmware",
   "name": "Project IceStorm",
   "target": "Lattice iCE40 FPGAs",
   "url": "https://github.com/YosysHQ/icestorm"

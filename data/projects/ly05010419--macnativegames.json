@@ -1,0 +1,9 @@
+{
+  "added": "2026-11-02",
+  "category": "games",
+  "description": "Plays your own copies natively on Apple silicon Mac, iPhone and iPad without an emulator.",
+  "group": "Source Ports and Engine Rebuilds",
+  "name": "MacNativeGames",
+  "target": "The Legend of Zelda: Tears of the Kingdom, Breath of the Wild",
+  "url": "https://github.com/ly05010419/MacNativeGames"
+}

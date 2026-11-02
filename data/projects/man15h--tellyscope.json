@@ -1,0 +1,9 @@
+{
+  "added": "2026-11-02",
+  "category": "hardware",
+  "description": "Debloats an Android TV, installs apps and transfers files from your phone, without root.",
+  "group": "Smart TVs",
+  "name": "Tellyscope",
+  "target": "Android TV",
+  "url": "https://github.com/man15h/tellyscope"
+}

@@ -1,0 +1,9 @@
+{
+  "added": "2026-11-02",
+  "category": "hardware",
+  "description": "Community phone app that runs Clean Your TV without a laptop or coding agent.",
+  "group": "Smart TVs",
+  "name": "Clean Your TV App",
+  "target": "Android TV",
+  "url": "https://github.com/udhaykumarbala/cleanyourtv-app"
+}

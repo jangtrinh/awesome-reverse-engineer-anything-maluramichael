@@ -1,0 +1,9 @@
+{
+  "added": "2026-11-02",
+  "category": "hardware",
+  "description": "Fast, ad-free home screen for Google TV, LG webOS and Samsung Tizen, with one button to undo.",
+  "group": "Smart TVs",
+  "name": "Free My TV",
+  "target": "Google TV, webOS, Tizen",
+  "url": "https://github.com/simbasjungles/free-my-tv"
+}

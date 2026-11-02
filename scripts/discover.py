@@ -14,9 +14,10 @@ import common
 import github
 
 MIN_COMMITS = 10
-LIMIT = 40
+LIMIT = 60
 TERMS = ['"reverse engineered"', '"reverse-engineered"', '"clean-room"', "reimplementation", "decompilation",
-         '"static recompilation"', "topic:reverse-engineering", "topic:decompilation"]
+         '"static recompilation"', "topic:reverse-engineering", "topic:decompilation",
+         "debloat", '"smart tv"', '"android tv"', "unofficial", '"native port"', "rebuilt", '"not an emulator"']
 
 
 def clean(text: str | None, limit: int = 120) -> str:

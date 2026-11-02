@@ -2,6 +2,7 @@
   "added": "2026-11-02",
   "category": "hardware",
   "description": "Python API for your car.",
+  "group": "Devices and Firmware",
   "name": "opendbc",
   "target": "Car CAN buses",
   "url": "https://github.com/commaai/opendbc"

@@ -2,6 +2,7 @@
   "added": "2026-11-02",
   "category": "hardware",
   "description": "Reverse engineered Linux driver for the Broadcom 1570 PCIe webcam.",
+  "group": "Devices and Firmware",
   "name": "facetimehd",
   "target": "FacetimeHD webcam",
   "url": "https://github.com/patjak/facetimehd"

@@ -37,7 +37,7 @@ CATEGORIES = {
     "hardware": {
         "title": "Hardware and Firmware",
         "intro": "Devices, chips and cloud-locked gadgets opened up for local use.",
-        "groups": [],
+        "groups": ["Smart TVs", "Devices and Firmware"],
     },
     "tools": {
         "title": "Tools",

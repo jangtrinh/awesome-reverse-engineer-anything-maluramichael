@@ -1,0 +1,9 @@
+{
+  "added": "2026-11-02",
+  "category": "hardware",
+  "description": "Ad-free tvOS-style launcher for Xiaomi, TCL and other China-market TVs.",
+  "group": "Smart TVs",
+  "name": "Aerial TV",
+  "target": "Xiaomi, TCL home screens",
+  "url": "https://github.com/pengchujin/aerial-tv"
+}

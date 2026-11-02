@@ -2,6 +2,7 @@
   "added": "2026-11-02",
   "category": "hardware",
   "description": "Cloud replacement for vacuum robots that enables local-only operation.",
+  "group": "Devices and Firmware",
   "name": "Valetudo",
   "target": "Robot vacuum clouds",
   "url": "https://github.com/Hypfer/Valetudo"

@@ -2,6 +2,7 @@
   "added": "2026-11-02",
   "category": "hardware",
   "description": "Rust toolkit with the reverse engineered BLE protocol, event decoders and reimplemented data processing.",
+  "group": "Devices and Firmware",
   "name": "open_oura",
   "target": "Oura Ring",
   "url": "https://github.com/Th0rgal/open_oura"

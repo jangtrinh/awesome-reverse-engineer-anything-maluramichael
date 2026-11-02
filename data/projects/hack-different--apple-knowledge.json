@@ -2,6 +2,7 @@
   "added": "2026-11-02",
   "category": "hardware",
   "description": "Collection of reverse engineered Apple things and a machine-readable hardware database.",
+  "group": "Devices and Firmware",
   "name": "apple-knowledge",
   "target": "Apple hardware",
   "url": "https://github.com/hack-different/apple-knowledge"

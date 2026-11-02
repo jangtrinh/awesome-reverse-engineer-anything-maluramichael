@@ -1,0 +1,8 @@
+{
+  "added": "2026-11-02",
+  "category": "emulators",
+  "description": "Brings the SteamOS experience to Android.",
+  "name": "DroidDeck",
+  "target": "SteamOS",
+  "url": "https://github.com/Droid-Deck/DroidDeck"
+}

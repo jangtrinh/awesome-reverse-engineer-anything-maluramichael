@@ -1,0 +1,9 @@
+{
+  "added": "2026-11-02",
+  "category": "hardware",
+  "description": "Takes ads, tracking and clutter out of a Fire TV over ADB without root, and every step can be undone.",
+  "group": "Smart TVs",
+  "name": "dumbtv",
+  "target": "Fire TV",
+  "url": "https://github.com/humblemuzzu/dumbtv"
+}
