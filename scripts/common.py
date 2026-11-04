@@ -59,7 +59,8 @@ CATEGORIES = {
 }
 
 REQUIRED = {"name", "url", "category", "description", "added"}
-OPTIONAL = {"group", "target"}
+# "exempt" holds the reason a project was added below the star bar by hand. The form cannot set it.
+OPTIONAL = {"group", "target", "exempt"}
 GITHUB_URL = re.compile(r"^https://github\.com/([A-Za-z0-9-]+)/([A-Za-z0-9_.-]+)$")
 HTTPS_URL = re.compile(r"^https://[A-Za-z0-9.-]+\.[A-Za-z]{2,}(/[A-Za-z0-9_.~/-]*)?$")
 MAX_DESCRIPTION = 170
@@ -147,7 +148,7 @@ def below_bar(project: dict, stars: int, pushed: str, archived: bool, today: str
         return None
     if archived:
         return "it is archived"
-    if stars < MIN_STARS:
+    if stars < MIN_STARS and "exempt" not in project:
         return f"it has {stars} stars, the list needs at least {MIN_STARS}"
     cutoff = (date.fromisoformat(today) - timedelta(days=MAX_INACTIVE_DAYS)).isoformat()
     if pushed < cutoff:

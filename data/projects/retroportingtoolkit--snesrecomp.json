@@ -1,0 +1,9 @@
+{
+  "added": "2026-11-04",
+  "category": "tools",
+  "description": "Statically recompiles SNES 65816 code into C and builds native ports on a shared hardware runtime, using your own ROM.",
+  "exempt": "Added by hand at 171 stars.",
+  "group": "Recompilers and Decomp Toolchains",
+  "name": "SNESRecomp",
+  "url": "https://github.com/RetroPortingToolKit/snesrecomp"
+}

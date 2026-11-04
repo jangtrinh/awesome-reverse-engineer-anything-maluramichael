@@ -64,6 +64,23 @@ class Bar(unittest.TestCase):
         project = {**VALID, "group": "Crafting Apps"}
         self.assertIsNone(common.below_bar(project, 1, "2020-01-01", False, self.TODAY))
 
+    def test_exempt_project_skips_the_star_check(self):
+        project = {**VALID, "exempt": "Added by hand below the star bar."}
+        self.assertIsNone(common.below_bar(project, 1, "2026-11-01", False, self.TODAY))
+
+    def test_exempt_project_must_still_be_active(self):
+        project = {**VALID, "exempt": "Added by hand below the star bar."}
+        self.assertIn("archived", common.below_bar(project, 1, "2026-11-01", True, self.TODAY))
+        self.assertIn("2024-02-04", common.below_bar(project, 1, "2024-02-04", False, self.TODAY))
+
+    def test_exempt_needs_a_reason(self):
+        self.assertEqual(common.check_project({**VALID, "exempt": "Added by hand."}), [])
+        self.assertTrue(common.check_project({**VALID, "exempt": True}))
+
+    def test_form_cannot_set_exempt(self):
+        body = "### Project URL\n\nhttps://github.com/acme/example\n\n### exempt\n\nyes\n"
+        self.assertNotIn("exempt", add_from_issue.parse_form(body))
+
     def test_missing_repository(self):
         self.assertIn("does not exist", common.repo_bar_problem(VALID, None, self.TODAY))
 

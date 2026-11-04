@@ -257,6 +257,7 @@ What people use to take things apart.
 | [N64Recomp](https://github.com/N64Recomp/N64Recomp) | Statically recompiles N64 games into native executables. | 8.3k | 2026-11-03 | 7 |
 | [ps2-web-recomp](https://github.com/snuri00/ps2-web-recomp) | Static recompilation of PS2 games to WebAssembly with a native runtime. | 1.4k | 2026-10-29 | 5 |
 | [decomp.me](https://github.com/decompme/decomp.me) | Collaborative decompilation and reverse engineering website. | 654 | 2026-11-01 | 8 |
+| [SNESRecomp](https://github.com/RetroPortingToolKit/snesrecomp) | Statically recompiles SNES 65816 code into C and builds native ports on a shared hardware runtime, using your own ROM. |  |  |  |
 
 ### Other
 
@@ -281,7 +282,7 @@ Projects never leave the list, so it only gets bigger.
 
 | Month | New | Total | |
 | --- | ---: | ---: | --- |
-| 2026-11 | 121 | 121 | ██████████████████████████████ |
+| 2026-11 | 122 | 122 | ██████████████████████████████ |
 
 ## Star History
 
@@ -299,6 +300,6 @@ New entries are welcome. [Open an issue](https://github.com/maluramichael/awesom
 
 ## Footnotes
 
-121 projects. Stars last fetched on 2026-11-03. This file is generated from [`data/projects`](data/projects), please do not edit it by hand.
+122 projects. Stars last fetched on 2026-11-03. This file is generated from [`data/projects`](data/projects), please do not edit it by hand.
 
 Health adds up facts GitHub reports, such as license, commits spread over many days, several contributors, open issues and whether the project is archived or quiet. It says nothing about quality. The rules are in [`scripts/scoring.py`](scripts/scoring.py).

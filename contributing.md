@@ -22,7 +22,7 @@ You can also open a pull request yourself. Add one file to [`data/projects`](dat
 
 ## The bar
 
-To get on the list, a project needs **at least 500 stars** and **a commit in the last 365 days**, and it must not be archived. The bot and CI check this. The only exception is the Crafting Apps group, which stays complete.
+To get on the list, a project needs **at least 500 stars** and **a commit in the last 365 days**, and it must not be archived. The bot and CI check this. The Crafting Apps group is exempt, so it stays complete. The maintainer can also let a single project in below the star count with an `exempt` field that gives the reason. The form cannot set it.
 
 The bar only applies on the way in. Once a project is listed it stays, even when the hype is over, and an archived one is marked as such. Only a repository that no longer exists is removed by hand, or an entry a rights holder asks to take down.
 
