@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-06",
   "repos": {
     "2akouwu/reverify": {
       "archived": false,
@@ -16,13 +16,13 @@
         "+contributors",
         "+issues"
       ],
-      "stars": 1325
+      "stars": 1327
     },
     "AsahiLinux/m1n1": {
       "archived": false,
       "commits": 2805,
       "created": "2021-01-14",
-      "forks": 371,
+      "forks": 373,
       "health": 7,
       "pushed": "2026-11-04",
       "signals": [
@@ -34,7 +34,7 @@
         "+contributors",
         "+issues"
       ],
-      "stars": 4291
+      "stars": 4293
     },
     "BlackLabelHQ/SymphonyRecomp": {
       "archived": false,
@@ -50,15 +50,15 @@
         "+contributors",
         "+issues"
       ],
-      "stars": 1072
+      "stars": 1079
     },
     "Droid-Deck/DroidDeck": {
       "archived": false,
-      "commits": 1963,
+      "commits": 2047,
       "created": "2026-09-24",
-      "forks": 917,
+      "forks": 922,
       "health": 2,
-      "pushed": "2026-11-05",
+      "pushed": "2026-11-06",
       "signals": [
         "+en/de",
         "+license",
@@ -67,7 +67,7 @@
         "+contributors",
         "+issues"
       ],
-      "stars": 17990
+      "stars": 18191
     },
     "EstebanPdN/zelda-alttp-3ds": {
       "archived": false,
@@ -85,7 +85,7 @@
         "+contributors",
         "+issues"
       ],
-      "stars": 777
+      "stars": 780
     },
     "EstebanPdN/zelda-tmc-3ds": {
       "archived": false,
@@ -103,15 +103,15 @@
         "+8 days",
         "+issues"
       ],
-      "stars": 802
+      "stars": 803
     },
     "Gathin23/cleanyourtv": {
       "archived": false,
-      "commits": 5332,
+      "commits": 5470,
       "created": "2026-10-17",
-      "forks": 6664,
+      "forks": 6771,
       "health": 4,
-      "pushed": "2026-11-05",
+      "pushed": "2026-11-06",
       "signals": [
         "+en/de",
         "+license",
@@ -122,13 +122,13 @@
         "+contributors",
         "+issues"
       ],
-      "stars": 52330
+      "stars": 52983
     },
     "HarbourMasters/Shipwright": {
       "archived": false,
       "commits": 4342,
       "created": "2022-03-22",
-      "forks": 977,
+      "forks": 980,
       "health": 6,
       "pushed": "2026-11-05",
       "signals": [
@@ -139,7 +139,7 @@
         "+contributors",
         "+issues"
       ],
-      "stars": 5849
+      "stars": 5867
     },
     "Hypfer/Valetudo": {
       "archived": false,
@@ -157,15 +157,15 @@
         "+contributors",
         "+issues"
       ],
-      "stars": 9920
+      "stars": 9928
     },
     "IPedrax/BIMCraft": {
       "archived": false,
-      "commits": 897,
+      "commits": 905,
       "created": "2026-10-15",
-      "forks": 154,
+      "forks": 159,
       "health": 4,
-      "pushed": "2026-11-05",
+      "pushed": "2026-11-06",
       "signals": [
         "+en/de",
         "+license",
@@ -174,7 +174,7 @@
         "+contributors",
         "+issues"
       ],
-      "stars": 943
+      "stars": 962
     },
     "JJTech0130/pypush": {
       "archived": false,
@@ -211,13 +211,13 @@
         "+contributors",
         "+issues"
       ],
-      "stars": 1341
+      "stars": 1344
     },
     "LaurieWired/GhidraMCP": {
       "archived": false,
       "commits": 64,
       "created": "2025-03-23",
-      "forks": 1273,
+      "forks": 1280,
       "health": 7,
       "pushed": "2026-10-10",
       "signals": [
@@ -229,13 +229,13 @@
         "+contributors",
         "+issues"
       ],
-      "stars": 11769
+      "stars": 11783
     },
     "LuanRT/YouTube.js": {
       "archived": false,
       "commits": 1758,
       "created": "2021-09-27",
-      "forks": 451,
+      "forks": 452,
       "health": 7,
       "pushed": "2026-11-04",
       "signals": [
@@ -247,7 +247,7 @@
         "+contributors",
         "+issues"
       ],
-      "stars": 5408
+      "stars": 5412
     },
     "MG1937/ASC": {
       "archived": false,
@@ -266,7 +266,7 @@
         "+contributors",
         "+issues"
       ],
-      "stars": 2655
+      "stars": 2664
     },
     "N64Recomp/N64Recomp": {
       "archived": false,
@@ -284,13 +284,13 @@
         "+contributors",
         "+issues"
       ],
-      "stars": 8351
+      "stars": 8353
     },
     "NBlood/NBlood": {
       "archived": false,
       "commits": 14388,
       "created": "2019-02-12",
-      "forks": 114,
+      "forks": 116,
       "health": 6,
       "pushed": "2026-11-03",
       "signals": [
@@ -307,7 +307,7 @@
       "archived": false,
       "commits": 19024,
       "created": "2019-03-01",
-      "forks": 11084,
+      "forks": 11119,
       "health": 8,
       "pushed": "2026-11-05",
       "signals": [
@@ -320,15 +320,15 @@
         "+contributors",
         "+issues"
       ],
-      "stars": 97998
+      "stars": 98266
     },
     "Noelo-Lab/kuna": {
       "archived": false,
-      "commits": 2825,
+      "commits": 2834,
       "created": "2026-06-07",
-      "forks": 73,
+      "forks": 74,
       "health": 6,
-      "pushed": "2026-11-05",
+      "pushed": "2026-11-06",
       "signals": [
         "+en/de",
         "+license",
@@ -337,13 +337,13 @@
         "+contributors",
         "+issues"
       ],
-      "stars": 816
+      "stars": 825
     },
     "Odrannnn/MetroidPrimePort": {
       "archived": false,
-      "commits": 5361,
+      "commits": 5375,
       "created": "2026-09-19",
-      "forks": 40,
+      "forks": 42,
       "health": 6,
       "pushed": "2026-11-05",
       "signals": [
@@ -354,11 +354,11 @@
         "+contributors",
         "+issues"
       ],
-      "stars": 652
+      "stars": 659
     },
     "OpenMW/openmw": {
       "archived": false,
-      "commits": 39312,
+      "commits": 39319,
       "created": "2009-08-23",
       "forks": 1161,
       "health": 6,
@@ -368,16 +368,16 @@
         "+license",
         "+old owner",
         "+settled repo",
-        "+16 days",
+        "+15 days",
         "+contributors"
       ],
-      "stars": 6719
+      "stars": 6723
     },
     "OpenRA/OpenRA": {
       "archived": false,
       "commits": 30951,
       "created": "2010-10-04",
-      "forks": 3111,
+      "forks": 3113,
       "health": 7,
       "pushed": "2026-10-28",
       "signals": [
@@ -389,31 +389,31 @@
         "+contributors",
         "+issues"
       ],
-      "stars": 17733
+      "stars": 17738
     },
     "OpenRCT2/OpenRCT2": {
       "archived": false,
-      "commits": 30780,
+      "commits": 30781,
       "created": "2014-04-01",
-      "forks": 1961,
+      "forks": 1962,
       "health": 7,
-      "pushed": "2026-11-04",
+      "pushed": "2026-11-05",
       "signals": [
         "+en/de",
         "+license",
         "+old owner",
         "+settled repo",
-        "+32 days",
+        "+33 days",
         "+contributors",
         "+issues"
       ],
-      "stars": 16542
+      "stars": 16546
     },
     "PCSX2/pcsx2": {
       "archived": false,
       "commits": 22842,
       "created": "2013-12-22",
-      "forks": 2408,
+      "forks": 2411,
       "health": 8,
       "pushed": "2026-11-04",
       "signals": [
@@ -426,13 +426,13 @@
         "+contributors",
         "+issues"
       ],
-      "stars": 16000
+      "stars": 16003
     },
     "RPCS3/rpcs3": {
       "archived": false,
       "commits": 20565,
       "created": "2012-11-03",
-      "forks": 2573,
+      "forks": 2574,
       "health": 8,
       "pushed": "2026-11-05",
       "signals": [
@@ -445,7 +445,7 @@
         "+contributors",
         "+issues"
       ],
-      "stars": 20346
+      "stars": 20351
     },
     "ReFirmLabs/binwalk": {
       "archived": false,
@@ -463,13 +463,13 @@
         "+contributors",
         "+issues"
       ],
-      "stars": 14614
+      "stars": 14620
     },
     "RetroPortingToolKit/snesrecomp": {
       "archived": false,
       "commits": 1657,
       "created": "2026-03-16",
-      "forks": 50,
+      "forks": 53,
       "health": 5,
       "pushed": "2026-11-04",
       "signals": [
@@ -481,15 +481,15 @@
         "+contributors",
         "+issues"
       ],
-      "stars": 173
+      "stars": 175
     },
     "Revivedx/SavageWindRecomp": {
       "archived": false,
       "commits": 111,
       "created": "2026-10-16",
-      "forks": 185,
+      "forks": 196,
       "health": 5,
-      "pushed": "2026-11-05",
+      "pushed": "2026-11-06",
       "signals": [
         "+en/de",
         "+license",
@@ -499,34 +499,34 @@
         "+contributors",
         "+issues"
       ],
-      "stars": 3149
+      "stars": 3266
     },
     "SubmitGame/awesome-decomp-games": {
       "archived": false,
-      "commits": 53,
+      "commits": 54,
       "created": "2026-10-09",
-      "forks": 143,
+      "forks": 145,
       "health": 1,
-      "pushed": "2026-11-05",
+      "pushed": "2026-11-06",
       "signals": [
         "-language",
         "+license",
         "+topics",
         "-new owner",
         "-young repo",
-        "+25 days",
+        "+26 days",
         "+contributors",
         "+issues"
       ],
-      "stars": 2876
+      "stars": 2898
     },
     "TeamGDB/Yakumo": {
       "archived": false,
       "commits": 684,
       "created": "2026-09-18",
-      "forks": 38,
+      "forks": 39,
       "health": 7,
-      "pushed": "2026-11-03",
+      "pushed": "2026-11-05",
       "signals": [
         "+en/de",
         "+license",
@@ -536,7 +536,7 @@
         "+contributors",
         "+issues"
       ],
-      "stars": 580
+      "stars": 586
     },
     "Th0rgal/open_oura": {
       "archived": false,
@@ -554,7 +554,7 @@
         "+contributors",
         "+issues"
       ],
-      "stars": 671
+      "stars": 670
     },
     "WerWolv/ImHex": {
       "archived": false,
@@ -573,7 +573,7 @@
         "+contributors",
         "+issues"
       ],
-      "stars": 55756
+      "stars": 55755
     },
     "WhiskeySockets/Baileys": {
       "archived": false,
@@ -592,7 +592,7 @@
         "+contributors",
         "+issues"
       ],
-      "stars": 11546
+      "stars": 11552
     },
     "YosysHQ/icestorm": {
       "archived": false,
@@ -616,7 +616,7 @@
       "archived": false,
       "commits": 429,
       "created": "2023-10-23",
-      "forks": 350,
+      "forks": 351,
       "health": 7,
       "pushed": "2026-09-25",
       "signals": [
@@ -628,13 +628,13 @@
         "+contributors",
         "+issues"
       ],
-      "stars": 7589
+      "stars": 7595
     },
     "Zfinix/eleven": {
       "archived": false,
       "commits": 135,
       "created": "2026-10-13",
-      "forks": 148,
+      "forks": 149,
       "health": 6,
       "pushed": "2026-10-31",
       "signals": [
@@ -647,26 +647,26 @@
         "+contributors",
         "+issues"
       ],
-      "stars": 966
+      "stars": 968
     },
     "alexgaoth/awesome-reverse-engineered": {
       "archived": false,
-      "commits": 65,
+      "commits": 66,
       "created": "2026-10-11",
       "forks": 223,
       "health": 6,
-      "pushed": "2026-11-04",
+      "pushed": "2026-11-05",
       "signals": [
         "+en/de",
         "+license",
         "+topics",
         "+old owner",
         "-young repo",
-        "+25 days",
+        "+26 days",
         "+contributors",
         "+issues"
       ],
-      "stars": 1234
+      "stars": 1253
     },
     "alufers/mitmproxy2swagger": {
       "archived": false,
@@ -684,7 +684,7 @@
         "+contributors",
         "+issues"
       ],
-      "stars": 9689
+      "stars": 9691
     },
     "arcanite24/pinyon-shift": {
       "archived": false,
@@ -702,7 +702,7 @@
         "+contributors",
         "+issues"
       ],
-      "stars": 1000
+      "stars": 1009
     },
     "ares-emulator/ares": {
       "archived": false,
@@ -721,7 +721,7 @@
         "+contributors",
         "+issues"
       ],
-      "stars": 1852
+      "stars": 1851
     },
     "chris-ritsen/samsung-tv-root": {
       "archived": false,
@@ -738,13 +738,13 @@
         "+9 days",
         "+issues"
       ],
-      "stars": 517
+      "stars": 519
     },
     "commaai/opendbc": {
       "archived": false,
-      "commits": 3011,
+      "commits": 3012,
       "created": "2017-05-31",
-      "forks": 2363,
+      "forks": 2366,
       "health": 8,
       "pushed": "2026-11-05",
       "signals": [
@@ -757,13 +757,13 @@
         "+contributors",
         "+issues"
       ],
-      "stars": 3537
+      "stars": 3541
     },
     "cranebeaker/coop-anything": {
       "archived": false,
       "commits": 714,
       "created": "2026-10-16",
-      "forks": 259,
+      "forks": 261,
       "health": 2,
       "pushed": "2026-11-02",
       "signals": [
@@ -774,21 +774,21 @@
         "+contributors",
         "+issues"
       ],
-      "stars": 1901
+      "stars": 1920
     },
     "darlinghq/darling": {
       "archived": false,
-      "commits": 4417,
+      "commits": 4484,
       "created": "2012-12-09",
-      "forks": 561,
+      "forks": 562,
       "health": 7,
-      "pushed": "2026-11-05",
+      "pushed": "2026-11-06",
       "signals": [
         "+en/de",
         "+license",
         "+old owner",
         "+settled repo",
-        "+42 days",
+        "+16 days",
         "+contributors",
         "+issues"
       ],
@@ -796,18 +796,18 @@
     },
     "decompme/decomp.me": {
       "archived": false,
-      "commits": 1617,
+      "commits": 1618,
       "created": "2021-06-29",
       "forks": 167,
       "health": 8,
-      "pushed": "2026-11-04",
+      "pushed": "2026-11-06",
       "signals": [
         "+en/de",
         "+license",
         "+topics",
         "+old owner",
         "+settled repo",
-        "+52 days",
+        "+53 days",
         "+contributors",
         "+issues"
       ],
@@ -817,7 +817,7 @@
       "archived": false,
       "commits": 4654,
       "created": "2021-05-27",
-      "forks": 780,
+      "forks": 782,
       "health": 6,
       "pushed": "2026-11-01",
       "signals": [
@@ -831,7 +831,7 @@
         "+contributors",
         "+issues"
       ],
-      "stars": 11421
+      "stars": 11428
     },
     "doldecomp/melee": {
       "archived": false,
@@ -852,11 +852,11 @@
     },
     "dolphin-emu/dolphin": {
       "archived": false,
-      "commits": 46306,
+      "commits": 46315,
       "created": "2013-07-22",
-      "forks": 3382,
+      "forks": 3381,
       "health": 5,
-      "pushed": "2026-11-04",
+      "pushed": "2026-11-06",
       "signals": [
         "-no readme",
         "+license",
@@ -866,13 +866,13 @@
         "+26 days",
         "+contributors"
       ],
-      "stars": 15769
+      "stars": 15772
     },
     "duty1g/x64dbg-mcp-server": {
       "archived": false,
       "commits": 34,
       "created": "2026-08-22",
-      "forks": 317,
+      "forks": 319,
       "health": 6,
       "pushed": "2026-11-03",
       "signals": [
@@ -883,7 +883,7 @@
         "+9 days",
         "+contributors"
       ],
-      "stars": 2779
+      "stars": 2793
     },
     "freefrank/LostOdysseyRecomp": {
       "archived": false,
@@ -891,7 +891,7 @@
       "created": "2026-09-05",
       "forks": 44,
       "health": 6,
-      "pushed": "2026-11-03",
+      "pushed": "2026-11-06",
       "signals": [
         "+en/de",
         "+license",
@@ -900,15 +900,15 @@
         "+contributors",
         "+issues"
       ],
-      "stars": 923
+      "stars": 927
     },
     "frida/frida": {
       "archived": false,
-      "commits": 4863,
+      "commits": 4869,
       "created": "2013-04-12",
-      "forks": 2315,
+      "forks": 2318,
       "health": 8,
-      "pushed": "2026-11-04",
+      "pushed": "2026-11-06",
       "signals": [
         "+en/de",
         "+license",
@@ -919,7 +919,7 @@
         "+contributors",
         "+issues"
       ],
-      "stars": 22660
+      "stars": 22666
     },
     "hack-different/apple-knowledge": {
       "archived": false,
@@ -938,7 +938,7 @@
         "+contributors",
         "+issues"
       ],
-      "stars": 1421
+      "stars": 1422
     },
     "hedge-dev/UnleashedRecomp": {
       "archived": false,
@@ -956,15 +956,15 @@
         "+contributors",
         "+issues"
       ],
-      "stars": 5341
+      "stars": 5348
     },
     "horizon-rust/horizon": {
       "archived": false,
-      "commits": 20464,
+      "commits": 21530,
       "created": "2026-10-03",
-      "forks": 967,
+      "forks": 1065,
       "health": 4,
-      "pushed": "2026-11-05",
+      "pushed": "2026-11-06",
       "signals": [
         "+en/de",
         "+license",
@@ -973,13 +973,13 @@
         "+contributors",
         "+issues"
       ],
-      "stars": 6683
+      "stars": 7107
     },
     "humblemuzzu/dumbtv": {
       "archived": false,
       "commits": 346,
       "created": "2026-10-18",
-      "forks": 211,
+      "forks": 214,
       "health": 6,
       "pushed": "2026-11-05",
       "signals": [
@@ -992,13 +992,13 @@
         "+contributors",
         "+issues"
       ],
-      "stars": 1949
+      "stars": 1965
     },
     "iBotPeaches/Apktool": {
       "archived": false,
       "commits": 2378,
       "created": "2012-03-19",
-      "forks": 4220,
+      "forks": 4226,
       "health": 8,
       "pushed": "2026-11-02",
       "signals": [
@@ -1011,32 +1011,32 @@
         "+contributors",
         "+issues"
       ],
-      "stars": 27013
+      "stars": 27034
     },
     "icsharpcode/ILSpy": {
       "archived": false,
-      "commits": 10123,
+      "commits": 10126,
       "created": "2011-02-04",
-      "forks": 3814,
+      "forks": 3813,
       "health": 8,
-      "pushed": "2026-11-05",
+      "pushed": "2026-11-06",
       "signals": [
         "+en/de",
         "+license",
         "+topics",
         "+old owner",
         "+settled repo",
-        "+18 days",
+        "+19 days",
         "+contributors",
         "+issues"
       ],
-      "stars": 26962
+      "stars": 26973
     },
     "kalil0321/reverse-api-engineer": {
       "archived": false,
       "commits": 526,
       "created": "2025-12-23",
-      "forks": 277,
+      "forks": 284,
       "health": 8,
       "pushed": "2026-11-03",
       "signals": [
@@ -1049,15 +1049,15 @@
         "+contributors",
         "+issues"
       ],
-      "stars": 2666
+      "stars": 2726
     },
     "l0ng-ai/openidea": {
       "archived": false,
-      "commits": 916,
+      "commits": 1028,
       "created": "2026-10-21",
-      "forks": 560,
+      "forks": 608,
       "health": 3,
-      "pushed": "2026-11-05",
+      "pushed": "2026-11-06",
       "signals": [
         "+en/de",
         "+license",
@@ -1067,7 +1067,7 @@
         "+contributors",
         "+issues"
       ],
-      "stars": 6587
+      "stars": 7277
     },
     "libimobiledevice/libimobiledevice": {
       "archived": false,
@@ -1085,13 +1085,13 @@
         "+contributors",
         "+issues"
       ],
-      "stars": 8319
+      "stars": 8320
     },
     "librespot-org/librespot": {
       "archived": false,
       "commits": 2183,
       "created": "2017-11-15",
-      "forks": 969,
+      "forks": 968,
       "health": 7,
       "pushed": "2026-10-21",
       "signals": [
@@ -1103,15 +1103,15 @@
         "+contributors",
         "+issues"
       ],
-      "stars": 7369
+      "stars": 7373
     },
     "ly05010419/MacNativeGames": {
       "archived": false,
-      "commits": 1611,
+      "commits": 1615,
       "created": "2026-10-17",
-      "forks": 1045,
+      "forks": 1056,
       "health": 4,
-      "pushed": "2026-11-05",
+      "pushed": "2026-11-06",
       "signals": [
         "+en/de",
         "+license",
@@ -1122,15 +1122,15 @@
         "+contributors",
         "+issues"
       ],
-      "stars": 7076
+      "stars": 7148
     },
     "man15h/tellyscope": {
       "archived": false,
-      "commits": 598,
+      "commits": 629,
       "created": "2026-10-22",
-      "forks": 81,
+      "forks": 88,
       "health": 4,
-      "pushed": "2026-11-04",
+      "pushed": "2026-11-06",
       "signals": [
         "+en/de",
         "+license",
@@ -1139,15 +1139,15 @@
         "+contributors",
         "+issues"
       ],
-      "stars": 1513
+      "stars": 1613
     },
     "mandiant/capa": {
       "archived": false,
-      "commits": 6353,
+      "commits": 6354,
       "created": "2020-06-16",
-      "forks": 745,
+      "forks": 748,
       "health": 8,
-      "pushed": "2026-11-04",
+      "pushed": "2026-11-06",
       "signals": [
         "+en/de",
         "+license",
@@ -1158,7 +1158,7 @@
         "+contributors",
         "+issues"
       ],
-      "stars": 6301
+      "stars": 6303
     },
     "mchughalex/skate3recomp": {
       "archived": false,
@@ -1173,13 +1173,13 @@
         "+settled repo",
         "+issues"
       ],
-      "stars": 1789
+      "stars": 1795
     },
     "merbanan/rtl_433": {
       "archived": false,
       "commits": 4099,
       "created": "2013-01-19",
-      "forks": 1605,
+      "forks": 1607,
       "health": 7,
       "pushed": "2026-10-27",
       "signals": [
@@ -1191,13 +1191,13 @@
         "+contributors",
         "+issues"
       ],
-      "stars": 7911
+      "stars": 7915
     },
     "mitmproxy/mitmproxy": {
       "archived": false,
       "commits": 11283,
       "created": "2010-02-16",
-      "forks": 4935,
+      "forks": 4938,
       "health": 7,
       "pushed": "2026-11-04",
       "signals": [
@@ -1209,7 +1209,7 @@
         "+contributors",
         "+issues"
       ],
-      "stars": 46657
+      "stars": 46665
     },
     "morluto/awesome-reverse-engineering": {
       "archived": false,
@@ -1227,15 +1227,15 @@
         "+19 days",
         "+contributors"
       ],
-      "stars": 1850
+      "stars": 1862
     },
     "morluto/rea": {
       "archived": false,
-      "commits": 6531,
+      "commits": 6601,
       "created": "2026-04-14",
-      "forks": 107510,
+      "forks": 108214,
       "health": 5,
-      "pushed": "2026-11-05",
+      "pushed": "2026-11-06",
       "signals": [
         "+en/de",
         "+license",
@@ -1245,13 +1245,13 @@
         "+contributors",
         "+issues"
       ],
-      "stars": 432823
+      "stars": 436285
     },
     "mrexodia/ida-pro-mcp": {
       "archived": false,
       "commits": 599,
       "created": "2025-03-25",
-      "forks": 1632,
+      "forks": 1637,
       "health": 8,
       "pushed": "2026-09-26",
       "signals": [
@@ -1264,7 +1264,7 @@
         "+contributors",
         "+issues"
       ],
-      "stars": 13373
+      "stars": 13383
     },
     "o-gs/dji-firmware-tools": {
       "archived": false,
@@ -1283,15 +1283,15 @@
         "+contributors",
         "+issues"
       ],
-      "stars": 2284
+      "stars": 2286
     },
     "omlahore/RemoveMacAI": {
       "archived": false,
       "commits": 179,
       "created": "2026-09-29",
-      "forks": 167,
+      "forks": 168,
       "health": 7,
-      "pushed": "2026-11-05",
+      "pushed": "2026-11-06",
       "signals": [
         "+en/de",
         "+license",
@@ -1301,13 +1301,13 @@
         "+contributors",
         "+issues"
       ],
-      "stars": 5849
+      "stars": 5898
     },
     "patjak/facetimehd": {
       "archived": false,
       "commits": 338,
       "created": "2014-03-24",
-      "forks": 201,
+      "forks": 200,
       "health": 7,
       "pushed": "2026-11-03",
       "signals": [
@@ -1323,11 +1323,11 @@
     },
     "peiikai/LASRecomp": {
       "archived": false,
-      "commits": 944,
+      "commits": 950,
       "created": "2026-10-08",
-      "forks": 270,
+      "forks": 274,
       "health": 2,
-      "pushed": "2026-11-05",
+      "pushed": "2026-11-06",
       "signals": [
         "+en/de",
         "+license",
@@ -1336,15 +1336,15 @@
         "+contributors",
         "+issues"
       ],
-      "stars": 2139
+      "stars": 2169
     },
     "pengchujin/aerial-tv": {
       "archived": false,
-      "commits": 739,
+      "commits": 753,
       "created": "2026-10-20",
-      "forks": 844,
+      "forks": 867,
       "health": 3,
-      "pushed": "2026-11-05",
+      "pushed": "2026-11-06",
       "signals": [
         "+en readme",
         "+license",
@@ -1354,7 +1354,7 @@
         "+contributors",
         "+issues"
       ],
-      "stars": 9879
+      "stars": 10239
     },
     "pret/pokeemerald": {
       "archived": false,
@@ -1372,13 +1372,13 @@
         "+contributors",
         "+issues"
       ],
-      "stars": 3663
+      "stars": 3667
     },
     "python-kasa/python-kasa": {
       "archived": false,
       "commits": 1191,
       "created": "2019-11-13",
-      "forks": 347,
+      "forks": 348,
       "health": 7,
       "pushed": "2026-11-05",
       "signals": [
@@ -1394,11 +1394,11 @@
     },
     "radareorg/radare2": {
       "archived": false,
-      "commits": 38723,
+      "commits": 38734,
       "created": "2012-07-03",
-      "forks": 3418,
+      "forks": 3421,
       "health": 7,
-      "pushed": "2026-11-05",
+      "pushed": "2026-11-06",
       "signals": [
         "+en/de",
         "+license",
@@ -1408,15 +1408,15 @@
         "+contributors",
         "+issues"
       ],
-      "stars": 25322
+      "stars": 25336
     },
     "reacher-z/Awesome-REA": {
       "archived": false,
-      "commits": 1252,
+      "commits": 1315,
       "created": "2026-10-16",
       "forks": 244,
       "health": 5,
-      "pushed": "2026-11-04",
+      "pushed": "2026-11-06",
       "signals": [
         "+en/de",
         "+license",
@@ -1426,15 +1426,15 @@
         "+contributors",
         "+issues"
       ],
-      "stars": 992
+      "stars": 1049
     },
     "reactos/reactos": {
       "archived": false,
-      "commits": 89958,
+      "commits": 89967,
       "created": "2017-10-03",
-      "forks": 2332,
+      "forks": 2336,
       "health": 6,
-      "pushed": "2026-11-05",
+      "pushed": "2026-11-06",
       "signals": [
         "+en/de",
         "+license",
@@ -1443,13 +1443,13 @@
         "+16 days",
         "+contributors"
       ],
-      "stars": 18442
+      "stars": 18451
     },
     "rednblkx/HomeKey-ESP32": {
       "archived": false,
       "commits": 1123,
       "created": "2023-12-11",
-      "forks": 103,
+      "forks": 104,
       "health": 7,
       "pushed": "2026-10-17",
       "signals": [
@@ -1465,11 +1465,11 @@
     },
     "rehan-remade/universal-modder": {
       "archived": false,
-      "commits": 328,
+      "commits": 355,
       "created": "2026-09-30",
-      "forks": 1056,
+      "forks": 1057,
       "health": 7,
-      "pushed": "2026-11-05",
+      "pushed": "2026-11-06",
       "signals": [
         "+en/de",
         "+license",
@@ -1479,13 +1479,13 @@
         "+contributors",
         "+issues"
       ],
-      "stars": 9434
+      "stars": 9458
     },
     "rizinorg/rizin": {
       "archived": false,
       "commits": 30942,
       "created": "2020-09-30",
-      "forks": 693,
+      "forks": 694,
       "health": 8,
       "pushed": "2026-11-05",
       "signals": [
@@ -1498,50 +1498,50 @@
         "+contributors",
         "+issues"
       ],
-      "stars": 4133
+      "stars": 4139
     },
     "rorygallagher2024/glasshouse": {
       "archived": false,
-      "commits": 1602,
+      "commits": 1621,
       "created": "2026-09-07",
-      "forks": 107,
+      "forks": 112,
       "health": 7,
-      "pushed": "2026-11-04",
+      "pushed": "2026-11-06",
       "signals": [
         "+en/de",
         "+license",
         "+topics",
         "+old owner",
-        "+7 days",
+        "+9 days",
         "+contributors",
         "+issues"
       ],
-      "stars": 1884
+      "stars": 1915
     },
     "samba-team/samba": {
       "archived": false,
-      "commits": 143539,
+      "commits": 143547,
       "created": "2015-07-10",
       "forks": 486,
       "health": 6,
-      "pushed": "2026-11-04",
+      "pushed": "2026-11-06",
       "signals": [
         "+en/de",
         "+license",
         "+old owner",
         "+settled repo",
-        "+18 days",
+        "+15 days",
         "+contributors"
       ],
       "stars": 1148
     },
     "seedds/nxnative": {
       "archived": false,
-      "commits": 1065,
+      "commits": 1096,
       "created": "2026-10-13",
-      "forks": 2045,
+      "forks": 2152,
       "health": 3,
-      "pushed": "2026-11-05",
+      "pushed": "2026-11-06",
       "signals": [
         "+en/de",
         "+license",
@@ -1551,13 +1551,13 @@
         "+contributors",
         "+issues"
       ],
-      "stars": 12336
+      "stars": 12752
     },
     "seemoo-lab/opendrop": {
       "archived": false,
       "commits": 65,
       "created": "2019-05-14",
-      "forks": 320,
+      "forks": 319,
       "health": 7,
       "pushed": "2026-08-17",
       "signals": [
@@ -1569,7 +1569,7 @@
         "+contributors",
         "+issues"
       ],
-      "stars": 9938
+      "stars": 9939
     },
     "seemoo-lab/openhaystack": {
       "archived": false,
@@ -1588,26 +1588,26 @@
         "+contributors",
         "+issues"
       ],
-      "stars": 13908
+      "stars": 13914
     },
     "shadps4-emu/shadPS4": {
       "archived": false,
-      "commits": 4609,
+      "commits": 4611,
       "created": "2022-10-24",
-      "forks": 2883,
+      "forks": 2884,
       "health": 8,
-      "pushed": "2026-11-05",
+      "pushed": "2026-11-06",
       "signals": [
         "+en/de",
         "+license",
         "+topics",
         "+old owner",
         "+settled repo",
-        "+16 days",
+        "+17 days",
         "+contributors",
         "+issues"
       ],
-      "stars": 34061
+      "stars": 34069
     },
     "shazamio/ShazamIO": {
       "archived": false,
@@ -1625,13 +1625,13 @@
         "+contributors",
         "+issues"
       ],
-      "stars": 1000
+      "stars": 1001
     },
     "shihabal3amri/DiPlay": {
       "archived": false,
       "commits": 1566,
       "created": "2026-09-24",
-      "forks": 1701,
+      "forks": 1713,
       "health": 4,
       "pushed": "2026-10-28",
       "signals": [
@@ -1642,13 +1642,13 @@
         "+contributors",
         "+issues"
       ],
-      "stars": 13315
+      "stars": 13367
     },
     "simbasjungles/free-my-tv": {
       "archived": false,
       "commits": 643,
       "created": "2026-10-19",
-      "forks": 1020,
+      "forks": 1029,
       "health": 3,
       "pushed": "2026-10-31",
       "signals": [
@@ -1660,13 +1660,13 @@
         "+contributors",
         "+issues"
       ],
-      "stars": 5903
+      "stars": 5942
     },
     "skylot/jadx": {
       "archived": false,
       "commits": 2752,
       "created": "2013-03-18",
-      "forks": 5901,
+      "forks": 5905,
       "health": 8,
       "pushed": "2026-11-02",
       "signals": [
@@ -1679,7 +1679,7 @@
         "+contributors",
         "+issues"
       ],
-      "stars": 51606
+      "stars": 51626
     },
     "snuri00/ps2-web-recomp": {
       "archived": false,
@@ -1697,33 +1697,33 @@
         "+contributors",
         "+issues"
       ],
-      "stars": 1395
+      "stars": 1399
     },
     "solemnwarning/rehex": {
       "archived": false,
-      "commits": 1893,
+      "commits": 1908,
       "created": "2017-12-21",
       "forks": 135,
       "health": 7,
-      "pushed": "2026-11-04",
+      "pushed": "2026-11-05",
       "signals": [
         "+en/de",
         "+license",
         "+old owner",
         "+settled repo",
-        "+45 days",
+        "+42 days",
         "+contributors",
         "+issues"
       ],
-      "stars": 2485
+      "stars": 2484
     },
     "storytold/artcraft": {
       "archived": false,
       "commits": 33,
       "created": "2022-03-31",
-      "forks": 6140,
+      "forks": 6171,
       "health": 7,
-      "pushed": "2026-11-05",
+      "pushed": "2026-11-06",
       "signals": [
         "+en/de",
         "+license",
@@ -1733,32 +1733,31 @@
         "+contributors",
         "+issues"
       ],
-      "stars": 38901
+      "stars": 39091
     },
     "storytold/cadcraft": {
       "archived": false,
-      "commits": 1218,
+      "commits": 1405,
       "created": "2026-10-07",
-      "forks": 3277,
-      "health": 4,
-      "pushed": "2026-11-05",
+      "forks": 3302,
+      "health": 5,
+      "pushed": "2026-11-06",
       "signals": [
         "+en/de",
         "+license",
         "+old owner",
-        "-young repo",
         "+contributors",
         "+issues"
       ],
-      "stars": 7675
+      "stars": 7728
     },
     "storytold/craft-anything": {
       "archived": false,
-      "commits": 356,
+      "commits": 357,
       "created": "2026-10-31",
-      "forks": 2344,
+      "forks": 3011,
       "health": 3,
-      "pushed": "2026-11-04",
+      "pushed": "2026-11-06",
       "signals": [
         "+en/de",
         "+license",
@@ -1768,15 +1767,15 @@
         "+contributors",
         "+issues"
       ],
-      "stars": 13855
+      "stars": 16629
     },
     "storytold/craft-launcher": {
       "archived": false,
-      "commits": 481,
+      "commits": 507,
       "created": "2026-10-09",
-      "forks": 1439,
+      "forks": 1456,
       "health": 4,
-      "pushed": "2026-11-05",
+      "pushed": "2026-11-06",
       "signals": [
         "+en/de",
         "+license",
@@ -1785,32 +1784,31 @@
         "+contributors",
         "+issues"
       ],
-      "stars": 4960
+      "stars": 5004
     },
     "storytold/deckcraft": {
       "archived": false,
-      "commits": 1999,
+      "commits": 2005,
       "created": "2026-10-07",
-      "forks": 2667,
-      "health": 4,
-      "pushed": "2026-11-05",
+      "forks": 2677,
+      "health": 5,
+      "pushed": "2026-11-06",
       "signals": [
         "+en/de",
         "+license",
         "+old owner",
-        "-young repo",
         "+contributors",
         "+issues"
       ],
-      "stars": 4618
+      "stars": 4641
     },
     "storytold/designcraft": {
       "archived": false,
-      "commits": 4723,
+      "commits": 4731,
       "created": "2026-10-01",
-      "forks": 3532,
+      "forks": 3544,
       "health": 5,
-      "pushed": "2026-11-05",
+      "pushed": "2026-11-06",
       "signals": [
         "+en/de",
         "+license",
@@ -1818,15 +1816,15 @@
         "+contributors",
         "+issues"
       ],
-      "stars": 5108
+      "stars": 5129
     },
     "storytold/effectcraft": {
       "archived": false,
-      "commits": 4235,
+      "commits": 4288,
       "created": "2026-10-01",
-      "forks": 4496,
+      "forks": 4516,
       "health": 5,
-      "pushed": "2026-11-05",
+      "pushed": "2026-11-06",
       "signals": [
         "+en/de",
         "+license",
@@ -1834,15 +1832,15 @@
         "+contributors",
         "+issues"
       ],
-      "stars": 8461
+      "stars": 8495
     },
     "storytold/figcraft": {
       "archived": false,
-      "commits": 3016,
+      "commits": 3032,
       "created": "2026-10-09",
-      "forks": 1700,
+      "forks": 1724,
       "health": 4,
-      "pushed": "2026-11-05",
+      "pushed": "2026-11-06",
       "signals": [
         "+en/de",
         "+license",
@@ -1851,15 +1849,15 @@
         "+contributors",
         "+issues"
       ],
-      "stars": 4356
+      "stars": 4487
     },
     "storytold/filmcraft": {
       "archived": false,
-      "commits": 3520,
+      "commits": 3537,
       "created": "2026-09-30",
-      "forks": 7246,
+      "forks": 7267,
       "health": 4,
-      "pushed": "2026-11-05",
+      "pushed": "2026-11-06",
       "signals": [
         "+en/de",
         "+license",
@@ -1868,32 +1866,31 @@
         "+contributors",
         "+issues"
       ],
-      "stars": 17566
+      "stars": 17655
     },
     "storytold/gridcraft": {
       "archived": false,
-      "commits": 2810,
+      "commits": 2820,
       "created": "2026-10-07",
-      "forks": 3344,
-      "health": 4,
-      "pushed": "2026-11-05",
+      "forks": 3370,
+      "health": 5,
+      "pushed": "2026-11-06",
       "signals": [
         "+en/de",
         "+license",
         "+old owner",
-        "-young repo",
         "+contributors",
         "+issues"
       ],
-      "stars": 7182
+      "stars": 7233
     },
     "storytold/lightcraft": {
       "archived": false,
-      "commits": 5041,
+      "commits": 5099,
       "created": "2026-09-30",
-      "forks": 5963,
+      "forks": 5980,
       "health": 4,
-      "pushed": "2026-11-05",
+      "pushed": "2026-11-06",
       "signals": [
         "+en/de",
         "+license",
@@ -1902,15 +1899,15 @@
         "+contributors",
         "+issues"
       ],
-      "stars": 15518
+      "stars": 15570
     },
     "storytold/pdfcraft": {
       "archived": false,
-      "commits": 4341,
+      "commits": 4397,
       "created": "2026-09-30",
-      "forks": 7341,
+      "forks": 7383,
       "health": 4,
-      "pushed": "2026-11-05",
+      "pushed": "2026-11-06",
       "signals": [
         "+en/de",
         "+license",
@@ -1919,15 +1916,15 @@
         "+contributors",
         "+issues"
       ],
-      "stars": 19634
+      "stars": 19768
     },
     "storytold/photocraft": {
       "archived": false,
-      "commits": 8952,
+      "commits": 9465,
       "created": "2026-09-30",
-      "forks": 13669,
+      "forks": 13712,
       "health": 4,
-      "pushed": "2026-11-05",
+      "pushed": "2026-11-06",
       "signals": [
         "+en/de",
         "+license",
@@ -1936,32 +1933,32 @@
         "+contributors",
         "+issues"
       ],
-      "stars": 77071
+      "stars": 77344
     },
     "storytold/soundcraft": {
       "archived": false,
-      "commits": 1448,
+      "commits": 1460,
       "created": "2026-10-07",
-      "forks": 2511,
-      "health": 4,
-      "pushed": "2026-11-05",
+      "forks": 2522,
+      "health": 6,
+      "pushed": "2026-11-06",
       "signals": [
         "+en/de",
         "+license",
         "+old owner",
-        "-young repo",
+        "+7 days",
         "+contributors",
         "+issues"
       ],
-      "stars": 4094
+      "stars": 4115
     },
     "storytold/texturecraft": {
       "archived": false,
-      "commits": 408,
+      "commits": 437,
       "created": "2026-10-14",
-      "forks": 131,
+      "forks": 148,
       "health": 4,
-      "pushed": "2026-11-05",
+      "pushed": "2026-11-06",
       "signals": [
         "+en/de",
         "+license",
@@ -1970,15 +1967,15 @@
         "+contributors",
         "+issues"
       ],
-      "stars": 427
+      "stars": 479
     },
     "storytold/vectorcraft": {
       "archived": false,
-      "commits": 8542,
+      "commits": 8749,
       "created": "2026-09-30",
-      "forks": 5513,
+      "forks": 5535,
       "health": 4,
-      "pushed": "2026-11-05",
+      "pushed": "2026-11-06",
       "signals": [
         "+en/de",
         "+license",
@@ -1987,33 +1984,32 @@
         "+contributors",
         "+issues"
       ],
-      "stars": 11388
+      "stars": 11429
     },
     "storytold/wordcraft": {
       "archived": false,
-      "commits": 2815,
+      "commits": 2853,
       "created": "2026-10-07",
-      "forks": 4787,
-      "health": 3,
-      "pushed": "2026-11-05",
+      "forks": 4821,
+      "health": 4,
+      "pushed": "2026-11-06",
       "signals": [
         "+en/de",
         "+license",
         "+old owner",
-        "-young repo",
         "-fast stars",
         "+contributors",
         "+issues"
       ],
-      "stars": 17355
+      "stars": 17442
     },
     "tangency-labs/solidcraft": {
       "archived": false,
-      "commits": 4685,
+      "commits": 4774,
       "created": "2026-10-07",
-      "forks": 1854,
+      "forks": 1916,
       "health": 1,
-      "pushed": "2026-11-05",
+      "pushed": "2026-11-06",
       "signals": [
         "+en/de",
         "+license",
@@ -2023,31 +2019,31 @@
         "+contributors",
         "+issues"
       ],
-      "stars": 13955
+      "stars": 14376
     },
     "tulir/whatsmeow": {
       "archived": false,
-      "commits": 1705,
+      "commits": 1707,
       "created": "2021-10-06",
-      "forks": 1308,
+      "forks": 1309,
       "health": 7,
-      "pushed": "2026-11-02",
+      "pushed": "2026-11-05",
       "signals": [
         "+en/de",
         "+license",
         "+old owner",
         "+settled repo",
-        "+47 days",
+        "+48 days",
         "+contributors",
         "+issues"
       ],
-      "stars": 7770
+      "stars": 7778
     },
     "udhaykumarbala/cleanyourtv-app": {
       "archived": false,
       "commits": 820,
       "created": "2026-10-21",
-      "forks": 144,
+      "forks": 152,
       "health": 4,
       "pushed": "2026-11-03",
       "signals": [
@@ -2058,13 +2054,13 @@
         "-young repo",
         "+issues"
       ],
-      "stars": 1641
+      "stars": 1716
     },
     "unbrowse-ai/unbrowse": {
       "archived": false,
       "commits": 94,
       "created": "2026-01-27",
-      "forks": 80,
+      "forks": 81,
       "health": 6,
       "pushed": "2026-11-03",
       "signals": [
@@ -2075,15 +2071,15 @@
         "+15 days",
         "+issues"
       ],
-      "stars": 901
+      "stars": 904
     },
     "valentderah/totk-pc-recomp": {
       "archived": false,
-      "commits": 773,
+      "commits": 821,
       "created": "2026-10-29",
-      "forks": 417,
+      "forks": 442,
       "health": 4,
-      "pushed": "2026-11-05",
+      "pushed": "2026-11-06",
       "signals": [
         "+en/de",
         "+license",
@@ -2094,15 +2090,15 @@
         "+contributors",
         "+issues"
       ],
-      "stars": 5007
+      "stars": 5269
     },
     "wine-mirror/wine": {
       "archived": false,
-      "commits": 186641,
+      "commits": 186674,
       "created": "2014-08-07",
       "forks": 1497,
       "health": 5,
-      "pushed": "2026-11-04",
+      "pushed": "2026-11-05",
       "signals": [
         "+en/de",
         "+license",
@@ -2116,7 +2112,7 @@
       "archived": false,
       "commits": 6399,
       "created": "2015-04-11",
-      "forks": 2930,
+      "forks": 2931,
       "health": 8,
       "pushed": "2026-10-28",
       "signals": [
@@ -2129,13 +2125,13 @@
         "+contributors",
         "+issues"
       ],
-      "stars": 50208
+      "stars": 50218
     },
     "xemu-project/xemu": {
       "archived": false,
       "commits": 127964,
       "created": "2020-02-18",
-      "forks": 626,
+      "forks": 630,
       "health": 8,
       "pushed": "2026-11-02",
       "signals": [
@@ -2148,13 +2144,13 @@
         "+contributors",
         "+issues"
       ],
-      "stars": 4236
+      "stars": 4237
     },
     "xenia-canary/xenia-canary": {
       "archived": false,
       "commits": 8891,
       "created": "2019-08-02",
-      "forks": 362,
+      "forks": 363,
       "health": 6,
       "pushed": "2026-11-04",
       "signals": [
@@ -2168,13 +2164,13 @@
         "+contributors",
         "+issues"
       ],
-      "stars": 2745
+      "stars": 2746
     },
     "zeldaret/oot": {
       "archived": false,
       "commits": 2651,
       "created": "2020-03-17",
-      "forks": 718,
+      "forks": 719,
       "health": 6,
       "pushed": "2026-10-18",
       "signals": [
@@ -2185,7 +2181,7 @@
         "+contributors",
         "+issues"
       ],
-      "stars": 5643
+      "stars": 5657
     }
   }
 }
