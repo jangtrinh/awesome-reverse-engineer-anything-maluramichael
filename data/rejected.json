@@ -1,4 +1,5 @@
 {
+  "https://github.com/0sec-labs/0": "Left out by the maintainer.",
   "https://github.com/ADWMC/helm-d": "Security plugin for one AI harness with switchable jailbreak modes, not a reverse engineering tool for closed things.",
   "https://github.com/Appllama/top-welcome-screens": "Recreated app welcome screens in React Native, not reverse engineering, and too little history.",
   "https://github.com/Caho1/open-claude-ui": "README is not primarily in English or German.",
@@ -20,6 +21,7 @@
   "https://github.com/aicodeking/leanrea": "Four commits, too little history to review.",
   "https://github.com/aleixrodriala/newtube": "Phone fork of SmartTube, a derivative of another project.",
   "https://github.com/anefzaoui/misterdownloadmanager": "New download manager that competes with IDM, not a rebuild of a closed product.",
+  "https://github.com/armanlife/arman-vpn-client": "Left out by the maintainer.",
   "https://github.com/aston314/hongguo-tv-releases": "Release repository without source code, README is not in English or German.",
   "https://github.com/boyang-hu/website-rebuild-skill": "Agent skill with almost no own source code that copies third-party websites.",
   "https://github.com/chadyi/StudyOnTV": "Learning app for kids, nothing closed is rebuilt, opened or analyzed.",

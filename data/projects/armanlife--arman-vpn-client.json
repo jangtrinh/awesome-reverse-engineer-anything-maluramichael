@@ -1,8 +1,0 @@
-{
-  "added": "2026-11-09",
-  "category": "protocols",
-  "description": "Unofficial VPN client for Android, Windows, macOS and Linux that signs in with your own Mozilla account and uses its data limit.",
-  "name": "Arman VPN",
-  "target": "Mozilla VPN",
-  "url": "https://github.com/armanlife/arman-vpn-client"
-}

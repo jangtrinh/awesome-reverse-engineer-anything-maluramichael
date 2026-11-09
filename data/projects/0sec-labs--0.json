@@ -1,8 +1,0 @@
-{
-  "added": "2026-11-09",
-  "category": "tools",
-  "description": "AI security harness for code review, pentesting and vulnerability research, with Ghidra-based binary analysis for agents over CLI and MCP.",
-  "group": "AI Agents and MCP",
-  "name": "0",
-  "url": "https://github.com/0sec-labs/0"
-}
