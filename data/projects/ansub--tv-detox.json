@@ -1,0 +1,9 @@
+{
+  "added": "2026-11-09",
+  "category": "hardware",
+  "description": "Removes bloatware and ads from an old Android TV with a coding agent and installs a small home screen, with every change reversible.",
+  "group": "Smart TVs",
+  "name": "TV Detox",
+  "target": "Android TV",
+  "url": "https://github.com/Ansub/tv-detox"
+}

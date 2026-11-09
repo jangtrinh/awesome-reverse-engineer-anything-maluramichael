@@ -1,0 +1,9 @@
+{
+  "added": "2026-11-09",
+  "category": "games",
+  "description": "Native port for Windows, Linux and macOS made by static AArch64 to C recompilation of the Switch game. Bring your own game files.",
+  "group": "Static Recompilations",
+  "name": "Sky Recomp",
+  "target": "The Legend of Zelda: Skyward Sword HD",
+  "url": "https://github.com/Apolinario-coder/SkyRecomp"
+}

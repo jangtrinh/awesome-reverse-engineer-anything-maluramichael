@@ -1,0 +1,9 @@
+{
+  "added": "2026-11-09",
+  "category": "games",
+  "description": "Static recompilation of the Switch 2 game into a native Windows program with a Vulkan renderer, built from your own dump.",
+  "group": "Static Recompilations",
+  "name": "DKB Recomp",
+  "target": "Donkey Kong Bananza",
+  "url": "https://github.com/Lucas-blip-png/dkb-pc-recomp"
+}

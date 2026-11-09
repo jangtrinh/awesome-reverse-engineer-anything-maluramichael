@@ -1,0 +1,9 @@
+{
+  "added": "2026-11-09",
+  "category": "games",
+  "description": "Windows port of the Xbox 360 game made by recompilation, with a launcher and online play on community servers, using your own disc image.",
+  "group": "Static Recompilations",
+  "name": "ReStreet",
+  "target": "FIFA Street (2012)",
+  "url": "https://github.com/samuelit0davila/fifa-street-pc-port"
+}

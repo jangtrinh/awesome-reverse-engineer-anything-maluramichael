@@ -1,0 +1,9 @@
+{
+  "added": "2026-11-09",
+  "category": "games",
+  "description": "Runs the PS4 game's own code natively on Linux and Windows with a reimplemented PS4 system and a Vulkan GPU layer, using your own dump.",
+  "group": "Source Ports and Engine Rebuilds",
+  "name": "inFAMOUS Second Son PC port",
+  "target": "inFAMOUS Second Son",
+  "url": "https://github.com/HayatoG/iss_pc"
+}

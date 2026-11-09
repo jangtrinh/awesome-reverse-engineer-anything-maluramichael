@@ -1,0 +1,9 @@
+{
+  "added": "2026-11-09",
+  "category": "games",
+  "description": "Xbox 360 game recompiled ahead of time to native PC code with ReXGlue and its own Vulkan renderer, using your own disc image.",
+  "group": "Static Recompilations",
+  "name": "Hell's Gate",
+  "target": "Dante's Inferno",
+  "url": "https://github.com/florinp93/hells-gate-recomp"
+}

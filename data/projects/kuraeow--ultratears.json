@@ -1,0 +1,9 @@
+{
+  "added": "2026-11-09",
+  "category": "games",
+  "description": "Builds a native version of the Switch game for Windows, Linux and Steam Deck from your own dump, with code translated ahead of time.",
+  "group": "Static Recompilations",
+  "name": "UltraTears",
+  "target": "The Legend of Zelda: Tears of the Kingdom",
+  "url": "https://github.com/kuraeow/ultratears"
+}

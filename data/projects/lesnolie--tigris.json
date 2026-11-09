@@ -1,0 +1,9 @@
+{
+  "added": "2026-11-09",
+  "category": "hardware",
+  "description": "Replacement home screen for Android TV in the style of tvOS, with a dock, a control center and a photo screensaver.",
+  "group": "Smart TVs",
+  "name": "Tigris",
+  "target": "Android TV",
+  "url": "https://github.com/lesnolie/Tigris"
+}

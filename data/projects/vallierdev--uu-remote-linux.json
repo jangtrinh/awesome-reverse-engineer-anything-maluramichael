@@ -1,0 +1,8 @@
+{
+  "added": "2026-11-09",
+  "category": "protocols",
+  "description": "Unofficial Linux host and experimental viewer for NetEase UU Remote, so the official clients can control a Linux machine.",
+  "name": "uu-remote-linux",
+  "target": "NetEase UU Remote",
+  "url": "https://github.com/VallierDev/uu-remote-linux"
+}

@@ -1,0 +1,9 @@
+{
+  "added": "2026-11-09",
+  "category": "hardware",
+  "description": "Tiling home screen for Android TV, Google TV, LG webOS and Samsung Tizen, with a phone installer and an MCP server.",
+  "group": "Smart TVs",
+  "name": "OmarchyTV",
+  "target": "Android TV, LG webOS and Samsung Tizen",
+  "url": "https://github.com/piermark/omarchytv"
+}

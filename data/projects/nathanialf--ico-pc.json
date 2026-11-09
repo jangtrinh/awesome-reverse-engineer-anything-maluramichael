@@ -1,0 +1,9 @@
+{
+  "added": "2026-11-09",
+  "category": "games",
+  "description": "Port built from the PS2 decompilation for Windows, Linux, Steam Deck, Android, iPhone and Mac, using your own disc image.",
+  "group": "Source Ports and Engine Rebuilds",
+  "name": "ico-pc",
+  "target": "ICO",
+  "url": "https://github.com/nathanialf/ico-pc"
+}

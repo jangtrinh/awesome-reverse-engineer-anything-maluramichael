@@ -1,0 +1,9 @@
+{
+  "added": "2026-11-09",
+  "category": "games",
+  "description": "Android port of the Switch game that recompiles its code to C or runs it on the phone's ARM64 CPU, with NVN translated to Vulkan. No game files included.",
+  "group": "Static Recompilations",
+  "name": "BOTWRecompAndroid",
+  "target": "The Legend of Zelda: Breath of the Wild",
+  "url": "https://github.com/mamcjr/BOTWRecompAndroid"
+}

@@ -1,0 +1,9 @@
+{
+  "added": "2026-11-09",
+  "category": "games",
+  "description": "Native PC port of the original Xbox game made with a static XBE recompiler, with extra graphics options and keyboard and mouse support. Bring your own files.",
+  "group": "Static Recompilations",
+  "name": "BLACK XBE Recomp",
+  "target": "Black",
+  "url": "https://github.com/TGP482/BLACK-XBERecomp"
+}

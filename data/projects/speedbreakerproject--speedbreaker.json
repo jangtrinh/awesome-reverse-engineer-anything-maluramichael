@@ -1,0 +1,9 @@
+{
+  "added": "2026-11-09",
+  "category": "games",
+  "description": "Static recompilation of the Xbox 360 version into a native port for SteamOS, Linux, Mac, iPhone and iPad, using your own disc image.",
+  "group": "Static Recompilations",
+  "name": "SpeedBreaker",
+  "target": "Need for Speed: Most Wanted (2005)",
+  "url": "https://github.com/SpeedBreakerProject/speedbreaker"
+}

@@ -1,0 +1,9 @@
+{
+  "added": "2026-11-09",
+  "category": "games",
+  "description": "Static recompilation of the original Xbox game into a native program for Mac, Windows, Linux, Steam Deck and Android handhelds, using your own disc.",
+  "group": "Static Recompilations",
+  "name": "Takedawn",
+  "target": "Burnout 3: Takedown",
+  "url": "https://github.com/xenophobentx/takedawn"
+}
