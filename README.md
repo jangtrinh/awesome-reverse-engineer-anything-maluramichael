@@ -26,19 +26,19 @@ Most stars gained per day over the last 7 days, excluding related lists.
 
 | Project | Category | Stars | Stars per day |
 | --- | --- | ---: | ---: |
-| [REA](https://github.com/morluto/rea) | [Tools](#tools) | 446.5k | 3,416 |
+| [REA](https://github.com/morluto/rea) | [Tools](#tools) | 446.5k | 3,418 |
 | [Craft Anything](https://github.com/storytold/craft-anything) | [Tools](#tools) | 24.3k | 2,929 |
 | [Clean Your TV](https://github.com/Gathin23/cleanyourtv) | [Hardware and Firmware](#hardware-and-firmware) | 55.4k | 719 |
 | [OpenIDEA](https://github.com/l0ng-ai/openidea) | [Apps](#apps) | 8.1k | 462 |
 | [nxnative](https://github.com/seedds/nxnative) | [Games](#games) | 14.1k | 384 |
-| [Horizon](https://github.com/horizon-rust/horizon) | [Games](#games) | 8.3k | 336 |
+| [Horizon](https://github.com/horizon-rust/horizon) | [Games](#games) | 8.3k | 337 |
 | [totk-pc-recomp](https://github.com/valentderah/totk-pc-recomp) | [Games](#games) | 6.2k | 317 |
 | [SolidCraft](https://github.com/tangency-labs/solidcraft) | [Apps](#apps) | 15.3k | 301 |
 | [PhotoCraft](https://github.com/storytold/photocraft) | [Apps](#apps) | 78.2k | 288 |
-| [Ghidra](https://github.com/NationalSecurityAgency/ghidra) | [Tools](#tools) | 99.1k | 272 |
+| [Ghidra](https://github.com/NationalSecurityAgency/ghidra) | [Tools](#tools) | 99.1k | 273 |
 | [Aerial TV](https://github.com/pengchujin/aerial-tv) | [Hardware and Firmware](#hardware-and-firmware) | 10.9k | 270 |
 | [ArtCraft](https://github.com/storytold/artcraft) | [Apps](#apps) | 40.2k | 265 |
-| [DroidDeck](https://github.com/Droid-Deck/DroidDeck) | [Emulators](#emulators) | 19k | 224 |
+| [DroidDeck](https://github.com/Droid-Deck/DroidDeck) | [Emulators](#emulators) | 19k | 225 |
 | [PdfCraft](https://github.com/storytold/pdfcraft) | [Apps](#apps) | 20.2k | 134 |
 | [SavageWindRecomp](https://github.com/Revivedx/SavageWindRecomp) | [Games](#games) | 3.7k | 117 |
 
@@ -114,7 +114,7 @@ Commercial games turned back into source code or native ports. None of these sho
 | [BOTWRecompAndroid](https://github.com/mamcjr/BOTWRecompAndroid) | The Legend of Zelda: Breath of the Wild | Android port of the Switch game that recompiles its code to C or runs it on the phone's ARM64 CPU, with NVN translated to Vulkan. No game files included. | 699 | 2026-11-09 | 5 |
 | [SpeedBreaker](https://github.com/SpeedBreakerProject/speedbreaker) | Need for Speed: Most Wanted (2005) | Static recompilation of the Xbox 360 version into a native port for SteamOS, Linux, Mac, iPhone and iPad, using your own disc image. | 663 | 2026-11-07 | 4 |
 | [Yakumo](https://github.com/TeamGDB/Yakumo) | Monster Hunter Portable 3rd HD Ver. | Static recompilation of a PSP game into native builds for Windows, Linux, macOS and Android, using your own copy of the game. | 600 | 2026-11-06 | 7 |
-| [DKB Recomp](https://github.com/Lucas-blip-png/dkb-pc-recomp) | Donkey Kong Bananza | Static recompilation of the Switch 2 game into a native Windows program with a Vulkan renderer, built from your own dump. | 592 | 2026-11-09 | 5 |
+| [DKB Recomp](https://github.com/Lucas-blip-png/dkb-pc-recomp) | Donkey Kong Bananza | Static recompilation of the Switch 2 game into a native Windows program with a Vulkan renderer, built from your own dump. | 594 | 2026-11-09 | 5 |
 | [B2recomp](https://github.com/K0NL/B2recomp) | Bayonetta 2 | Static recompilation of the Switch game for Windows, with the code translated to C on your own PC from your own dump. | 587 | 2026-10-23 | 4 |
 | [Takedawn](https://github.com/xenophobentx/takedawn) | Burnout 3: Takedown | Static recompilation of the original Xbox game into a native program for Mac, Windows, Linux, Steam Deck and Android handhelds, using your own disc. | 583 | 2026-11-06 | 5 |
 | [Sky Recomp](https://github.com/Apolinario-coder/SkyRecomp) | The Legend of Zelda: Skyward Sword HD | Native port for Windows, Linux and macOS made by static AArch64 to C recompilation of the Switch game. Bring your own game files. | 582 | 2026-10-31 | 4 |
@@ -136,6 +136,7 @@ Commercial games turned back into source code or native ports. None of these sho
 | [zelda-tmc-3ds](https://github.com/EstebanPdN/zelda-tmc-3ds) | The Legend of Zelda: The Minish Cap | Native Nintendo 3DS port built on the Project Picori decompilation, using your own GBA ROM. | 810 | 2026-11-05 | 7 |
 | [zelda-alttp-3ds](https://github.com/EstebanPdN/zelda-alttp-3ds) | The Legend of Zelda: A Link to the Past | Nintendo 3DS dual-screen port of the reverse engineered zelda3 engine, with asset extraction from your own ROM on the device. | 785 | 2026-11-08 | 7 |
 | [MetroidPrimePort](https://github.com/Odrannnn/MetroidPrimePort) | Metroid Prime | Native port for Linux, Windows and Android built from the PrimeDecomp decompilation. No game assets included. | 677 | 2026-11-09 | 6 |
+| [The Last Guardian PC port](https://github.com/HayatoG/tlg_pc) | The Last Guardian | Runs the PS4 game's own code natively on Linux and Windows with a reimplemented PS4 system and a Vulkan GPU layer, using your own dump. | 570 | 2026-10-27 | 5 |
 | [ico-pc](https://github.com/nathanialf/ico-pc) | ICO | Port built from the PS2 decompilation for Windows, Linux, Steam Deck, Android, iPhone and Mac, using your own disc image. | 516 | 2026-11-09 | 6 |
 
 ## Emulators
@@ -170,7 +171,6 @@ Open clients and libraries for closed protocols, private APIs and undocumented f
 | [pypush](https://github.com/JJTech0130/pypush) | APNs, iMessage | Python client for Apple's push service and iMessage. | 3.8k | 2026-03-15 | 8 |
 | [Samba](https://github.com/samba-team/samba) | SMB | File and print services for Windows clients. GitHub mirror of the official repository. | 1.1k | 2026-11-09 | 6 |
 | [ShazamIO](https://github.com/shazamio/ShazamIO) | Shazam API | Asynchronous Python library. | 1k | 2026-11-09 | 7 |
-| [Arman VPN](https://github.com/armanlife/arman-vpn-client) | Mozilla VPN | Unofficial VPN client for Android, Windows, macOS and Linux that signs in with your own Mozilla account and uses its data limit. | 760 | 2026-11-07 | 4 |
 | [uu-remote-linux](https://github.com/VallierDev/uu-remote-linux) | NetEase UU Remote | Unofficial Linux host and experimental viewer for NetEase UU Remote, so the official clients can control a Linux machine. | 742 | 2026-11-09 | 5 |
 
 ## Hardware and Firmware
@@ -228,7 +228,6 @@ What people use to take things apart.
 | [Co-op Anything](https://github.com/cranebeaker/coop-anything) | MCP server and playbook for adding co-op to single-player games with an AI agent. | 2k | 2026-11-02 | 2 |
 | [Open ReverseLab](https://github.com/LING71671/open-reverselab) | Agent platform and MCP server for Ghidra, Frida, x64dbg and Rizin. | 1.4k | 2026-10-21 | 7 |
 | [reverify](https://github.com/2akouwu/reverify) | Keeps AI reverse engineering honest: the model proposes, deterministic tools check every claim. | 1.3k | 2026-11-01 | 6 |
-| [0](https://github.com/0sec-labs/0) | AI security harness for code review, pentesting and vulnerability research, with Ghidra-based binary analysis for agents over CLI and MCP. | 1k | 2026-11-09 | 5 |
 | [Eleven](https://github.com/Zfinix/eleven) | Agent-first reverse engineering for macOS, Windows and Linux. | 978 | 2026-10-31 | 6 |
 | [Unbrowse](https://github.com/unbrowse-ai/unbrowse) | Finds the APIs behind a website so agents can call them directly. | 912 | 2026-11-03 | 6 |
 
@@ -300,7 +299,7 @@ Projects never leave the list, so it only gets bigger.
 
 | Month | New | Total | |
 | --- | ---: | ---: | --- |
-| 2026-11 | 140 | 140 | ██████████████████████████████ |
+| 2026-11 | 139 | 139 | ██████████████████████████████ |
 
 ## Star History
 
@@ -318,6 +317,6 @@ New entries are welcome. [Open an issue](https://github.com/maluramichael/awesom
 
 ## Footnotes
 
-140 projects. Stars last fetched on 2026-11-09. This file is generated from [`data/projects`](data/projects), please do not edit it by hand.
+139 projects. Stars last fetched on 2026-11-09. This file is generated from [`data/projects`](data/projects), please do not edit it by hand.
 
 Health adds up facts GitHub reports, such as license, commits spread over many days, several contributors, open issues and whether the project is archived or quiet. It says nothing about quality. The rules are in [`scripts/scoring.py`](scripts/scoring.py).
