@@ -1,0 +1,9 @@
+{
+  "added": "2026-11-10",
+  "category": "apps",
+  "description": "Independent desktop studio that reads and writes Figma .fig files and reimplements editor behaviour. Source-available under PolyForm Shield 1.0.0.",
+  "group": "Clean-Room Rebuilds",
+  "name": "DESIGN:OS Studio",
+  "target": "Figma .fig files and editor behaviour",
+  "url": "https://github.com/jangtrinh/design-os-studio"
+}
